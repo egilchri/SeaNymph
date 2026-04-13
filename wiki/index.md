@@ -14,13 +14,18 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ## systems
 
-*No pages yet. Will grow as sources are ingested.*
+| Page | Summary |
+|---|---|
+| [[seacocks]] | The five below-waterline seacocks: locations, sizes, access challenges, hardware standards |
 
 ---
 
 ## maintenance
 
-*No pages yet.*
+| Page | Summary |
+|---|---|
+| [[seacock-backing-plates]] | Backing plate materials (G10 vs. plywood vs. StarBoard), installation procedure, cost estimates |
+| [[seacock-removal-techniques]] | Three-tier removal strategy: conventional, alternative tools, destructive (angle grinder) |
 
 ---
 
@@ -44,7 +49,11 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ## sources
 
-*No sources ingested yet.*
+| Page | Summary |
+|---|---|
+| [[src-seacock-replacement-research]] | Comprehensive CD25D seacock replacement guide — sizes, access, hardware selection, installation |
+| [[src-seacock-wrench-research]] | Tool analysis for through-hull removal — step wrench limitations, alternatives, destructive methods |
+| [[src-seacock-misc]] | Pad repair procedure, cost estimates (pro vs. DIY), time estimates, grinding technique |
 
 ---
 

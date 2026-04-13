@@ -22,6 +22,13 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[battery-management]] | Blue Sea 7610 SI-ACR: wiring, terminals, combine/isolate logic, LED diagnostics |
 | [[solar-system]] | Victron SmartSolar MPPT 75/15, Renogy panels, mounting options, wiring |
 | [[shore-power]] | Shore power setup, ELCI breaker (Blue Sea 30A), safety, galvanic isolator |
+| [[tiller-pilot]] | Raymarine ST2000+: model selection, mounting, wiring, battery draw, singlehanding practice |
+| [[dinghy]] | Zodiac tender, gas vs. electric outboard (Temo 450), towing procedure behind CD25D |
+| [[ais]] | AIS receiver vs. transponder, recommended receivers, AIS-Catcher SDR option, integration |
+| [[radar]] | Marine radar selection (Quantum Q24C), radar reflector (Echomax EM230), CD25D mounting |
+| [[engine]] | Yanmar 1GM10: raw water pump risk, exhaust system, wiring harness, maintenance schedule |
+| [[furler]] | Harken furler: Unit 0 vs Unit 1 identification, link plate parts (7311.21 1/2 and 7410.20 series) |
+| [[tablet-mount]] | Cockpit tablet mount: CD25D constraints, RAM arm on starboard bulkhead, King Starboard backing |
 
 ---
 
@@ -31,12 +38,21 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 |---|---|
 | [[seacock-backing-plates]] | Backing plate materials (G10 vs. plywood vs. StarBoard), installation procedure, costs |
 | [[seacock-removal-techniques]] | Three-tier removal strategy: conventional, alternative tools, destructive (angle grinder) |
+| [[tiller-pilot-waterproofing]] | ST2000 failure modes (water ingress, broken belt), DIY protection, covers, storage |
+| [[winterizing]] | Yanmar 1GM10 winterization: oil, antifreeze cooling flush, fogging, fuel treatment, battery removal |
+| [[winter-cover]] | Mast-up boom-tent cover: materials (Top Gun), framework, ventilation, chafe, wind securement |
+| [[canvas-work]] | Marine canvas hardware: spur grommets (gold standard), tooling, suppliers, webbing loops, binding tape |
+| [[fiberglass-safety]] | Epoxy sensitization (permanent/irreversible), OV/P100 cartridge, nitrile gloves, D3/D4 goggles |
+| [[insurance]] | 2025 Maine hard market: freezing exclusion, seaworthy condition clause, winterization documentation |
+| [[mast-climbing]] | Bosun's chair, ATN Top Climber, rock climbing ascenders, mast lowering; helper mandatory |
 
 ---
 
 ## seamanship
 
-*No pages yet.*
+| Page | Summary |
+|---|---|
+| [[anchoring]] | Ground tackle selection (Rocna/Mantus vs Fortress), rode setup, singlehanded anchoring procedure, winch retrieval |
 
 ---
 
@@ -48,7 +64,11 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ## navigation
 
-*No pages yet.*
+| Page | Summary |
+|---|---|
+| [[penobscot-bay]] | Bay geography, sailing conditions, fog, tides, lobster pots, anchorages, Rockland→MDI itineraries |
+| [[rockland-harbor]] | Home port: mooring options, costs, swell analysis, pump-out, provisioning, local services |
+| [[navigation-apps]] | Android nav apps (OpenCPN vs. Navionics), compass correction (TVMDC), AIS, fog navigation |
 
 ---
 
@@ -64,6 +84,12 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-blue-sea-7610]] | Blue Sea 7610 SI-ACR terminal wiring, operational logic, LED diagnostics |
 | [[src-solar-research]] | Victron 75/15 wiring, Renogy cable mod, mounting options, shopping list |
 | [[src-elci-shore-power]] | ELCI breaker installation, shore power setup, nuisance tripping troubleshooting |
+| [[src-tiller-pilot]] | ST2000 installation, wiring, waterproofing, battery draw, singlehanding practice |
+| [[src-penobscot-bay]] | Penobscot Bay conditions, Rockland mooring options, cruising itineraries, navigation apps |
+| [[src-ais-radar]] | AIS receivers, radar reflector RCS testing data, marine radar models for small sailboats |
+| [[src-anchoring]] | Ground tackle selection, Fortress sizing/weakness, no-windlass retrieval, chain hook sourcing |
+| [[src-dinghy]] | Zodiac towing procedure, gas/electric motor comparison, Temo 450 purchase and charging research |
+| [[src-misc]] | Misc cluster: winterizing, covers, mast climbing, tablet mount, engine, insurance, furler, epoxy, canvas |
 
 ---
 
@@ -73,4 +99,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-13*
+*Last updated: 2026-04-13 (misc cluster added — winterizing, winter-cover, mast-climbing, tablet-mount, engine, insurance, furler, canvas-work, fiberglass-safety)*

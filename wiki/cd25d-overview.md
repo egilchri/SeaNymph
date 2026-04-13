@@ -70,6 +70,25 @@ Challenges:
 - Check keel bolts periodically — full-keel boats are subject to keel-bolt corrosion over decades
 - Original wiring on 40-year-old hulls is often undersized or degraded
 
+## Research Resources
+
+### Carl Alberg Archive — Architectural Plans
+
+Carl Alberg's personal archive — sketches, blueprints, and models for all his designs including the Cape Dory line — was auctioned by Swann Galleries and is now believed to be held by the **Peabody Essex Museum, Phillips Library** in Rowley, MA (accessible from Salem, MA location).
+
+- **Email:** research@pem.org
+- **Phone:** 978-542-1553
+
+If you ever need original lines drawings or construction offsets for the CD25D, this is the primary source. The Sea Sprite Association obtained line drawings for their boat from the PEM — the same approach should work for Cape Dory models.
+
+### Other Resources
+
+- **Cape Dory Sailboat Owners Association (CDSOA):** capedory.org — active forum; "Cape Dory Eye Candy" section has photos; members sometimes share original drawings
+- **capedory.org/specs/cd25d.htm** — specs and links to owner pages
+- **Practical Sailor** article comparing Cape Dory 25 and 25D (available via laddslandingmarina.com)
+
+---
+
 ## See Also
 
 - [[cd25d-engine]] (to be created)

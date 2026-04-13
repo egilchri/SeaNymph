@@ -48,16 +48,16 @@ Renogy solar panels come with MC4 connectors and cables. The Victron 75/15 uses 
 
 > **Note:** A dedicated research file covers this process in detail ("Modifying Renogy Solar Cables for Victron MPPT Screw Terminals"). Key points: use proper MC4 crimping tool to remove connectors cleanly, strip to correct length, use marine-grade ring terminals, and ensure no bare wire is exposed. File was too large to read fully — consult raw source for step-by-step detail.
 
-## Panel Mounting — Location Options
+## Panel Mounting — Confirmed Location: Stern Pushpit
 
-**Stern rail mount (recommended for CD25D):**
+**Stern pushpit rail mount (confirmed):**
 - Keeps panels out of foot traffic
 - Clear of most shading from boom and crew
 - Rail clamps + short stainless arms + panel frame
-- Measure stern rail diameter before ordering clamps (commonly 7/8" or 1")
+- **Measure pushpit rail diameter before ordering clamps** (commonly 7/8" or 1")
 - Estimated hardware cost: $70–$140 for clamps and arms
 
-**Companionway hatch (strongly discouraged):**
+**Companionway hatch (strongly discouraged — not the plan):**
 - High foot traffic risk — panel will be stepped on
 - Severe shading from boom, crew, halyards
 - Heat buildup from direct mounting on fiberglass

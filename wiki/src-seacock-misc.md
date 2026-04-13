@@ -34,7 +34,7 @@ These files collectively cover: step-by-step pad repair procedure (prompted by a
 
 > **AI-generated — treat as provisional.** Cost estimates are mid-2025; get written estimates from local yards. Hamilton Marine pricing used for DIY materials — verify current prices.
 
-> The galley sink drain was specifically mentioned as having a spongy pad. This should be confirmed and inspected when the boat is hauled.
+> The galley sink drain was specifically mentioned as having a spongy pad. **Status as of 2026-04-13:** New backing plate has been installed; final fastening is pending.
 
 ## Pages Updated
 

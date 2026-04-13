@@ -51,6 +51,11 @@ An **in-line ball valve** (often mistakenly called a seacock) threads onto the t
 
 Only **UL-Marine rated, flanged, all-bronze seacocks** are acceptable below the waterline.
 
+## Current Status (as of 2026-04-13)
+
+- **Galley sink drain seacock:** New backing plate installed, awaiting final fastening. Nearly complete.
+- All other seacocks: status unknown — inspect on next haul-out.
+
 ## Singlehanding Implications
 
 - Seacock replacement requires haul-out — plan this as a yard project

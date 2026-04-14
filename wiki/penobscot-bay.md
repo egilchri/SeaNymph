@@ -2,7 +2,7 @@
 title: Penobscot Bay — Sailing Conditions and Cruising
 category: navigation
 tags: [Penobscot Bay, sailing, cruising, fog, tides, anchorages, Maine]
-sources: [src-penobscot-bay]
+sources: [src-penobscot-bay, src-cca-intro-maine]
 updated: 2026-04-13
 ---
 
@@ -42,6 +42,10 @@ Semi-diurnal tides: two highs and two lows per 24 hours. Tidal range averages 8�
 
 **Tidal planning is not optional** on a multi-day cruise — timing departures and transits with tidal currents can mean the difference between a manageable passage and a slog against 2+ knots of current.
 
+Tidal currents in narrow channels can run to **4 knots**. An hour of sailing with a 2-knot beam current puts you a mile off your rhumb line — plan for it on any cross-bay passage. Strong winds opposing the current create steep, confused chop out of proportion to wind strength.
+
+**Minus (spring) tides:** At spring tides, water falls below the Mean Low Water datum shown on charts. Spots that look like 2 feet of clearance on the chart can go dry. Check tide tables and add a margin in unfamiliar anchorages.
+
 Notable tidal current stations:
 - Fox Islands Thorofare: flood ~0.25kt (070°T), ebb ~0.55kt (278°T) — modest
 - Casco Passage: flood ~0.5kt (086°T), ebb ~0.6kt (284°T) — more significant; time this transit
@@ -53,7 +57,12 @@ Notable tidal current stations:
 - Denser near harbors, along channel edges, known lobster grounds
 - In Jericho Bay: tidal currents run north-south across an easterly course, causing pot toggles to stream out horizontally — hard to see. Treat Jericho Bay as a threading exercise, not autopilot sailing.
 
+**How prop fouling actually happens — toggle anatomy:**
+Most traps have two floats, not one. The main float (multicolored banded) is connected to the cage on the bottom. A second smaller float called the **"toggle"** is attached to the main warp 10–15 feet up from the main float. This creates a **loop of submerged warp just beneath the surface** — and that loop, not the vertical warp, is usually what catches the prop. The toggle rides at or near the surface; the bight of line between the toggle and the main float hangs below. Going over a buoy without slowing down and watching both floats is how you get fouled.
+
 **Rocky ledges:** Maine coast is famously rocky. Ledges are well-charted but demand attention. Cross-reference paper charts, chartplotter, and visual observation. Aids to navigation are generally reliable but budget cuts have reduced their numbers in some areas — do not depend solely on any single ATON.
+
+> **Depth sounder limitation:** Steep granite shelves drop off so sharply that your depth sounder can read 30 feet while the bow is about to touch rock. On ledge-studded headlands, the depth sounder is a lagging indicator — by the time it shows shallow water, it may be too late. Go slow, use the chart, and trust the chart over the sounder near rocky points.
 
 **Anchor note:** Rockland Harbor has a sticky mud bottom — good holding for mushroom anchors and granite blocks. Common in many Penobscot Bay anchorages.
 
@@ -109,9 +118,21 @@ A 2–3 day cruise in late July. Two routes from Rockland toward North Haven:
 
 The bay was carved by glaciers and the islands are former mountain peaks. Rocky ledges are the glacially exposed bedrock. The sticky mud bottom in anchorages is glacial and marine sediment — excellent holding. The deep canyon SE of Rockland explains why the harbor has deep water close in.
 
+## Cruising Practices
+
+**Leave early, anchor by noon.** The afternoon SW breeze builds throughout the day — passages made in the morning are typically calmer and easier to execute. Being anchored or in harbor before the afternoon wind is established gives you options. A noon arrival also means time to explore ashore, set a proper anchor, and not scramble for a spot in a crowded anchorage.
+
+**Focus on one area per trip.** The Maine coast from Kittery to Roque Island is enormous — 4,500 miles of tidal shoreline, 3,000 islands. Trying to cover ground is a trap. A week in Penobscot Bay thoroughly explored is more rewarding than a sprint to Downeast and back. Long miles and tight schedules bet against the odds; weather, fog, and tide will not cooperate with an ambitious itinerary.
+
 ## Cruising Season
 
-Late June through early September. Peak season: July–August (also peak fog). Fall sailing (September, early October) often has the best wind and clearest visibility — worth considering.
+Late June through early September. **August and September are the most dependable months** with the least fog and most settled conditions. July is peak season (crowded, more fog). Fall sailing (September, early October) often has the best wind and clearest visibility — worth considering.
+
+## Ashore — Maine Island Trail and Land Trusts
+
+**Maine Island Trail Association (MITA):** 255 sites spread across the entire coast, including many in Penobscot Bay. The MITA Guide and app (for members) detail island access, camping, and hiking. Membership at mita.org/join. Essential resource for anchoring off islands rather than always using established harbors.
+
+**Maine Coast Heritage Trust (MCHT):** Holds 300+ easements and 120+ preserves, free and open to the public. Website mcht.org/visit-a-preserve has maps and hiking trail details. Many MCHT sites are on or near islands accessible by dinghy.
 
 ## See Also
 

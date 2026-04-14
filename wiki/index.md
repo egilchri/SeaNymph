@@ -53,6 +53,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | Page | Summary |
 |---|---|
 | [[anchoring]] | Ground tackle selection (Rocna/Mantus vs Fortress), rode setup, singlehanded anchoring procedure, winch retrieval |
+| [[moorings]] | Maine mooring evaluation, types, etiquette, solo pickup technique, Camden inspection tags |
 
 ---
 
@@ -69,6 +70,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[penobscot-bay]] | Bay geography, sailing conditions, fog, tides, lobster pots, anchorages, Rockland→MDI itineraries |
 | [[rockland-harbor]] | Home port: mooring options, costs, swell analysis, pump-out, provisioning, local services |
 | [[navigation-apps]] | Android nav apps (OpenCPN vs. Navionics), compass correction (TVMDC), AIS, fog navigation |
+| [[compass]] | SeaNymph deviation table, TVMDC correction chain, variation 16°W, fog navigation use |
 
 ---
 
@@ -90,6 +92,9 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-anchoring]] | Ground tackle selection, Fortress sizing/weakness, no-windlass retrieval, chain hook sourcing |
 | [[src-dinghy]] | Zodiac towing procedure, gas/electric motor comparison, Temo 450 purchase and charging research |
 | [[src-misc]] | Misc cluster: winterizing, covers, mast climbing, tablet mount, engine, insurance, furler, epoxy, canvas |
+| [[src-cca-intro-maine]] | CCA / Rubadeau intro to cruising Maine: toggle anatomy, 4-kt currents, spring tides, fog, leave early |
+| [[src-compass-deviation]] | SeaNymph actual compass deviation table — primary boat data, 12 entries at 30° intervals |
+| [[src-mooring-advice]] | CCA / Babbitt mooring advice: evaluation criteria, Maine etiquette, Camden inspection tags, solo pickup |
 
 ---
 

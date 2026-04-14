@@ -2,7 +2,7 @@
 title: Anchoring — Ground Tackle and Singlehanded Procedure
 category: seamanship
 tags: [anchoring, ground-tackle, singlehanding, windlass, Penobscot Bay, safety]
-sources: [src-anchoring, src-misc]
+sources: [src-anchoring, src-misc, src-maine-anchoring-advice]
 updated: 2026-04-13
 ---
 
@@ -67,6 +67,8 @@ After a shift, the Fortress can break out and lie flat on the bottom without re-
 
 - **25–30 ft of 1/4" G4 (High Test) chain** — provides catenary weight at the anchor end, abrasion protection at the shackle, and reduces snubbing in chop
 - **150–200 ft of 1/2" three-strand nylon** — provides elasticity to absorb surge loads; three-strand is preferred for spliceability
+
+> **Rope rode failure modes to know:** (1) *Unlaying* — a three-strand nylon rode can completely unlay (the strands separate) after a night of sustained heavy load in 30+ knots. This has happened to experienced cruisers with new, quality rode. Inspect the nylon portion periodically for twist accumulation and any sign of strand separation. (2) *Keel wrapping* — the CD25D's full keel is a snag point. In tidal anchorages where the boat reverses direction every six hours, a rope rode can wrap around the keel. All-chain eliminates this risk.
 - **Rope-to-chain splice** — cleaner than a shackle, lies flat on the bow roller, no metal hardware to chafe or fail
 
 > **Note:** 1/4" BBB (proof coil) chain is sometimes substituted — it's compatible with windlass wildcat fittings on boats with windlasses, but the CD25D has no windlass. G4 (High Test) is stronger for the same weight and is the better choice for a manual setup.
@@ -86,10 +88,14 @@ Because the CD25D has no anchor locker with a proper hawse pipe, the rode lives 
 
 ### Choosing a Spot
 
-- Read current and forecast wind — anchor in the lee of the expected wind, not current wind
+- Read current and forecast wind — anchor in the lee of the **expected** wind, not current wind
 - Note swing room: the CD25D on 7:1 scope in 10 ft of water swings in a circle ~70 ft radius; check for nearby boats, shoals, and hazards at the edge of the swing arc
 - Identify bottom type (chart, local knowledge) — soft mud and sand are the CD25D's targets; avoid rocky bottom without a plough
 - In Penobscot Bay: sticky mud in Rockland and most protected anchorages; sand in Fox Islands Thorofare and exposed bays
+- **If it looks too good to be true, it probably is.** An empty spot in a crowded anchorage is usually empty for a reason — bad holding (rock, hardpan, kelp). Investigate before committing.
+- **Trust your gut.** If a spot doesn't feel right for any reason, move on. Don't talk yourself into an anchorage that makes you uneasy.
+
+**Circle the drop site first:** Before dropping the hook, make one or two slow decreasing-radius circles over the proposed spot to verify actual depth versus charted depth and to confirm swing room in all directions. Charts can be wrong; a 2-minute circle can save you from a grounding or a collision. Depth may be shallower *or* deeper than charted — caution works both ways.
 
 ### Scope
 
@@ -121,6 +127,8 @@ A set anchor holds against engine power without the bow moving. Two failure sign
 - Rode goes slack and re-tightens rhythmically — anchor not set, bouncing
 
 If dragging: motor forward to relieve load, haul anchor, find a better spot or let out more scope.
+
+**Lobster gear at anchor:** If there is lobster gear nearby when you anchor, note it carefully. As SeaNymph rises and falls with the tide and swings with wind and current shifts, the rode or the hull can become entangled in the warp. A pot buoy can also start bouncing against the hull at night. If there are pots near your set, check their position before going to sleep — and locate them again the next morning before getting underway. The CD25D's full keel is also a snag point: a tidal reversal with a rope rode can result in the rode wrapping around the keel.
 
 ### Anchor Watch Singlehanded
 
@@ -194,6 +202,8 @@ For the CD25D anchor retrieval rig, the snatch block must handle the combined lo
 
 ## Anchor Rode Depth Marking
 
+**Rode marking is a safety issue, not just a convenience.** One experienced Maine cruiser dragged in the Caribbean because his rode markers had worn away — without knowing it, he had reduced scope to 1.5:1 while fitting into a tight anchorage. The markers are what tell you how much rode is out. Keep them readable.
+
 Mark the chain rode at 25-foot intervals so you can read scope without counting coils. Zip ties threaded through chain links are the most durable, low-cost solution.
 
 **Color code (25-foot intervals):**
@@ -245,3 +255,4 @@ This dramatically reduces snubbing loads and noise. Available as complete assemb
 - [[cd25d-overview]]
 - [[tiller-pilot]]
 - [[electrical-system]]
+- [[lobster-pots]]

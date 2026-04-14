@@ -54,6 +54,8 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 |---|---|
 | [[anchoring]] | Ground tackle selection (Rocna/Mantus vs Fortress), rode setup, singlehanded anchoring procedure, winch retrieval |
 | [[moorings]] | Maine mooring evaluation, types, etiquette, solo pickup technique, Camden inspection tags |
+| [[lobster-pots]] | Lobster pot avoidance and extrication: current rule, two-buoy system, prop fouling recovery, equipment |
+| [[vhf]] | VHF radio, DSC, MMSI, Rescue 21, foghorn activation, Starlink Mini, Maine cell coverage limitations |
 
 ---
 
@@ -95,6 +97,9 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-cca-intro-maine]] | CCA / Rubadeau intro to cruising Maine: toggle anatomy, 4-kt currents, spring tides, fog, leave early |
 | [[src-compass-deviation]] | SeaNymph actual compass deviation table — primary boat data, 12 entries at 30° intervals |
 | [[src-mooring-advice]] | CCA / Babbitt mooring advice: evaluation criteria, Maine etiquette, Camden inspection tags, solo pickup |
+| [[src-maine-anchoring-advice]] | CCA / Babbitt Maine anchoring: circle drop site, rope unlaying, keel wrapping, lobster gear at anchor |
+| [[src-lobster-pots]] | CCA / Godshalk lobster pot avoidance: current rule, two-buoy system, extrication procedure, equipment |
+| [[src-vhf]] | CCA / Guck VHF vs cell: DSC/MMSI, Rescue 21, USCG phone number, foghorn activation, Starlink Mini |
 
 ---
 

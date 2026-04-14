@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "insurance.md",
+                "file": "penobscot-bay.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "insurance"
+              "title": "penobscot-bay"
             }
           }
         ]
@@ -194,11 +194,11 @@
   },
   "active": "4f5c0642c2edd5b5",
   "lastOpenFiles": [
+    "insurance.md",
     "cd25d-overview.md",
     "index.md",
     "tiller-pilot-waterproofing.md",
     "battery-management.md",
-    "insurance.md",
     "penobscot-bay.md",
     "navigation-apps.md",
     "cd25d-engine.md",

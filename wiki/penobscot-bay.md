@@ -10,6 +10,8 @@ updated: 2026-04-13
 
 Home waters for SeaNymph. Penobscot Bay is approximately 40 miles long and 30 miles wide at its mouth, with around 1,000 miles of shoreline and 624 islands and ledges. It is the second-largest embayment on the US East Coast after Chesapeake Bay. Maximum depth approximately 205 feet; deep underwater canyon southeast of Rockland in the West Passage (Penobscot River's ancient channel) exceeds 500 feet.
 
+It's super fun.
+
 ## Charts
 
 Primary chart: **NOAA 13302** — Penobscot Bay and Approaches. Always carry up-to-date paper charts as backup. The "Taft Guide" (A Cruising Guide to the Maine Coast by Hank and Jan Taft and Curtis Rindlaub) is the authoritative cruising guide for these waters — widely recommended.

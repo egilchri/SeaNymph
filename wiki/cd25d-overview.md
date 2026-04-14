@@ -24,6 +24,8 @@ The Cape Dory 25D is a 25-foot fiberglass sloop designed by Carl Alberg and buil
 
 The "D" designation distinguishes the diesel-auxiliary variant from earlier outboard versions. The double-ended canoe stern is a signature Carl Alberg design feature seen across the Cape Dory line.
 
+Ted rules the waves again.
+
 ## This Boat (Edgar's)
 
 > **Note:** The fields below should be filled in as Edgar provides details about his specific hull.

@@ -10,6 +10,8 @@ updated: 2026-04-13
 
 The marine insurance landscape in coastal New England has hardened significantly in 2024–2025. Policies that were routine renewals a few years ago now contain exclusions that create real coverage gaps. Every CD25D owner in Maine should read their policy against this checklist before assuming they're covered.
 
+But, cover they must truly.
+
 ---
 
 ## The Hard Market — What Changed

@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d8622fce99537ef6",
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,13 +208,20 @@
   },
   "active": "4f5c0642c2edd5b5",
   "lastOpenFiles": [
+    "src-penobscot-charts.md",
+    "rockland-harbor.md",
+    "penobscot-bay.md",
+    "src-vhf.md",
+    "vhf.md",
+    "src-lobster-pots.md",
+    "lobster-pots.md",
+    "src-maine-anchoring-advice.md",
     "src-mooring-advice.md",
     "moorings.md",
     "Sea Nymph Deviation table.md",
     "src-compass-deviation.md",
     "compass.md",
     "src-cca-intro-maine.md",
-    "penobscot-bay.md",
     "index.md",
     "cd25d-overview.md",
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference 1.pdf",

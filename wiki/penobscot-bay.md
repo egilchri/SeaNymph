@@ -14,7 +14,19 @@ It's super fun.
 
 ## Charts
 
-Primary chart: **NOAA 13302** — Penobscot Bay and Approaches. Always carry up-to-date paper charts as backup. The "Taft Guide" (A Cruising Guide to the Maine Coast by Hank and Jan Taft and Curtis Rindlaub) is the authoritative cruising guide for these waters — widely recommended.
+**Cruising guide:** The "Taft Guide" (A Cruising Guide to the Maine Coast by Hank and Jan Taft and Curtis Rindlaub) is the authoritative cruising reference for these waters — widely recommended. Always carry up-to-date paper charts as backup.
+
+### NOAA Chart Set — Rockland to MDI and Beyond
+
+| Chart | Coverage |
+|---|---|
+| **13302** | Penobscot Bay and Approaches — primary chart for home waters |
+| **13315** | Deer Island Thorofare and Casco Passage — key passage east of Deer Isle |
+| **13316** | Blue Hill Bay |
+| **13312** | Frenchman and Blue Hill Bays and Approaches — Bar Harbor / Acadia area |
+| **13321** | Southwest Harbor and Approaches — MDI, Bass Harbor area |
+
+Charts are available as print-on-demand from **OceanGrafix** (oceangrafix.com) — up-to-date NOAA prints on waterproof paper. The **Maptech Waterproof Chartbook: Penobscot Bay** is a popular alternative to individual chart sheets for this region.
 
 ## Sailing Conditions
 

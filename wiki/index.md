@@ -100,6 +100,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-maine-anchoring-advice]] | CCA / Babbitt Maine anchoring: circle drop site, rope unlaying, keel wrapping, lobster gear at anchor |
 | [[src-lobster-pots]] | CCA / Godshalk lobster pot avoidance: current rule, two-buoy system, extrication procedure, equipment |
 | [[src-vhf]] | CCA / Guck VHF vs cell: DSC/MMSI, Rescue 21, USCG phone number, foghorn activation, Starlink Mini |
+| [[src-penobscot-charts]] | Edgar's chart bookmark list: NOAA 13302/13315/13316/13312/13321, Maptech chartbook, OceanGrafix |
 
 ---
 

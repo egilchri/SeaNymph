@@ -20,11 +20,12 @@ Charts are available print-on-demand from OceanGrafix (oceangrafix.com) — up-t
 
 ## Key Takeaways
 
-- **13302:** Penobscot Bay and Approaches (home waters)
-- **13315:** Deer Island Thorofare and Casco Passage
-- **13316:** Blue Hill Bay
-- **13312:** Frenchman and Blue Hill Bays and Approaches
-- **13321:** Southwest Harbor and Approaches
+- **13302 https://www.oceangrafix.com/chart/zoom?chart=13302:** Penobscot Bay and Approaches (home waters)
+- **13315 https://www.oceangrafix.com/chart/zoom?chart=13315:** Deer Island Thorofare and Casco Passage
+- **13316:https://www.oceangrafix.com/chart/zoom?chart=13316 ** Blue Hill Bay
+- **13312 https://www.oceangrafix.com/chart/zoom?chart=13312:** Frenchman and Blue Hill Bays and Approaches
+- **13321 https://www.oceangrafix.com/chart/zoom?chart=13321:** Southwest Harbor and Approaches
+
 - **Maptech Waterproof Chartbook: Penobscot Bay** — covers the home waters area in one volume
 
 ## Contradictions / Surprises

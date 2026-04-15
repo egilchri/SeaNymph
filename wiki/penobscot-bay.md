@@ -18,13 +18,13 @@ It's super fun.
 
 ### NOAA Chart Set — Rockland to MDI and Beyond
 
-| Chart | Coverage |
-|---|---|
-| **13302** | Penobscot Bay and Approaches — primary chart for home waters |
-| **13315** | Deer Island Thorofare and Casco Passage — key passage east of Deer Isle |
-| **13316** | Blue Hill Bay |
-| **13312** | Frenchman and Blue Hill Bays and Approaches — Bar Harbor / Acadia area |
-| **13321** | Southwest Harbor and Approaches — MDI, Bass Harbor area |
+| Chart | Coverage | OceanGrafix |
+|---|---|---|
+| **13302** | Penobscot Bay and Approaches — primary chart for home waters | https://www.oceangrafix.com/chart/zoom?chart=13302 |
+| **13315** | Deer Island Thorofare and Casco Passage — key passage east of Deer Isle | https://www.oceangrafix.com/chart/zoom?chart=13315 |
+| **13316** | Blue Hill Bay | https://www.oceangrafix.com/chart/zoom?chart=13316 |
+| **13312** | Frenchman and Blue Hill Bays and Approaches — Bar Harbor / Acadia area | https://www.oceangrafix.com/chart/zoom?chart=13312 |
+| **13321** | Southwest Harbor and Approaches — MDI, Bass Harbor area | https://www.oceangrafix.com/chart/zoom?chart=13321 |
 
 Charts are available as print-on-demand from **OceanGrafix** (oceangrafix.com) — up-to-date NOAA prints on waterproof paper. The **Maptech Waterproof Chartbook: Penobscot Bay** is a popular alternative to individual chart sheets for this region.
 

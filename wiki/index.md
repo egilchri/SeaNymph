@@ -101,6 +101,8 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-lobster-pots]] | CCA / Godshalk lobster pot avoidance: current rule, two-buoy system, extrication procedure, equipment |
 | [[src-vhf]] | CCA / Guck VHF vs cell: DSC/MMSI, Rescue 21, USCG phone number, foghorn activation, Starlink Mini |
 | [[src-penobscot-charts]] | Edgar's chart bookmark list: NOAA 13302/13315/13316/13312/13321, Maptech chartbook, OceanGrafix |
+| [[src-compass-upgrade]] | AI research: CD25D compass options (Ritchie BN-202, Plastimo Contest 101, Iris 50), DIY compensation |
+| [[src-deviation-assessment]] | AI verdict on SeaNymph's deviation table: 9° max exceeds ISO standard, compensation required |
 
 ---
 

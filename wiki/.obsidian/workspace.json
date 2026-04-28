@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "penobscot-bay.md",
+                "file": "to-purchase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "penobscot-bay"
+              "title": "to-purchase"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#navigation",
+                "query": "foresta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,12 +208,18 @@
   },
   "active": "4f5c0642c2edd5b5",
   "lastOpenFiles": [
+    "src-furler-toggle-options.md",
+    "assets/link-tang.jpg.md",
+    "to-purchase.md",
+    "assets",
+    "src-opencpn-mac-satellite.md",
+    "penobscot-bay.md",
+    "todo.md",
     "#src-penobscot-charts.md#",
     "src-deviation-assessment.md",
     "src-compass-upgrade.md",
     "src-penobscot-charts.md",
     "rockland-harbor.md",
-    "penobscot-bay.md",
     "src-vhf.md",
     "vhf.md",
     "src-lobster-pots.md",
@@ -232,10 +238,6 @@
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference.pdf",
     "insurance.md",
     "tiller-pilot-waterproofing.md",
-    "battery-management.md",
-    "navigation-apps.md",
-    "cd25d-engine.md",
-    "Untitled.canvas",
-    "anchoring.md"
+    "Untitled.canvas"
   ]
 }

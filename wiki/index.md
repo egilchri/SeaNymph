@@ -73,6 +73,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[rockland-harbor]] | Home port: mooring options, costs, swell analysis, pump-out, provisioning, local services |
 | [[navigation-apps]] | Android nav apps (OpenCPN vs. Navionics), compass correction (TVMDC), AIS, fog navigation |
 | [[compass]] | SeaNymph deviation table, TVMDC correction chain, variation 16°W, fog navigation use |
+| [[binoculars]] | Steiner Navigator 7x50c selection, Sports-Auto-Focus rationale, pricing, singlehanding notes |
 
 ---
 
@@ -103,13 +104,19 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-penobscot-charts]] | Edgar's chart bookmark list: NOAA 13302/13315/13316/13312/13321, Maptech chartbook, OceanGrafix |
 | [[src-compass-upgrade]] | AI research: CD25D compass options (Ritchie BN-202, Plastimo Contest 101, Iris 50), DIY compensation |
 | [[src-deviation-assessment]] | AI verdict on SeaNymph's deviation table: 9° max exceeds ISO standard, compensation required |
+| [[src-opencpn-mac-satellite]] | QGIS + QuickMapServices MBTiles workflow for OpenCPN satellite overlay on Mac; verified 2026-04-16 |
+| [[src-furler-toggle-options]] | Furler drum toggle/link options research — Schaefer parts (not applicable; SeaNymph is Harken) |
+| [[src-steiner-binoculars]] | Steiner Navigator 7x50c market research — specs, model variants, pricing, warranty, retailers |
 
 ---
 
 ## synthesis
 
-*No synthesis pages yet.*
+| Page | Summary |
+|---|---|
+| [[todo]] | Open tasks, projects, and investigations for SeaNymph and the wiki |
+| [[to-purchase]] | Gear, parts, and supplies to acquire — prioritized shopping list with costs and vendors |
 
 ---
 
-*Last updated: 2026-04-13 (misc cluster added — winterizing, winter-cover, mast-climbing, tablet-mount, engine, insurance, furler, canvas-work, fiberglass-safety)*
+*Last updated: 2026-04-28 (binoculars — Steiner Navigator 7x50c research ingested)*

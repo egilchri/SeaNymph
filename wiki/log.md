@@ -8,6 +8,18 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-28] ingest | Steiner Navigator 7x50 binoculars purchase research
+
+Ingested AI market research on Steiner Navigator 7x50c (Model 2343). Created source page: src-steiner-binoculars.md. Created topic page: binoculars.md. Updated to-purchase.md (added row under Safety/Navigation). Key findings: 7x50 is the marine standard (7.14mm exit pupil, Sports-Auto-Focus critical for singlehanding); Model 2343 Open-Hinge preferred for one-handed grip; current low price ~$690 on Amazon (Edgar observed 2026-04-28) vs. $783.74 at Landfall Navigation or $799.99 in-stock at West Marine Portsmouth; Steiner Heritage Warranty is lifetime and fully transferable — valid on used purchases.
+
+## [2026-04-19] ingest | Jib furler drum toggle options (Schaefer — not applicable)
+
+Ingested AI research doc on CD25D furler drum toggle options. Research assumed Schaefer 1100/2100 series — not applicable to SeaNymph, which is confirmed Harken. Source filed for reference; no wiki pages updated. Correct Harken parts already in [[furler]].
+
+## [2026-04-19] ingest | OpenCPN Mac satellite imagery (MBTiles workflow)
+
+Ingested AI research doc (raw/OpenCPN Google Earth Alternatives for Mac.md) plus verified workflow reconstructed from 8 Desktop screenshots dated 2026-04-16. Created source page: src-opencpn-mac-satellite.md. Updated navigation-apps.md with new Mac/OpenCPN satellite section. Key findings: no Google Earth plugin for Mac OpenCPN; QGIS + QuickMapServices (ESRI) + Generate XYZ Tiles (MBTiles) is the working solution; zoom 8–14 reliable, zoom 16 fails (JPG transparency error); MOBAC failed due to SSL cert errors; OpenCPN ingestion via Options → Charts → Chart Files → Add Directory; Edgar's MBTiles live at ~/Documents/Charts/MBTiles/.
+
 ## [2026-04-13] ingest | Dinghy cluster (7 files)
 
 Ingested 7 AI research reports covering the Zodiac dinghy, outboard motor selection, Temo 450 electric motor, and towing procedure. Created topic page: dinghy.md. Created source page: src-dinghy.md. Updated index.md. Key findings: tow painter must be 3–5 ft (taut) to keep non-floating line out of prop; Temo 450 (11 lbs, $1,699–1,999) is best electric option for an 8-ft Zodiac; 12V on-boat charging draws 30 Ah (recoverable with solar in a day); Temo reverse is limited (brake only); Rockland Temo service contacts identified (Ocean Pursuits, Midcoast Marine Electronics, +1 207 200-5649). Two files too large to read fully.
@@ -75,6 +87,10 @@ Ingested CCA article by Brian Guck on VHF vs. cell communications for Maine crui
 ## [2026-04-14] ingest | Lobster Pot Avoidance and Extrication (CCA / Godshalk)
 
 Ingested CCA article by Ernie Godshalk on lobster pot navigation and extrication. Created topic page: lobster-pots.md. Created source page: src-lobster-pots.md. Updated penobscot-bay.md, anchoring.md, and index.md. Key findings: pass on DOWN-current side of any buoy (warp angles upstream = danger zone); two-buoy system — NEVER go between them, submerged line between is the fouling hazard; buoy lying on its side = primary warp buoy in strong current, toggle may be submerged downstream; immediate action if fouled: don't engage prop; pull warp to cleat to ease tension; Shaft Shark is best preventive tool; Fiskars P973 pruner for cutting warp off prop; Maine water 50–60°F requires wetsuit for under-boat swim. Real story: Muscle Ridge Channel fouling, warp burned into cutlass bearing, local lobsterman diver freed it for $100.
+
+## [2026-04-15] update | Created todo.md and to-purchase.md
+
+Created wiki/todo.md (category: synthesis) and wiki/to-purchase.md (category: maintenance). Both seeded from existing wiki content. todo.md organizes open tasks by urgency/type with a completed section. to-purchase.md is a prioritized table with cost estimates and vendor notes, covering safety/nav, electrical, ground tackle, dinghy, autopilot, canvas, and tools. Maptech Waterproof Chartbook: Penobscot Bay added as first user-specified purchase. Updated index.md.
 
 ## [2026-04-13] init | Wiki created
 

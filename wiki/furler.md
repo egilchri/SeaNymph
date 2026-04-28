@@ -103,6 +103,10 @@ If the furler is older (pre-MKIV), look for a "MKIII" designation. The MKIII 00A
 - **West Marine** — carries common Harken parts but not always the specific link plate sizes
 - **Harken direct** (harken.com) — full catalog access; can ship to any West Marine for free in-store pickup
 
+## Installation — Potential Contractor
+
+**Bohndell Sails & Rigging**, Rockport, Maine — candidate for toggle/link installation work. Local rigger, convenient to home port.
+
 ---
 
 ## See Also

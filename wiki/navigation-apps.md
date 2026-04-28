@@ -1,9 +1,9 @@
 ---
 title: Navigation Apps and Digital Tools
 category: navigation
-tags: [navigation, chartplotter, Android, OpenCPN, Navionics, compass, AIS, fog]
-sources: [src-penobscot-bay]
-updated: 2026-04-13
+tags: [navigation, chartplotter, Android, OpenCPN, Navionics, compass, AIS, fog, MBTiles, satellite, Mac, QGIS]
+sources: [src-penobscot-bay, src-opencpn-mac-satellite]
+updated: 2026-04-19
 ---
 
 # Navigation Apps and Digital Tools
@@ -93,6 +93,37 @@ Key current stations for Penobscot Bay passages:
 - Fox Islands Thorofare (modest)
 - Casco Passage (more significant — time this)
 - Muscle Ridge Channel (can be strong)
+
+## OpenCPN on Mac — Satellite Imagery (MBTiles)
+
+There is no Google Earth plugin for OpenCPN on macOS (the plugin uses Windows-only technology). The standard Mac alternative is **MBTiles**: pre-downloaded satellite tiles displayed as a chart layer, working fully offline — ideal for Maine where cell coverage is unreliable offshore.
+
+### Verified workflow (tested 2026-04-16)
+
+1. Install **QGIS** (LTR 3.44+)
+2. Install the **QuickMapServices** plugin (Plugins menu)
+3. Load **ESRI** satellite basemap via QuickMapServices → ESRI
+4. Open Processing Toolbox → Raster Tools → **Generate XYZ Tiles (MBTiles)**
+5. Set extent to your sailing area; zoom min 8, zoom max 14
+6. Output to `~/Documents/Charts/MBTiles/<name>.mbtiles`
+7. Run — ~60 seconds for a Penobscot Bay-sized area
+8. In OpenCPN: **Options → Charts → Chart Files → Add Directory** → point at `~/Documents/Charts/MBTiles`
+9. Click "Scan Charts and Update Database" — satellite layer now selectable alongside NOAA charts
+
+**Zoom level note:** Zoom 14 is the reliable maximum. Zoom 16 fails with a "JPG only supports fully opaque colors" error.
+
+**What didn't work:** Mobile Atlas Creator (MOBAC) — SSL certificate errors blocked tile downloads on Mac.
+
+**Other Mac options (untested):**
+- **EarthExplorer plugin** — syncs OpenCPN cursor position to a separate Google Earth Pro window (live link, not embedded)
+- **KAP files** — raster charts exported from Google Earth; OpenCPN reads natively; useful for tight harbor entrances
+
+Edgar's chart directories on this Mac:
+- `~/Documents/Charts/ENC/US_REGION02`
+- `~/Documents/Charts/ENC/US_ME`
+- `~/Documents/Charts/RNC/US_ME`
+- `~/Documents/Charts/GSHHG`
+- `~/Documents/Charts/MBTiles` ← satellite tiles here
 
 ## See Also
 

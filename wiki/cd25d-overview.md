@@ -2,8 +2,8 @@
 title: Cape Dory 25D — Overview
 category: boat
 tags: [cape-dory, cd25d, hull, specs, alberg, diesel]
-sources: [src-cd25d-brochure]
-updated: 2026-04-29
+sources: [src-cd25d-brochure, src-cd25d-gemini-specs]
+updated: 2026-04-30
 ---
 
 # Cape Dory 25D — Overview
@@ -13,16 +13,47 @@ The Cape Dory 25D is a 25-foot fiberglass sloop designed by Carl Alberg and buil
 ## Design and Hull
 
 - **Designer:** Carl Alberg
-- **Builder:** Cape Dory Yachts, Marion, Massachusetts
-- **Production years:** approximately 1975–1988
+- **Builder:** Cape Dory Yachts, East Taunton, Massachusetts
+- **Production years:** ~1981–1985 for the 25D specifically; broader CD25 line ran ~1975–1988
 - **Hull type:** Full keel, transom stern, fiberglass
-- **Displacement:** heavy for its length (~5,000 lbs)
-- **LOA:** 25 ft
-- **LWL:** ~20 ft
-- **Beam:** ~8 ft
-- **Draft:** ~3.5 ft (full keel)
+
+> **Note:** Spec values below are from AI research (Gemini) and should be treated as approximate. Verify against factory documentation or the Peabody Essex Museum archive for precision work.
+
+| Spec | Value |
+|---|---|
+| LOA | 25.00 ft |
+| LWL | 19.00 ft |
+| Beam | 8.00 ft |
+| Draft | 3.50 ft |
+| Displacement | 5,120 lbs |
+| Ballast (internal lead) | 2,050 lbs |
+| Ballast/Displacement | 40.04% |
+| D/L Ratio | 333 (heavy displacement) |
+| Comfort Ratio | 23.83 |
+| Capsize Screening | 1.86 (< 2.0 = offshore-capable) |
 
 The "D" designation distinguishes the diesel-auxiliary variant from earlier outboard versions.
+
+## Rig Dimensions
+
+| Dimension | Value |
+|---|---|
+| I (foretriangle height) | 32.00 ft |
+| J (foretriangle base) | 10.25 ft |
+| P (mainsail luff) | 27.25 ft |
+| E (mainsail foot) | 10.25 ft |
+| Total sail area (100% foretriangle) | 304 sq ft |
+| Mast height (air draft) | ~36.5 ft |
+
+## Mechanical and Tankage
+
+| System | Value | Notes |
+|---|---|---|
+| Engine | Yanmar 1GM / 1GM10 | 8–9 HP, single cylinder |
+| Fuel capacity | 13 gallons | Aluminum or poly tank, typically aft |
+| Water capacity | 20 gallons | Poly tank under V-berth |
+| Holding tank | ~10–15 gallons | Bow or under settees |
+| Propeller | 2-blade fixed | Typically 10×10 or 12×10 |
 
 ## Sail Plan and Deck Plan
 

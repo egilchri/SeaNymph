@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-30] ingest | Cape Dory 25D spec values (Gemini research)
+
+Ingested Gemini AI-generated spec sheet (raw/CD25D_spec_values.md). Created source page: src-cd25d-gemini-specs.md. Updated cd25d-overview.md: replaced approximate hull specs with full table (LOA 25', LWL 19', beam 8', draft 3.5', displacement 5,120 lbs, ballast 2,050 lbs); added rig dimensions section (I/J/P/E and total sail area 304 sq ft, mast height ~36.5 ft); added mechanical/tankage section (13 gal fuel, 20 gal water, 10–15 gal holding, Yanmar 1GM10, 2-blade fixed prop); added performance ratios (B/D 40%, D/L 333, capsize 1.86). All values flagged as AI-generated / approximate. Contradiction noted: source says production 1981–1985; wiki had ~1975–1988 (likely includes non-diesel CD25).
+
 ## [2026-04-29] ingest | Cape Dory 25D factory brochure (BBDC23790_04_grande.jpeg)
 
 Ingested original Cape Dory Yachts factory brochure. Created source page: src-cd25d-brochure.md. Copied image to wiki/assets/cd25d-brochure.jpeg (committed to git). Updated cd25d-overview.md: added "Sail Plan and Deck Plan" section embedding the brochure image. Key finding: sail plan visually confirms conventional transom stern — corroborates the correction made earlier today. Spec values in brochure partially difficult to read from image; approximate values already in wiki are consistent.

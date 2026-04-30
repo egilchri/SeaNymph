@@ -110,6 +110,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-bushnell-binoculars]] | Bushnell Marine 7x50 features (waterproof, buoyant, illuminated compass) and Ironclad Warranty details |
 | [[src-radar-reflector-comparison]] | AI comparison of passive/active radar reflectors — tube type added; Viking Tri-Lens named; Echomaster contradiction flagged |
 | [[src-cd25d-brochure]] | Original Cape Dory 25D factory brochure — sail plan, deck plan, specs; visually confirms transom stern |
+| [[src-cd25d-gemini-specs]] | Gemini AI spec sheet — hull, rig (I/J/P/E), tankage, performance ratios; AI-generated, treat as approximate |
 
 ---
 
@@ -122,4 +123,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-29 (radar reflector comparison ingested; binoculars Bushnell research ingested)*
+*Last updated: 2026-04-30 (CD25D Gemini spec sheet ingested — hull, rig, tankage, performance ratios)*

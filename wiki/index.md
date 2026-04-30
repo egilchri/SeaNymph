@@ -111,6 +111,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-radar-reflector-comparison]] | AI comparison of passive/active radar reflectors — tube type added; Viking Tri-Lens named; Echomaster contradiction flagged |
 | [[src-cd25d-brochure]] | Original Cape Dory 25D factory brochure — sail plan, deck plan, specs; visually confirms transom stern |
 | [[src-cd25d-gemini-specs]] | Gemini AI spec sheet — hull, rig (I/J/P/E), tankage, performance ratios; AI-generated, treat as approximate |
+| [[src-yanmar-1gm10-manual]] | Official Yanmar 1GM10 operation manual — specs, oil, full maintenance schedule, troubleshooting, wiring colors |
 
 ---
 
@@ -123,4 +124,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-30 (CD25D Gemini spec sheet ingested — hull, rig, tankage, performance ratios)*
+*Last updated: 2026-04-30 (Yanmar 1GM10 operation manual ingested — major engine.md corrections and expansion)*

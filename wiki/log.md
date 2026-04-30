@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-30] ingest | Yanmar 1GM10 Operation Manual (0AGMM-EN0013, 2018)
+
+Ingested official Yanmar 1GM10 operation manual (94 pages; read ~50 targeted pages using pdftoppm rendering). Created source page: src-yanmar-1gm10-manual.md. Major rewrite of engine.md. Key corrections to prior wiki content: (1) displacement was 232cc — correct is 318cc; (2) cooling system was "freshwater closed loop" — correct factory spec is direct seawater cooling; (3) oil spec was "API CD, 15W40 only" — correct is API CC or higher, 10W30 or 15W40 both acceptable; (4) oil capacity was ~1.3L — correct is 1.5L; (5) output was "9HP @ 3200rpm" — correct is 8hp continuous @ 3400rpm, 9.1hp max @ 3600rpm; (6) maintenance intervals corrected throughout (oil every 150hrs; impeller inspect 250hrs / replace 1000hrs or 4 years). Added: full official maintenance schedule, wiring color codes, component identification table, troubleshooting quick reference, mixing elbow replacement interval (500hrs/2yr), zinc anode guidance.
+
 ## [2026-04-30] ingest | Cape Dory 25D spec values (Gemini research)
 
 Ingested Gemini AI-generated spec sheet (raw/CD25D_spec_values.md). Created source page: src-cd25d-gemini-specs.md. Updated cd25d-overview.md: replaced approximate hull specs with full table (LOA 25', LWL 19', beam 8', draft 3.5', displacement 5,120 lbs, ballast 2,050 lbs); added rig dimensions section (I/J/P/E and total sail area 304 sq ft, mast height ~36.5 ft); added mechanical/tankage section (13 gal fuel, 20 gal water, 10–15 gal holding, Yanmar 1GM10, 2-blade fixed prop); added performance ratios (B/D 40%, D/L 333, capsize 1.86). All values flagged as AI-generated / approximate. Contradiction noted: source says production 1981–1985; wiki had ~1975–1988 (likely includes non-diesel CD25).

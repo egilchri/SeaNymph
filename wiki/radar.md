@@ -2,8 +2,8 @@
 title: Radar — Seeing and Being Seen
 category: systems
 tags: [radar, radar-reflector, safety, navigation, fog, singlehanding, Penobscot Bay]
-sources: [src-ais-radar]
-updated: 2026-04-13
+sources: [src-ais-radar, src-radar-reflector-comparison]
+updated: 2026-04-29
 ---
 
 # Radar — Seeing and Being Seen
@@ -112,10 +112,11 @@ Manufacturers advertise peak RCS — measured in a laboratory with the reflector
 
 | Type | Example | Cost | Avg RCS at 20° Heel | Verdict |
 |---|---|---|---|---|
-| **Octahedral (folding)** | Davis Echomaster | ~$70 | **~0 m²** | Do not buy. Performance collapses at heel. False sense of security. |
-| **Tri-lens array** | Firdell Blipper 210-7 | ~$250 | ~1.5 m² | Minimum acceptable. Below ISO standard but far better than octahedral. |
+| **Octahedral (folding)** | Davis Echomaster 152 | ~$120–135 | **~0 m²** | Do not buy. Performance collapses at heel. False sense of security. |
+| **Tube/cylinder** | Mobri S-2 / Plastimo | ~$70–110 | < 2 m² | Minimal windage; easy to rig on shrouds. "Better than nothing" — inadequate for fog/SAR scenarios. |
+| **Tri-lens array** | Firdell Blipper 210-7, Viking Tri-Lens | ~$250–300 | ~1.5–2.0 m² | Minimum acceptable. Below ISO standard but maintains performance at heel. |
 | **Stacked dihedral/trihedral array** | **Echomax EM230** | **~$300** | **~4.0 m²** | **Best passive choice.** Consistently maintains performance at heel. |
-| **Active RTE (amplified)** | Echomax Active-X | $800+ | Far exceeds passive | Best raw performance; requires 12V power; more to fail |
+| **Active RTE (amplified)** | Echomax Active-X | $700–900 | Far exceeds passive | Best raw performance; requires 12V power; more to fail |
 
 **Recommendation: Echomax EM230.** It is the only passive reflector in tests that consistently exceeds the ISO 2.5 m² standard when heeling. The price difference over the Firdell Blipper is small (~$50) for significantly better performance. The cost-per-m²-of-effective-RCS calculation makes it overwhelmingly the better value.
 

@@ -2,8 +2,8 @@
 title: Binoculars
 category: navigation
 tags: [binoculars, optics, navigation, fog, singlehanding, gear]
-sources: [src-steiner-binoculars]
-updated: 2026-04-28
+sources: [src-steiner-binoculars, src-bushnell-binoculars]
+updated: 2026-04-29
 ---
 
 # Binoculars
@@ -76,6 +76,46 @@ This makes used Steiner Navigator purchases low-risk — the optical and mechani
 - 7.14mm exit pupil important for dawn/dusk departures and arrivals common in Maine
 - NBR rubber armor provides grip even with wet or gloved hands
 - Yellow Steiner float strap is available — use it; 39 oz of binoculars sinking is a bad day
+
+## Bushnell Marine 7x50 — Budget Alternative
+
+The **Bushnell Marine 7x50** (~$305.89 as of 2026-04-29) is roughly half the price of the Steiner Navigator and is a legitimate marine binocular. Worth understanding the tradeoffs before dismissing it.
+
+### Key Specs
+
+| Feature | Detail |
+|---|---|
+| Magnification | 7× |
+| Objective | 50mm |
+| Waterproof | 100% (hermetically sealed, nitrogen-purged) |
+| Buoyancy | **Floats** — will not sink if dropped overboard |
+| Compass | Illuminated, analog, with ranging reticle |
+| Focus | Individual eyepiece focus (per-eye adjustment) |
+| Prisms | BaK-4 |
+| Saltwater resistance | Yes |
+| Price | ~$305.89 |
+
+### Bushnell vs. Steiner: The Key Tradeoffs
+
+| Factor | Steiner Navigator 7x50c | Bushnell Marine 7x50 |
+|---|---|---|
+| Price | ~$690 | ~$305.89 |
+| Focus system | Sports-Auto-Focus™ (set once, 20m–∞) | Individual eyepiece (manual, per-eye) |
+| Buoyancy | Sinks | **Floats** |
+| Warranty (optical) | Lifetime | 20 years (post-June 2020 units) |
+| Warranty (electronics) | 3 years | 5 years |
+| Compass | Fluid-dampened, illuminated | Illuminated, with ranging reticle |
+| Weight | ~39 oz | Not specified |
+
+### Singlehanding Implication
+
+The individual eyepiece focus on the Bushnell is a meaningful disadvantage for singlehanding. It's sharper per-eye once set, but re-focusing when conditions change (haze, distance shift) requires two separate adjustments. More importantly, there is no equivalent to Steiner's Sports-Auto-Focus — you cannot pre-set it to cover the entire useful range (20m–∞) and simply raise the binoculars. On a moving boat, alone, with one hand on the tiller, focus fiddling is a real problem.
+
+**Verdict:** The Bushnell is a solid choice if budget is the constraint and you accept manual focus. The floating feature is a meaningful advantage over Steiner — if lost overboard, a $306 loss is less catastrophic than $690. But if you can afford the Steiner, Sports-Auto-Focus is worth the premium for singlehanded work.
+
+### Bushnell H2O 7x50 — Not Recommended
+
+The Bushnell H2O 7x50 (~$96.14) is waterproof but **does not include a compass**. Do not buy this if navigation bearing capability is required.
 
 ## See Also
 

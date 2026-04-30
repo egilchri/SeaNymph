@@ -16,14 +16,15 @@ Gear, parts, and supplies to acquire for SeaNymph. Ordered roughly by priority w
 
 ## Safety / Navigation
 
-| Budget | Item                          | Reason                                                     | Est. Cost | Priority | Vendor / Notes                           |
-| ------ | ----------------------------- | ---------------------------------------------------------- | --------- | -------- | ---------------------------------------- |
-| - [ ]  | Steiner Navigator 7x50c (Model 2343) | Marine binoculars; Sports-Auto-Focus critical for singlehanding | ~$690 | High | Amazon ~$690 (verify Model 2343); West Marine Portsmouth in stock $799.99 — see [[binoculars]] |
-| - [ ]  | MMSI registration             | Required for DSC distress calls; Rescue 21 integration     | $25       | High     | BoatUS — see [[vhf]]                     |
-| - [ ]  | Echomax EM230 radar reflector | Only passive reflector meeting ISO 2.5 m² standard at heel | ~$300     | High     | See [[radar]]                            |
-| - [ x] | Fiskars P973 pruner           | Cut lobster pot warp off prop from cockpit                 | ~$30      | High     | Hardware store — see [[lobster-pots]]    |
-| - [ ]  | em-trak R300 AIS receiver     | Receive-only; shows traffic on chartplotter                | ~$300     | Low      | See [[ais]]                              |
-| - [ ]  | Class B AIS transponder       | Transmit + receive; makes SeaNymph visible to others       | ~$500–900 | Low      | Upgrade path from receiver — see [[ais]] |
+| Budget | Item                                 | Reason                                                                    | Est. Cost | Priority | Vendor / Notes                                                                                 |
+| ------ | ------------------------------------ | ------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------- |
+| - [ ]  | Steiner Navigator 7x50c (Model 2343) | Marine binoculars; Sports-Auto-Focus critical for singlehanding           | ~$690     | None     | Amazon ~$690 (verify Model 2343); West Marine Portsmouth in stock $799.99 — see [[binoculars]] |
+| - [ ]  | Bushnell Marine 7x50 (budget alt)    | No Sports-Auto-Focus but buoyant (floats if dropped); illuminated compass | ~$249     | High     | Half the cost of Steiner; tradeoff is manual per-eye focus — see [[binoculars]]                |
+| - [ ]  | MMSI registration                    | Required for DSC distress calls; Rescue 21 integration                    | $25       | High     | BoatUS — see [[vhf]]                                                                           |
+| - [ ]  | Echomax EM230 radar reflector        | Only passive reflector meeting ISO 2.5 m² standard at heel                | ~$300     | High     | See [[radar]]                                                                                  |
+| - [ x] | Fiskars P973 pruner                  | Cut lobster pot warp off prop from cockpit                                | ~$30      | High     | Hardware store — see [[lobster-pots]]                                                          |
+| - [ ]  | em-trak R300 AIS receiver            | Receive-only; shows traffic on chartplotter                               | ~$300     | Low      | See [[ais]]                                                                                    |
+| - [ ]  | Class B AIS transponder              | Transmit + receive; makes SeaNymph visible to others                      | ~$500–900 | Low      | Upgrade path from receiver — see [[ais]]                                                       |
 
 ---
 

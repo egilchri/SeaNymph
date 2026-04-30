@@ -73,7 +73,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[rockland-harbor]] | Home port: mooring options, costs, swell analysis, pump-out, provisioning, local services |
 | [[navigation-apps]] | Android nav apps (OpenCPN vs. Navionics), compass correction (TVMDC), AIS, fog navigation |
 | [[compass]] | SeaNymph deviation table, TVMDC correction chain, variation 16°W, fog navigation use |
-| [[binoculars]] | Steiner Navigator 7x50c selection, Sports-Auto-Focus rationale, pricing, singlehanding notes |
+| [[binoculars]] | Steiner Navigator 7x50c (recommended) and Bushnell Marine 7x50 (budget alt) — specs, tradeoffs, singlehanding notes |
 
 ---
 
@@ -107,6 +107,8 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-opencpn-mac-satellite]] | QGIS + QuickMapServices MBTiles workflow for OpenCPN satellite overlay on Mac; verified 2026-04-16 |
 | [[src-furler-toggle-options]] | Furler drum toggle/link options research — Schaefer parts (not applicable; SeaNymph is Harken) |
 | [[src-steiner-binoculars]] | Steiner Navigator 7x50c market research — specs, model variants, pricing, warranty, retailers |
+| [[src-bushnell-binoculars]] | Bushnell Marine 7x50 features (waterproof, buoyant, illuminated compass) and Ironclad Warranty details |
+| [[src-radar-reflector-comparison]] | AI comparison of passive/active radar reflectors — tube type added; Viking Tri-Lens named; Echomaster contradiction flagged |
 
 ---
 
@@ -119,4 +121,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-28 (binoculars — Steiner Navigator 7x50c research ingested)*
+*Last updated: 2026-04-29 (radar reflector comparison ingested; binoculars Bushnell research ingested)*

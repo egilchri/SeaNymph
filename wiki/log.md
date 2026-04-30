@@ -8,6 +8,14 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-29] ingest | Radar reflector comparison (AI research)
+
+Ingested AI radar reflector comparison from raw/please make a table of prices and qualities of ra....md. File copied from Downloads to raw/. Created source page: src-radar-reflector-comparison.md. Updated radar.md: added tube/cylinder type (Mobri S-2/Plastimo) to comparison table; added Viking Tri-Lens as named alternative to Firdell Blipper; updated Echomaster pricing to $120–135. Key contradiction flagged: source recommends Echomaster for coastal day sailing — this is incorrect per independent heeling test data already in the wiki; existing guidance stands. No other wiki pages required updating.
+
+## [2026-04-29] ingest | Bushnell Marine 7x50 binoculars — features and warranty
+
+Ingested two AI research files: (1) Bushnell Marine 7x50 specs (waterproof, buoyant, illuminated compass, individual eyepiece focus, ~$305.89) and (2) Bushnell Ironclad Warranty details (20 years post-June-2020, transferable, no receipt; electronics 5 years). Created source page: src-bushnell-binoculars.md. Updated binoculars.md with full Bushnell comparison section and Steiner vs. Bushnell tradeoff table. Updated to-purchase.md (added Bushnell as budget alternative row). Key finding: Bushnell floats (sinks = bad day at $690); tradeoff is no Sports-Auto-Focus equivalent — individual eyepiece focus is a singlehanding liability. Steiner remains recommended for singlehanding; Bushnell is a defensible budget choice.
+
 ## [2026-04-28] ingest | Steiner Navigator 7x50 binoculars purchase research
 
 Ingested AI market research on Steiner Navigator 7x50c (Model 2343). Created source page: src-steiner-binoculars.md. Created topic page: binoculars.md. Updated to-purchase.md (added row under Safety/Navigation). Key findings: 7x50 is the marine standard (7.14mm exit pupil, Sports-Auto-Focus critical for singlehanding); Model 2343 Open-Hinge preferred for one-handed grip; current low price ~$690 on Amazon (Edgar observed 2026-04-28) vs. $783.74 at Landfall Navigation or $799.99 in-stock at West Marine Portsmouth; Steiner Heritage Warranty is lifetime and fully transferable — valid on used purchases.

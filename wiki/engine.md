@@ -1,134 +1,126 @@
 ---
-title: Engine — Yanmar 1GM10 Overview and Maintenance
+title: Engine — Yanmar 1GM Overview and Maintenance
 category: systems
-tags: [engine, Yanmar, 1GM10, raw-water-pump, exhaust, winterizing, maintenance, wiring]
-sources: [src-misc, src-yanmar-1gm10-manual]
+tags: [engine, Yanmar, 1GM, raw-water-pump, exhaust, winterizing, maintenance, wiring]
+sources: [src-misc, src-yanmar-1gm-service-manual]
 updated: 2026-04-30
 ---
 
-# Engine — Yanmar 1GM10 Overview and Maintenance
+# Engine — Yanmar 1GM Overview and Maintenance
 
-SeaNymph's engine is a **Yanmar 1GM10** with KM2P marine gear. Single-cylinder, direct seawater-cooled diesel. It is the standard diesel auxiliary on Cape Dory 25D hulls. Simple and reliable, with specific maintenance requirements and one known critical risk (raw water pump location).
+SeaNymph's engine is a **Yanmar 1GM** with KM2A clutch. Single-cylinder, direct seawater-cooled diesel. Standard on Cape Dory 25D hulls from the early–mid 1980s. Simple, reliable, and light — but with specific maintenance requirements and one known critical risk (raw water pump location).
+
+> **Source:** All specs and maintenance intervals from the official Yanmar 1GM Service Manual. See [[src-yanmar-1gm-service-manual]].
 
 ---
 
 ## Engine Specifications
 
-> **Note:** Values from the official Yanmar 1GM10 Operation Manual (0AGMM-EN0013, 2018). See [[src-yanmar-1gm10-manual]].
-
 | Specification | Value |
 |---|---|
-| Model | Yanmar 1GM10 |
-| Marine gear | KM2P (mechanical cone clutch) |
+| Model | **Yanmar 1GM** |
+| Clutch | KM2A (servo-cone type) |
 | Combustion | Swirl pre-combustion chamber, 4-stroke |
 | Cylinders | 1 |
-| Bore × Stroke | 75 mm × 72 mm |
-| Displacement | **318 cc (0.318 L)** |
-| Continuous output | 5.9 kW (8 hp metric) @ 3,400 rpm |
-| Maximum output | 6.7 kW (9.1 hp metric) @ 3,600 rpm |
-| Cooling | **Direct seawater cooling** (rubber impeller pump) |
-| Starter motor | 12V DC, 1.0 kW |
-| Alternator | 12V, 35A |
-| Engine oil capacity | 1.5 L (1.59 qt) total; 0.8 L effective |
-| Marine gear oil capacity | 0.3 L (0.32 qt) |
+| Bore × Stroke | 72 mm × 72 mm |
+| Displacement | **293 cc (0.293 L)** |
+| Continuous output | **6.5 HP @ 3,400 rpm** |
+| Maximum (1-hr) output | **7.5 HP @ 3,600 rpm** |
+| Fuel injection timing | 15° BTDC ± 1° |
+| Cooling | **Direct seawater** (rubber impeller type S) |
+| Starting | Electric + manual (decompression lever) |
 | Reduction ratio (fwd) | 2.21:1, 2.62:1, or 3.22:1 |
 | Reduction ratio (rev) | 3.06:1 |
-| Engine weight (with gear) | 76 kg (167 lb) |
+| Engine oil capacity (crankcase) | **1.3 L** |
+| Clutch case oil capacity | **0.25 L** |
+| Engine weight (dry with clutch) | 70 kg (154 lb) |
+| Battery requirement | 12V, 70 Ah minimum |
 | Main fuse | 30A |
-
-> **Cooling system note:** The 1GM10 factory spec is **direct seawater cooling** — seawater flows directly through the engine block via the rubber impeller pump. There is no closed freshwater coolant loop on a standard installation. A thermostat regulates flow within the direct seawater circuit. If SeaNymph's engine has a heat exchanger, that would be a non-standard modification — verify on the physical engine.
-
-**Max operating RPM:** 3,400 rpm or less for cruising. Maximum throttle (3,600 rpm) for no more than 5% of operating time (30 minutes per 10 hours). Running at max RPM more than this shortens engine life.
 
 ---
 
 ## Oil Specifications
 
-### Engine Oil
-- **API Service Category:** CC or higher (TBN ≥ 9)
-- **Viscosity:** SAE 10W30 or 15W40 — both are acceptable year-round in normal temperatures
-- **Never use:** API CG-4 or CH-4 oils
-- **Never mix** different oil types or brands
-- **Capacity:** 1.5 L (1.59 qt)
+**Both crankcase and KM2A clutch case use the same oil.** Do not mix brands; fill both from the same supply.
 
-### Marine Gear Oil (KM2P)
-- **API Service Category:** CD or higher
-- **Viscosity:** SAE #20 or #30
-- **Capacity:** 0.3 L (0.32 qt)
+- **API Service Classification:** CB or CC grade
+- **Viscosity by ambient temperature:**
+
+| Temperature | SAE Viscosity |
+|---|---|
+| Below 10°C (50°F) | 10W or 20W/20W |
+| 10–20°C (50–68°F) | 20W or 20 |
+| 20–35°C (68–95°F) | 30 or 40 |
+| Above 35°C (95°F) | 50 |
+
+For Maine coastal use (typical operating temp range 10–25°C), **SAE 20W or 30** is appropriate.
 
 ---
 
 ## Official Maintenance Schedule
 
-Source: Yanmar 1GM10 Operation Manual. *(dealer)* = requires authorized Yanmar Marine dealer.
+### Before Every Start (Daily)
+1. Check engine oil level (dipstick: cylinder block exhaust side)
+2. Check clutch case oil level (dipstick: top of clutch case housing)
+3. Check fuel level
+4. After starting: confirm cooling water flowing from exhaust outlet
+5. Confirm oil pressure warning lamp extinguishes after start
+6. Check exhaust smoke — should clear within moments
+7. Check visually for oil, water, or fuel leaks
 
-### Before Every Start
-- Visual: engine exterior, fuel level, oil level (engine + marine gear), battery charge warning lamp
-- After starting: confirm seawater flowing from exhaust outlet, check for fuel/oil/water leaks, note exhaust color
+### Initial Break-In Period
+- **First oil change:** after ~20 hours of operation
+- **Second oil change:** after ~30 hours of operation
+- After 50 hours: check/adjust V-belt tension, valve clearances, propeller shaft alignment, and tighten cylinder head bolts (M10: 7.5 kg-m)
 
-### After Initial 50 Hours of Operation
-- Drain fuel tank and fuel filter/water separator
-- Change engine oil + replace oil filter element
-- Change marine gear oil
-- Check/adjust alternator V-belt tension
-- Inspect/adjust intake/exhaust valve clearances *(dealer)*
-- Inspect/adjust throttle and shift cables *(dealer)*
-- Adjust propeller shaft alignment *(dealer)*
+### Every 100 Hours
+- **Change engine oil** (crankcase)
+- **Change clutch case oil**
+- Clean fuel filter
 
-### Every 50 Hours
-- Drain fuel filter/water separator
-
-### Every 150 Hours
-- Change engine oil
-- Change marine gear oil
-- Inspect battery electrolyte level (wet batteries only — not AGM)
-
-### Every 250 Hours or 1 Year (whichever first)
-- Drain fuel tank
+### Every 250 Hours
+- **Inspect seawater pump impeller** — check for wear, nicks, cracks
+- Check/adjust V-belt tension (water pump + alternator)
 - Replace fuel filter element
-- Inspect fuel injection nozzle spray pattern *(dealer)*
-- Replace engine oil filter element
-- **Inspect seawater pump impeller**
-- **Inspect zinc anode** — replace if less than 50% of original size
 - Clean intake silencer (air filter)
-- Clean exhaust/water mixing elbow
-- Clean breather pipe
-- Check/adjust alternator V-belt tension
-- Check wiring connectors
-- Inspect/adjust intake/exhaust valve clearances *(dealer)*
-- Inspect/adjust throttle and shift cables *(dealer)*
+- Check/adjust propeller shaft alignment
 
-### Every 1000 Hours or 4 Years (whichever first)
-- Inspect fuel injection timing *(dealer)*
-- **Replace seawater pump impeller** — mandatory even if undamaged
-- Check/adjust alternator V-belt tension
-- Tighten all major nuts and bolts
-- Adjust propeller shaft alignment *(dealer)*
+### Every 300 Hours
+- **Replace oil filter element**
 
-### Key Maintenance Details
-- **Alternator V-belt tension:** Correct deflection = 8–10 mm at midpoint between pulleys. Key off, battery switch off before checking.
-- **Oil filter torque:** Hand-tighten until gasket seats, then 3/4 turn with wrench; 20–24 N·m (14–17 lb-ft)
-- **Zinc anode location:** Inside the anode plug on the engine, labeled "Anticorrosion Zinc." Minimum inspection interval 300 hours; more often in aggressive/corrosive water.
-- **Mixing elbow:** Replace every 500 hours or 2 years, whichever first — even if it looks fine. Scale buildup inside narrows the passage and causes overheating.
+### Every 500 Hours
+- **Replace seawater pump impeller** (mandatory — even if not damaged)
+- **Replace anticorrosion zinc**
+- Check/clean thermostat
+- Check exhaust mixing elbow
+
+### Every 1000 Hours
+- Check/adjust fuel nozzle spray pattern and injection timing *(dealer)*
+- Tighten cylinder head bolts
+
+### Every 4 Years (time-based)
+- **Replace all rubber hoses and V-belts** regardless of condition
+
+### V-Belt Tension Specs
+Apply 10 kg (22 lb) force at midpoint:
+- **Water pump belt:** 5–7 mm deflection
+- **Alternator belt:** 10 mm deflection
 
 ---
 
 ## Raw Water (Seawater) Pump — Critical Failure Risk
 
-The seawater pump circulates cooling water through the engine. Rubber impeller is a consumable.
+The rubber impeller pump circulates seawater directly through the engine for cooling. **Official interval: inspect every 250 hours; replace every 500 hours.**
 
 ### Dangerous Location
 
-On the 1GM10, the seawater pump sits **directly above the ferrous oil pipe.** A failing pump seal drips onto that iron pipe and causes accelerated corrosion. If the pipe rusts through, the result is sudden catastrophic oil loss.
+On the 1GM, the seawater pump sits **directly above the ferrous oil pipe.** A failing pump seal drips onto that iron pipe and causes accelerated corrosion. If the pipe rusts through, the result is sudden catastrophic oil loss.
 
 **How to catch it early:** The pump has a **weep hole** — a small drilled opening. A few drops = normal wear. A steady drip = imminent seal failure. Inspect at every engine check.
 
-### Impeller Replacement
+### Impeller Rotation
 
-- **Official Yanmar interval:** Inspect every 250 hours; **replace every 1000 hours or 4 years**, even if not damaged
-- Practical trigger: replace sooner if flow drops (engine runs warm), broken/missing vane found in housing, or impeller is hard/cracked
-- **Always check the pump housing** when replacing — broken vane pieces can lodge in the cooling passages
-- **Impeller rotates counterclockwise** — install blades curved in the correct direction; reversing damages them
+The impeller rotates **counterclockwise** when viewed from the drive side. Install blades curved in the correct direction — reversing them causes immediate damage.
 
 ### Seal Orientation (Rebuild)
 - **Water seal:** Spring faces the impeller (wet side)
@@ -137,12 +129,7 @@ On the 1GM10, the seawater pump sits **directly above the ferrous oil pipe.** A 
 ### After Any Pump Work
 1. Confirm seacock is open before starting. Running dry for 30 seconds destroys the impeller.
 2. Run engine, check pump body and weep hole for leaks.
-3. After shutdown, check oil — milky oil = water contamination = serious problem requiring immediate diagnosis.
-
-### Parts
-- Impeller kits: Poseidon Marine (~$47), Parts4Engines (~$55)
-- Replacement pump: ~$150–300 depending on source
-- Bearings if rebuilding: specify **KOYO, SKF, or NTN** — avoid generic bearings in a saltwater application
+3. After shutdown, check oil — milky appearance = water contamination = serious problem.
 
 ---
 
@@ -150,84 +137,53 @@ On the 1GM10, the seawater pump sits **directly above the ferrous oil pipe.** A 
 
 ### Wet Exhaust System
 
-The 1GM10 uses a **wet exhaust** — seawater is injected into the exhaust stream at the mixing elbow to cool it before discharge.
+The 1GM uses a **wet exhaust** — seawater is injected into the exhaust stream at the mixing elbow.
 
-**Mixing elbow:** Where hot exhaust gas mixes with cooling water. Inspect annually for internal scale and corrosion. Replace every 500 hours or 2 years regardless of appearance — scale buildup causes overheating by restricting water flow.
+**Mixing elbow:** Inspect every 500 hours for internal scale and corrosion. Scale buildup restricts water flow and causes overheating.
 
-**Vernalift muffler (waterlock):** Black cylinder downstream of the mixing elbow. Functions: (1) muffles exhaust noise, (2) prevents seawater from siphoning back into the engine when stopped. If this fails or is incorrectly oriented, the engine can hydrolock — fill with seawater while at rest.
+**Vernalift muffler (waterlock):** Prevents seawater from siphoning back into the engine when stopped. If it fails or is misoriented, the engine can hydrolock — fill with seawater while at rest.
 
-**Exhaust hose:** Large-diameter rubber hose, mixing elbow → Vernalift → through-hull. Inspect for hardness, cracks, and chafe.
+**Exhaust hose:** Large-diameter rubber hose, mixing elbow → Vernalift → through-hull. **Replace every 4 years** per official schedule regardless of appearance.
+
+### Cooling System Note
+
+The 1GM has **direct seawater cooling** — seawater flows directly through the engine block via the rubber impeller pump. A thermostat regulates flow within the seawater circuit (bypass type — maintains stable operating temperature). There is no separate freshwater/antifreeze circuit on a standard installation.
 
 ### Engine Wiring Harness
 
-The circular connector near the engine is the main interface between engine sensors and the cockpit instrument panel. It carries:
-- Coolant temperature signal
-- Oil pressure warning
-- Tachometer signal
-- Alternator charging output
-- Alarm signals (overheat, low oil pressure)
+The circular connector near the engine connects engine sensors to the cockpit instrument panel:
+- Cooling water temperature (warning lamp)
+- Oil pressure (warning lamp)
+- Tachometer pulse
+- Alternator charge lamp
 
-If cockpit instruments stop responding to engine conditions, check this connector first — it corrodes and loses contact without obvious external damage.
+If cockpit instruments stop responding, check this connector first — corrosion causes loss of contact without obvious external damage.
 
-### Wiring Color Codes
+### Component Locations (Exhaust Side / Bow View)
 
-| Code | Color | Function |
-|---|---|---|
-| R | Red | Positive (+) |
-| B | Black | Negative (−) |
-| W | White | Ignition |
-| L | Blue | Air heater/glow (optional) |
-| RB | Red/Black | Alternator exciter |
-| LB | Blue/Black | Alternator charge alarm |
-| YW | Yellow/White | Engine oil pressure alarm |
-| YB | Yellow/Black | Engine oil pressure sensor |
-| WL | White/Blue | Water temperature alarm |
-| O | Orange | Tachometer pulse |
-
----
-
-## Component Identification (Service Side)
-
-Key labeled components visible from the service side:
-
-| # | Component |
+| Component | Location |
 |---|---|
-| 1 | Nameplate |
-| 2 | Thermostat cover |
-| 3 | Fuel injection pump |
-| 4 | Idle adjuster |
-| 5 | Oil filler cap |
-| 7 | Engine stop lever |
-| 8 | Crankshaft V-pulley |
-| 9 | **Seawater pump** |
-| 10 | Engine oil filter |
-| 11 | Regulator handle |
-| 12 | Fuel feed pump |
-| 13 | **Engine oil dipstick** |
-| 15 | Mixing elbow |
-| 16 | Fuel filter |
+| Dipstick (crankcase) | Cylinder block, exhaust side |
+| Oil filler cap | Top of rocker arm cover |
+| Mixing elbow | Upper exhaust side |
+| Fuel oil filter | Exhaust side |
+| Fuel feed pump | Lower exhaust side |
+| Idle adjuster | Exhaust side |
+| Oil pressure sender | Lower exhaust side |
+| Lubricating oil filter | Lower front |
+| Crankshaft V-pulley | Front (bow side) |
 
-Non-service side adds: decompression lever, fuel injection valve, intake silencer, tachometer sensor, marine gear dipstick, marine gearbox, starter motor, alternator.
+### Component Locations (Intake Side / Stern View)
 
----
-
-## Troubleshooting Quick Reference
-
-| Symptom | Most Likely Cause | First Action |
-|---|---|---|
-| Oil pressure alarm | Low oil | Check dipstick; add oil |
-| Oil pressure alarm | Clogged oil filter | Replace filter + change oil |
-| High temp alarm | Seawater not flowing | Stop engine; check seacock, impeller |
-| Battery charge warning | Loose/broken V-belt | Check belt; adjust tension |
-| Starter turns, won't start | Empty fuel, closed fuel cock | Add fuel, open cock, bleed air |
-| Starter turns, won't start | Clogged fuel filter | Replace filter element |
-| Starter slow/won't turn | Not in neutral | Shift to neutral |
-| Starter slow/won't turn | Weak battery or corroded terminal | Charge battery; clean terminals |
-| Black exhaust smoke | Overloaded or dirty air filter | Reduce throttle; clean air filter |
-| White exhaust smoke | Timing off or oil burning | Dealer |
-| Engine won't turn manually | Internal seizure | Dealer — do not attempt to force |
-
-**After any alarm:** Reduce to low speed immediately. Stop the engine. Identify cause before restarting.
+| Component | Location |
+|---|---|
+| Decompression lever | Top, intake side |
+| Fuel injection valve | Top |
+| Intake silencer | Intake side |
+| Tachometer sender | Clutch side |
+| Clutch dipstick | Top of clutch case |
+| Starter motor | Intake/lower side |
+| Output shaft coupling | Clutch end |
 
 ---
 
@@ -253,4 +209,4 @@ Do not use ordinary vinyl tape alone at the mast base — it unravels and admits
 - [[electrical-system]]
 - [[seacocks]]
 - [[batteries]]
-- [[src-yanmar-1gm10-manual]]
+- [[src-yanmar-1gm-service-manual]]

@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-30] ingest | Yanmar 1GM Service Manual (SM/1GM·2GM·3GM(D)·3HM)
+
+Ingested official Yanmar 1GM service manual (483 pages; read ~40 targeted pages). This is the correct manual for SeaNymph's engine. Created source page: src-yanmar-1gm-service-manual.md. Full rewrite of engine.md with authoritative 1GM data. Key facts: displacement 293cc, 6.5 HP continuous @ 3400rpm, oil 1.3L crankcase + 0.25L clutch (same oil, CB/CC grade), oil change every 100 hours, oil filter every 300 hours, impeller inspect every 250/replace every 500 hours, zinc every 500 hours, rubber hoses replace every 4 years. V-belt tension: 5-7mm (water pump) and 10mm (alternator) with 10kg force. KM2A clutch uses same oil as crankcase (not separate gear oil). All significantly different from prior AI-sourced data.
+
 ## [2026-04-30] ingest | Yanmar 1GM10 Operation Manual (0AGMM-EN0013, 2018)
 
 Ingested official Yanmar 1GM10 operation manual (94 pages; read ~50 targeted pages using pdftoppm rendering). Created source page: src-yanmar-1gm10-manual.md. Major rewrite of engine.md. Key corrections to prior wiki content: (1) displacement was 232cc — correct is 318cc; (2) cooling system was "freshwater closed loop" — correct factory spec is direct seawater cooling; (3) oil spec was "API CD, 15W40 only" — correct is API CC or higher, 10W30 or 15W40 both acceptable; (4) oil capacity was ~1.3L — correct is 1.5L; (5) output was "9HP @ 3200rpm" — correct is 8hp continuous @ 3400rpm, 9.1hp max @ 3600rpm; (6) maintenance intervals corrected throughout (oil every 150hrs; impeller inspect 250hrs / replace 1000hrs or 4 years). Added: full official maintenance schedule, wiring color codes, component identification table, troubleshooting quick reference, mixing elbow replacement interval (500hrs/2yr), zinc anode guidance.

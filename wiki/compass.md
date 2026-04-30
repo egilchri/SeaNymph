@@ -127,7 +127,7 @@ The 9° maximum is significant in fog — a course planned on the chart can be o
 Understanding why the deviation pattern exists helps when adding new equipment or considering a replacement compass.
 
 - **Encapsulated lead ballast:** Does NOT contribute to the boat's magnetic signature — a good baseline.
-- **Yanmar 1GM10 diesel:** A large ferrous mass close to the cockpit bulkhead where the compass mounts. This is the primary source of deviation on most headings.
+- **Yanmar 1GM diesel:** A large ferrous mass close to the cockpit bulkhead where the compass mounts. This is the primary source of deviation on most headings.
 - **Bronze portlights, stainless chainplates:** Small contributors; must be in permanent position during any compass swing.
 - **Electronics (VHF, chartplotter, 12V wiring):** All introduce electromagnetic interference. Even 1° of error puts you 90 feet off track per nautical mile — consequential on a rock-strewn coast. Twist paired wiring near the compass to cancel the electromagnetic fields.
 - **Helmsman position:** Tiller steering means the helmsman often sits on the coaming rather than directly behind the compass. Any replacement compass should be readable from an angle.

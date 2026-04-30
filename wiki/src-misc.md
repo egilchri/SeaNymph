@@ -76,7 +76,7 @@ The most actionable cluster: the insurance file documents concrete policy change
 - RAM Mounts (lifetime warranty) vs Scanstrut ROKK Mini (mechanical locking)
 
 **Engine — Raw Water Pump:**
-- Yanmar 1GM10 raw water pump: part 128170-42200
+- Yanmar 1GM raw water pump: part 128170-42200
 - Pump positioned above ferrous oil pipe — weep hole drip → pipe rust → catastrophic oil loss
 - Water seal: spring faces impeller; oil seal: spring faces bearings
 - Quality impeller kit sources: Poseidon Marine (~$47), Parts4Engines (~$55)

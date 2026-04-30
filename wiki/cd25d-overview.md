@@ -49,7 +49,7 @@ The "D" designation distinguishes the diesel-auxiliary variant from earlier outb
 
 | System | Value | Notes |
 |---|---|---|
-| Engine | Yanmar 1GM / 1GM10 | 8–9 HP, single cylinder |
+| Engine | Yanmar 1GM | 6.5 HP cont. / 7.5 HP max, single cylinder |
 | Fuel capacity | 13 gallons | Aluminum or poly tank, typically aft |
 | Water capacity | 20 gallons | Poly tank under V-berth |
 | Holding tank | ~10–15 gallons | Bow or under settees |

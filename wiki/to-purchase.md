@@ -65,8 +65,8 @@ Gear, parts, and supplies to acquire for SeaNymph. Ordered roughly by priority w
 
 | Budget | Item                                     | Reason                                                                             | Est. Cost | Priority | Vendor / Notes                                                                  |
 | ------ | ---------------------------------------- | ---------------------------------------------------------------------------------- | --------- | -------- | ------------------------------------------------------------------------------- |
-| - [ ]  | Yanmar 1GM10 raw water pump — DIY        | Buy part, self-install; see seal orientation and post-rebuild checks in [[engine]] | $270–380  | High     | PumpAgents $268.82 (aftermarket); Parts4Engines $446 (OEM, sold out 2026-04)    |
-| - [ x] | Yanmar 1GM10 raw water pump — contractor | Mid-Coast Marine installs; pump + ~2 hrs labor                                     | ~$500–600 | High     | Mid-Coast Marine Services; quoted $381 for pump + couple hours labor (Feb 2026) |
+| - [ ]  | Yanmar 1GM raw water pump — DIY        | Buy part, self-install; see seal orientation and post-rebuild checks in [[engine]] | $270–380  | High     | PumpAgents $268.82 (aftermarket); Parts4Engines $446 (OEM, sold out 2026-04)    |
+| - [ x] | Yanmar 1GM raw water pump — contractor | Mid-Coast Marine installs; pump + ~2 hrs labor                                     | ~$500–600 | High     | Mid-Coast Marine Services; quoted $381 for pump + couple hours labor (Feb 2026) |
 
 ---
 

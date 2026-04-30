@@ -27,7 +27,7 @@ Gemini AI-generated spec sheet for the Cape Dory 25D covering hull dimensions, r
 - Total sail area (100%): 304 sq ft
 
 **Mechanical & Tankage:**
-- Engine: Yanmar 1GM / 1GM10 (8–9 HP, single cylinder)
+- Engine: Yanmar 1GM (8–9 HP, single cylinder)
 - Fuel: 13 gallons (aluminum or poly tank, typically aft)
 - Water: 20 gallons (poly tank under V-berth)
 - Holding tank: ~10–15 gallons (bow or under settees)
@@ -43,7 +43,7 @@ Gemini AI-generated spec sheet for the Cape Dory 25D covering hull dimensions, r
 
 - Source states production years 1981–1985 for the 25D specifically; wiki previously said ~1975–1988 (likely including the non-diesel CD25). The 25D may have had a narrower production window. Flagged as uncertain — verify.
 - Displacement 5,120 lbs and ballast 2,050 lbs are plausible for a heavy-displacement full-keel 25-footer. Ballast/displacement of 40% is high and consistent with the boat's reputation for stiffness.
-- Fuel capacity of 13 gallons is modest but consistent with the Yanmar 1GM10's low consumption (~0.4–0.5 gph at cruise). Range under power approximately 100+ nm.
+- Fuel capacity of 13 gallons is modest but consistent with the Yanmar 1GM's low consumption (~0.4–0.5 gph at cruise). Range under power approximately 100+ nm.
 
 ## Pages Updated
 

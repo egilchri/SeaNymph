@@ -26,7 +26,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[dinghy]] | Zodiac tender, gas vs. electric outboard (Temo 450), towing procedure behind CD25D |
 | [[ais]] | AIS receiver vs. transponder, recommended receivers, AIS-Catcher SDR option, integration |
 | [[radar]] | Marine radar selection (Quantum Q24C), radar reflector (Echomax EM230), CD25D mounting |
-| [[engine]] | Yanmar 1GM10: raw water pump risk, exhaust system, wiring harness, maintenance schedule |
+| [[engine]] | Yanmar 1GM: raw water pump risk, exhaust system, wiring harness, maintenance schedule |
 | [[furler]] | Harken furler: Unit 0 vs Unit 1 identification, link plate parts (7311.21 1/2 and 7410.20 series) |
 | [[tablet-mount]] | Cockpit tablet mount: CD25D constraints, RAM arm on starboard bulkhead, King Starboard backing |
 
@@ -39,7 +39,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[seacock-backing-plates]] | Backing plate materials (G10 vs. plywood vs. StarBoard), installation procedure, costs |
 | [[seacock-removal-techniques]] | Three-tier removal strategy: conventional, alternative tools, destructive (angle grinder) |
 | [[tiller-pilot-waterproofing]] | ST2000 failure modes (water ingress, broken belt), DIY protection, covers, storage |
-| [[winterizing]] | Yanmar 1GM10 winterization: oil, antifreeze cooling flush, fogging, fuel treatment, battery removal |
+| [[winterizing]] | Yanmar 1GM winterization: oil, antifreeze cooling flush, fogging, fuel treatment, battery removal |
 | [[winter-cover]] | Mast-up boom-tent cover: materials (Top Gun), framework, ventilation, chafe, wind securement |
 | [[canvas-work]] | Marine canvas hardware: spur grommets (gold standard), tooling, suppliers, webbing loops, binding tape |
 | [[fiberglass-safety]] | Epoxy sensitization (permanent/irreversible), OV/P100 cartridge, nitrile gloves, D3/D4 goggles |
@@ -111,7 +111,8 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-radar-reflector-comparison]] | AI comparison of passive/active radar reflectors — tube type added; Viking Tri-Lens named; Echomaster contradiction flagged |
 | [[src-cd25d-brochure]] | Original Cape Dory 25D factory brochure — sail plan, deck plan, specs; visually confirms transom stern |
 | [[src-cd25d-gemini-specs]] | Gemini AI spec sheet — hull, rig (I/J/P/E), tankage, performance ratios; AI-generated, treat as approximate |
-| [[src-yanmar-1gm10-manual]] | Official Yanmar 1GM10 operation manual — specs, oil, full maintenance schedule, troubleshooting, wiring colors |
+| [[src-yanmar-1gm10-manual]] | Yanmar 1GM10 operation manual — for reference only; SeaNymph has a 1GM (different engine) |
+| [[src-yanmar-1gm-service-manual]] | Official Yanmar 1GM service manual — correct source for SeaNymph; specs, oil, maintenance schedule, V-belt specs |
 
 ---
 
@@ -124,4 +125,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-30 (Yanmar 1GM10 operation manual ingested — major engine.md corrections and expansion)*
+*Last updated: 2026-04-30 (Yanmar 1GM service manual ingested — authoritative source for SeaNymph's engine)*

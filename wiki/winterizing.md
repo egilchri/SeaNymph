@@ -22,7 +22,7 @@ Winterize after the last sail of the season, before hard frost threatens. In Pen
 
 ---
 
-## Yanmar 1GM10 Engine Winterization
+## Yanmar 1GM Engine Winterization
 
 ### Oil Change
 

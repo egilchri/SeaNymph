@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-04-29] ingest | Cape Dory 25D factory brochure (BBDC23790_04_grande.jpeg)
+
+Ingested original Cape Dory Yachts factory brochure. Created source page: src-cd25d-brochure.md. Copied image to wiki/assets/cd25d-brochure.jpeg (committed to git). Updated cd25d-overview.md: added "Sail Plan and Deck Plan" section embedding the brochure image. Key finding: sail plan visually confirms conventional transom stern — corroborates the correction made earlier today. Spec values in brochure partially difficult to read from image; approximate values already in wiki are consistent.
+
 ## [2026-04-29] ingest | Radar reflector comparison (AI research)
 
 Ingested AI radar reflector comparison from raw/please make a table of prices and qualities of ra....md. File copied from Downloads to raw/. Created source page: src-radar-reflector-comparison.md. Updated radar.md: added tube/cylinder type (Mobri S-2/Plastimo) to comparison table; added Viking Tri-Lens as named alternative to Firdell Blipper; updated Echomaster pricing to $120–135. Key contradiction flagged: source recommends Echomaster for coastal day sailing — this is incorrect per independent heeling test data already in the wiki; existing guidance stands. No other wiki pages required updating.

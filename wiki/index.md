@@ -8,7 +8,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 | Page | Summary |
 |---|---|
-| [[cd25d-overview]] | Cape Dory 25D specs, design history, hull characteristics, and known quirks |
+| [[cd25d-overview]] | Cape Dory 25D specs, design history, hull characteristics, known quirks; factory sail plan and deck plan |
 
 ---
 
@@ -109,6 +109,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-steiner-binoculars]] | Steiner Navigator 7x50c market research — specs, model variants, pricing, warranty, retailers |
 | [[src-bushnell-binoculars]] | Bushnell Marine 7x50 features (waterproof, buoyant, illuminated compass) and Ironclad Warranty details |
 | [[src-radar-reflector-comparison]] | AI comparison of passive/active radar reflectors — tube type added; Viking Tri-Lens named; Echomaster contradiction flagged |
+| [[src-cd25d-brochure]] | Original Cape Dory 25D factory brochure — sail plan, deck plan, specs; visually confirms transom stern |
 
 ---
 

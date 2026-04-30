@@ -2,8 +2,8 @@
 title: Cape Dory 25D — Overview
 category: boat
 tags: [cape-dory, cd25d, hull, specs, alberg, diesel]
-sources: []
-updated: 2026-04-13
+sources: [src-cd25d-brochure]
+updated: 2026-04-29
 ---
 
 # Cape Dory 25D — Overview
@@ -23,6 +23,12 @@ The Cape Dory 25D is a 25-foot fiberglass sloop designed by Carl Alberg and buil
 - **Draft:** ~3.5 ft (full keel)
 
 The "D" designation distinguishes the diesel-auxiliary variant from earlier outboard versions.
+
+## Sail Plan and Deck Plan
+
+From the original Cape Dory Yachts factory brochure (see [[src-cd25d-brochure]]):
+
+![[assets/cd25d-brochure.jpeg]]
 
 Ted rules the waves again.
 

@@ -98,7 +98,7 @@ A tiller pilot and a wind vane are **complementary, not competing** tools:
 - Tiller pilot: steers to a compass course. Good motoring; good when wind is shifting; good short passages.
 - Wind vane: steers to apparent wind angle. Free (no power). Better for long offshore passages in steady conditions.
 
-Many singlehanders use the tiller pilot near shore and in light/shifting wind; the wind vane for offshore work. The CD25D's full-keel canoe stern is well-matched to a wind vane for offshore passage-making. Planning both is reasonable.
+Many singlehanders use the tiller pilot near shore and in light/shifting wind; the wind vane for offshore work. The CD25D's full keel is well-matched to a wind vane for offshore passage-making. Planning both is reasonable.
 
 ## GPS / Chartplotter Integration
 

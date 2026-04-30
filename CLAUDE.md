@@ -164,9 +164,12 @@ When Edgar asks for a wiki health check:
 ## The Boat
 
 **Vessel:** Cape Dory 25D  
+**Hull number:** 0054  
+**Year:** 1982  
 **Owner:** Edgar Gilchrist  
+**Engine:** Yanmar 1GM  
+**Home port:** Rockland, Maine  
+**Sailing area:** Penobscot Bay, Maine  
 **Use case:** Singlehanded daysailing and coastal cruising
 
 The Cape Dory 25D is a 25-foot fiberglass sloop designed by Carl Alberg, built by Cape Dory Yachts. Known for its full-keel, transom-stern hull, heavy displacement, and sea-kindly motion. The "D" designation indicates diesel auxiliary. A conservative, traditional design well-suited to coastal singlehanding due to its forgiving motion and simple systems.
-
-*This section should be updated as we learn more specific details about Edgar's boat — hull number, year, engine, current equipment, etc.*

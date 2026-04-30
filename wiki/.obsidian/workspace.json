@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to-purchase.md",
+                "file": "cd25d-overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to-purchase"
+              "title": "cd25d-overview"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "foresta",
+                "query": "opencpn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,9 +208,21 @@
   },
   "active": "4f5c0642c2edd5b5",
   "lastOpenFiles": [
+    "index.md",
+    "cd25d-overview.md",
+    "src-yanmar-1gm-service-manual.md",
+    "src-yanmar-1gm10-manual.md",
+    "src-cd25d-gemini-specs.md",
+    "Untitled.base",
+    "src-cd25d-brochure.md",
+    "Untitled 1.canvas",
+    "assets/cd25d-brochure.jpeg",
+    "to-purchase.md",
+    "src-radar-reflector-comparison.md",
+    "binoculars.md",
+    "src-bushnell-binoculars.md",
     "src-furler-toggle-options.md",
     "assets/link-tang.jpg.md",
-    "to-purchase.md",
     "assets",
     "src-opencpn-mac-satellite.md",
     "penobscot-bay.md",
@@ -227,17 +239,8 @@
     "src-maine-anchoring-advice.md",
     "src-mooring-advice.md",
     "moorings.md",
-    "Sea Nymph Deviation table.md",
-    "src-compass-deviation.md",
-    "compass.md",
-    "src-cca-intro-maine.md",
-    "index.md",
-    "cd25d-overview.md",
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference 1.pdf",
-    "Sea Nymph's Compass Deviation.md",
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference.pdf",
-    "insurance.md",
-    "tiller-pilot-waterproofing.md",
     "Untitled.canvas"
   ]
 }

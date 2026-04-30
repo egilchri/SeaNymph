@@ -67,8 +67,8 @@ Ted rules the waves again.
 
 > **Note:** The fields below should be filled in as Edgar provides details about his specific hull.
 
-- **Hull number:** unknown
-- **Year:** unknown
+- **Hull number:** 0054
+- **Year:** 1982
 - **Engine:** Yanmar 1GM (confirmed from winterizing research)
 - **Home port:** Rockland, Maine
 - **Sailing area:** Penobscot Bay, Maine

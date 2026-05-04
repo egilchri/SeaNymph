@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-05-04] query | Where to get advice on Zodiac inflatable repair
+
+Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-water leak finding, valve leak (most common), PVC patch procedure (MEK prep, rounded patch, 24hr cure, cold-weather caveat), and resources (Zodiac factory kits, West Marine Rockland, Cruisers Forum, YouTube).
+
 ## [2026-05-04] ingest | Yamaha F2.5 outboard specs (raw/yamaha_outboard.md)
 
 AI research report with owner annotation confirming short shaft model (F2.5SMHB). Created src-yamaha-f25.md. Updated dinghy.md: replaced generic "2.5 HP gas outboard" description with confirmed model, full spec table, pre-storage carb-dry procedure, and storage orientation note.

@@ -3,7 +3,7 @@ title: Dinghy — Zodiac, Outboard Motor, and Towing
 category: systems
 tags: [dinghy, tender, outboard, Temo, electric, towing, singlehanding, Penobscot Bay]
 sources: [src-dinghy, src-zodiac-photo, src-zodiac-specs, src-yamaha-f25]
-updated: 2026-05-04
+updated: 2026-05-04 (inflatable repair section added)
 ---
 
 # Dinghy — Zodiac, Outboard Motor, and Towing
@@ -195,6 +195,68 @@ For short harbor moves (e.g., sailing to the boatyard), the Zodiac can be towed 
 - [ ] Tow length: 3–5 feet from transom (line taut, out of water)
 - [ ] Speed: 2–3 knots maximum
 - [ ] Dinghy brought alongside for final approach and docking
+
+---
+
+## Inflatable Repair
+
+### Material Identification
+
+**Do not assume — test first.** PVC and Hypalon (CSM) require completely different adhesives; using the wrong one will fail.
+
+- **Older Zodiacs lean Hypalon** — Hypalon was Zodiac's traditional premium material. The shift to PVC in consumer inflatables happened through the 1990s–2000s. An older Cadet 240 may well be Hypalon.
+- **MEK test**: Apply a small amount of MEK (methyl ethyl ketone) solvent to a hidden area. PVC softens and gets tacky; Hypalon is unaffected.
+- **Alternatively**: Contact Zodiac with the hull serial number and they can confirm the material.
+
+Once confirmed, buy adhesive matched to the material.
+
+### Types of Leaks
+
+Two distinct problems require different diagnosis:
+
+**Air leak** — a tube or air deck chamber loses inflation pressure. Find with soapy water: inflate fully, brush soapy water over all surfaces and valve bases, watch for bubbles. Check valves first (most common cause) — tighten the valve core or replace it before assuming the fabric is punctured.
+
+**Water leak** — water comes up through the floor into the boat while floating. This is a seam failure, fabric porosity, or a crack/hole in the floor that lets water in from below. The soapy bubble test won't find this. Diagnosis:
+1. Place the inflated dinghy in water and watch for where water pools inside
+2. Alternatively, set the dinghy on a flat surface, pour a small amount of water inside, and watch for where it drains through
+3. Inspect floor seams closely — seam delamination is the most common cause on older PVC boats
+
+### Repairing a Water Leak in the Floor
+
+Seam failures and floor fabric leaks are more involved than tube punctures. Options in order of severity:
+
+- **Seam sealing**: If a seam is separating, clean the area with MEK, re-apply PVC adhesive, and clamp or weight flat during cure. A bead of Aquaseal or similar flexible urethane sealant over the seam provides additional waterproofing.
+- **Patch over the damage**: Same PVC patch procedure as for air leaks (see below), but applied to the wet-side surface. Ensure the area is fully dry before patching — moisture under a PVC patch prevents adhesion.
+- **Professional repair**: If the floor fabric is broadly porous (age/UV degradation), patching individual spots won't fix it. At that point the floor may need replacement. Zodiac dealers and inflatable specialists can assess this.
+
+> **Note:** Seam failures on older PVC boats are often a sign of general adhesive degradation from UV and age. One failing seam may mean others are close behind — inspect all seams while you have the boat out.
+
+### Repairing a Tube or Air Deck Puncture (Air Leak)
+
+**Materials needed (matched to your material — confirm first):**
+- Patch fabric matched to boat material (Zodiac factory kits are the safest choice; West Marine carries PVC options including Tear-Aid Type B)
+- Adhesive matched to material: PVC adhesive for PVC boats; Hypalon/CSM adhesive (e.g. Clifton Hypalon adhesive) for Hypalon boats
+- MEK or acetone for surface prep
+- Sandpaper (120 grit) to roughen both surfaces
+
+**Procedure:**
+1. Deflate the affected chamber fully
+2. Clean the damaged area and the patch with MEK or acetone; allow to dry completely
+3. Lightly sand both surfaces (patch and boat) to improve adhesion
+4. Cut the patch with rounded corners — at least 1" overlap on all sides of the damage
+5. Apply adhesive to both surfaces per kit instructions; allow to tack
+6. Press patch firmly, working from center outward to eliminate air bubbles
+7. Allow to cure fully (typically 24 hours) before inflating
+8. Test with soapy water before use
+
+> **Note:** Cold temperatures slow or prevent cure. Repair in a warm (60°F+) environment. Maine boatyard season repairs should be done indoors.
+
+### Resources
+
+- **Zodiac** — zodiacmarine.com; factory patch kits matched to Cadet PVC
+- **West Marine, Rockland** — carries repair kits; staff can advise on material ID
+- **Cruisers Forum** — cruisersforum.com; search "inflatable floor repair PVC" for real-world threads
+- YouTube: search "inflatable dinghy air deck repair PVC" for step-by-step video guides
 
 ---
 

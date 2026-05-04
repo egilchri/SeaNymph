@@ -2,8 +2,8 @@
 title: Dinghy — Zodiac, Outboard Motor, and Towing
 category: systems
 tags: [dinghy, tender, outboard, Temo, electric, towing, singlehanding, Penobscot Bay]
-sources: [src-dinghy]
-updated: 2026-04-13
+sources: [src-dinghy, src-zodiac-photo, src-zodiac-specs, src-yamaha-f25]
+updated: 2026-05-04
 ---
 
 # Dinghy — Zodiac, Outboard Motor, and Towing
@@ -14,30 +14,42 @@ The dinghy is SeaNymph's tender: an ~8-foot Zodiac inflatable with a 2.5 HP gas 
 
 ## The Dinghy
 
-An ~8-foot Zodiac inflatable. Key characteristics:
-- Soft inflatable floor (not rigid/high-pressure air deck) — will not plane reliably, displacement speeds only (3–5 knots)
+A **Zodiac Cadet 240** inflatable. White/light-gray tubes, gray hard transom, yellow/blue Zodiac square badge on transom. See raw/zodiac.jpg for a current photo.
+
+Key characteristics:
+- **Floor: inflatable air deck** — high-pressure inflatable floor, not a soft bare floor and not rigid slatted boards. Provides a firm standing surface when properly inflated. Cannot plane reliably; displacement speeds only (3–5 knots). Inspect for leaks and valve condition seasonally.
 - Three bow attachment points: D-ring port, D-ring starboard, center bow handle
+- Rope grab handles run along the tube perimeter
 - Two stern attachment points on transom for motor mount
-- Max rated power: 6–8 HP (Zodiac Cadet class); practical recommendation is 2.5–4 HP for this size
+- Manual inflation via foot/bellows pump (stored inside boat)
+- **Max rated power: 4 HP / 3 kW** (from transom plate); max engine weight: 27 kg / 60 lbs
+- **Max capacity:** 3 persons; max load: ~270 kg / 595 lbs (combined persons + gear)
 
 ---
 
 ## Outboard Motor — Current and Options
 
-### Current Setup: 2.5 HP Gas Outboard
+### Current Setup: Yamaha F2.5SMHB
 
-The boat currently has a 2.5 HP 4-stroke outboard. This is appropriate for the 8-foot Zodiac for harbor-to-shore trips at displacement speeds. For reference, a 3.5 HP motor provides noticeably more headway against current without significant weight penalty (Mercury 3.5 and Tohatsu 3.5 share an engine block and weigh the same ~41 lbs as their 2.5 HP siblings).
+**Model: Yamaha F2.5SMHB** — 2.5 HP 4-stroke, 15-inch short shaft. Within the Zodiac Cadet 240's 4 HP plate limit.
 
-**Major 2.5–3.5 HP gas 4-stroke options (2025 prices):**
+| Specification | Value |
+|---|---|
+| Engine | 72cc single-cylinder 4-stroke OHV, TCI ignition |
+| Output | 2.5 HP @ 5500 RPM |
+| Weight | ~37–40 lbs |
+| Shaft | 15" short (SMHB) |
+| Fuel | Internal tank, 87 octane, ~0.35 L |
+| Cooling | Water-cooled, thermostat |
+| Start | Manual recoil + choke |
+| Shifting | Forward/Neutral; 360° steering provides reverse thrust (no reverse gear) |
+| Storage | Can be stored on its side, tiller-side down (oil-retention system) |
+| Oil check | Sight glass |
+| Warranty | 3-year limited |
 
-| Model | HP | Price | Weight | Notes |
-|---|---|---|---|---|
-| Suzuki DF2.5 | 2.5 | $1,120–1,150 | **30 lbs** | Lightest in class; no reverse |
-| Mercury 2.5 MH | 2.5 | $900–965 | 38–41 lbs | Most affordable; no reverse |
-| Yamaha F2.5 | 2.5 | $1,000–1,175 | 37 lbs | 3-way storage positions |
-| Tohatsu MFS2.5 | 2.5 | $1,023–1,089 | 41 lbs | Same block as Mercury 3.5 |
-| Mercury 3.5 MH | 3.5 | $1,100–1,150 | 41 lbs | Shared block with Tohatsu 3.5 |
-| Tohatsu MFS3.5 | 3.5 | $1,068–1,240 | 41 lbs | F-N-R gearing; recommended step-up |
+**Pre-storage:** Run carb dry using the fuel shutoff valve before any extended storage or winterizing.
+
+For reference, a 3.5 HP motor provides noticeably more headway against current without significant weight penalty — but would exceed the Zodiac Cadet 240's 4 HP plate rating.
 
 **Avoid:** Hangkai, Yadao, and other cheap off-brand motors. Mixed reliability in freshwater, poor track record in saltwater. No dealer support for Rockland-area service.
 

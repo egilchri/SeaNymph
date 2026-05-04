@@ -8,6 +8,18 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-05-04] ingest | Yamaha F2.5 outboard specs (raw/yamaha_outboard.md)
+
+AI research report with owner annotation confirming short shaft model (F2.5SMHB). Created src-yamaha-f25.md. Updated dinghy.md: replaced generic "2.5 HP gas outboard" description with confirmed model, full spec table, pre-storage carb-dry procedure, and storage orientation note.
+
+## [2026-05-04] ingest | Zodiac Cadet 240 specs (raw/zodiac.md)
+
+AI analysis of the dinghy photo reading the transom data plate. Created src-zodiac-specs.md. Updated dinghy.md: model confirmed as Zodiac Cadet 240; max engine corrected from 6–8 HP to 4 HP (plate-rated); added max load (270 kg / 595 lbs) and capacity (3 persons). AI report incorrectly identified floor as slatted — retained inflatable air deck per owner correction.
+
+## [2026-05-04] ingest | Zodiac dinghy photo (raw/zodiac.jpg)
+
+Photo of SeaNymph's Zodiac tender stored ashore. Created src-zodiac-photo.md. Updated dinghy.md: added physical description (white/gray tubes, gray hard transom), clarified floor type (slatted boards over soft base, not bare soft floor), added foot pump and grab handle details. Key correction: prior page implied purely soft floor; photo confirms slatted board floor requiring seasonal inspection.
+
 ## [2026-04-30] ingest | Yanmar 1GM Service Manual (SM/1GM·2GM·3GM(D)·3HM)
 
 Ingested official Yanmar 1GM service manual (483 pages; read ~40 targeted pages). This is the correct manual for SeaNymph's engine. Created source page: src-yanmar-1gm-service-manual.md. Full rewrite of engine.md with authoritative 1GM data. Key facts: displacement 293cc, 6.5 HP continuous @ 3400rpm, oil 1.3L crankcase + 0.25L clutch (same oil, CB/CC grade), oil change every 100 hours, oil filter every 300 hours, impeller inspect every 250/replace every 500 hours, zinc every 500 hours, rubber hoses replace every 4 years. V-belt tension: 5-7mm (water pump) and 10mm (alternator) with 10kg force. KM2A clutch uses same oil as crankcase (not separate gear oil). All significantly different from prior AI-sourced data.

@@ -113,6 +113,9 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-cd25d-gemini-specs]] | Gemini AI spec sheet — hull, rig (I/J/P/E), tankage, performance ratios; AI-generated, treat as approximate |
 | [[src-yanmar-1gm10-manual]] | Yanmar 1GM10 operation manual — for reference only; SeaNymph has a 1GM (different engine) |
 | [[src-yanmar-1gm-service-manual]] | Official Yanmar 1GM service manual — correct source for SeaNymph; specs, oil, maintenance schedule, V-belt specs |
+| [[src-zodiac-photo]] | Photo of SeaNymph's Zodiac tender stored ashore — confirms physical description, inflatable floor, foot pump |
+| [[src-zodiac-specs]] | Zodiac Cadet 240 model ID and transom plate specs — 4 HP max, 270 kg max load, 3 persons |
+| [[src-yamaha-f25]] | Yamaha F2.5SMHB (short shaft) dinghy outboard — 72cc 4-stroke, specs, storage and maintenance notes |
 
 ---
 
@@ -125,4 +128,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-04-30 (Yanmar 1GM service manual ingested — authoritative source for SeaNymph's engine)*
+*Last updated: 2026-05-04 (Zodiac Cadet 240 specs ingested — model confirmed, 4 HP max corrected from prior 6–8 HP estimate)*

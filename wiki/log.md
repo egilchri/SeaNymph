@@ -12,6 +12,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-water leak finding, valve leak (most common), PVC patch procedure (MEK prep, rounded patch, 24hr cure, cold-weather caveat), and resources (Zodiac factory kits, West Marine Rockland, Cruisers Forum, YouTube).
 
+## [2026-05-04] ingest | Zodiac CFR 240 HIN decode and material ID (raw/zodiac1.md)
+
+AI HIN decode confirmed model (Zodiac CFR 240, not just Cadet 240), year (January 1999), and material (PVC — thermo-welded Strongan Duotex). Created src-zodiac-material.md. Updated dinghy.md: corrected model name, added HIN and year, simplified material ID section to state PVC confirmed, added sandpaper test, added UV protection guidance (303 Aerospace Protectant). Simplified repair materials section — Hypalon options removed now that PVC is confirmed.
+
 ## [2026-05-04] ingest | Yamaha F2.5 outboard specs (raw/yamaha_outboard.md)
 
 AI research report with owner annotation confirming short shaft model (F2.5SMHB). Created src-yamaha-f25.md. Updated dinghy.md: replaced generic "2.5 HP gas outboard" description with confirmed model, full spec table, pre-storage carb-dry procedure, and storage orientation note.

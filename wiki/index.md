@@ -116,6 +116,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-zodiac-photo]] | Photo of SeaNymph's Zodiac tender stored ashore — confirms physical description, inflatable floor, foot pump |
 | [[src-zodiac-specs]] | Zodiac Cadet 240 model ID and transom plate specs — 4 HP max, 270 kg max load, 3 persons |
 | [[src-yamaha-f25]] | Yamaha F2.5SMHB (short shaft) dinghy outboard — 72cc 4-stroke, specs, storage and maintenance notes |
+| [[src-zodiac-material]] | Zodiac CFR 240 HIN decode — PVC confirmed, year 1999, sandpaper/MEK tests, UV degradation guidance |
 
 ---
 
@@ -128,4 +129,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-04 (Zodiac Cadet 240 specs ingested — model confirmed, 4 HP max corrected from prior 6–8 HP estimate)*
+*Last updated: 2026-05-04 (Zodiac CFR 240 HIN decoded — PVC confirmed, year 1999, UV protection guidance added)*

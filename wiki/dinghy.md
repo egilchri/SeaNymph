@@ -2,8 +2,8 @@
 title: Dinghy — Zodiac, Outboard Motor, and Towing
 category: systems
 tags: [dinghy, tender, outboard, Temo, electric, towing, singlehanding, Penobscot Bay]
-sources: [src-dinghy, src-zodiac-photo, src-zodiac-specs, src-yamaha-f25]
-updated: 2026-05-04 (inflatable repair section added)
+sources: [src-dinghy, src-zodiac-photo, src-zodiac-specs, src-yamaha-f25, src-zodiac-material]
+updated: 2026-05-04
 ---
 
 # Dinghy — Zodiac, Outboard Motor, and Towing
@@ -14,7 +14,10 @@ The dinghy is SeaNymph's tender: an ~8-foot Zodiac inflatable with a 2.5 HP gas 
 
 ## The Dinghy
 
-A **Zodiac Cadet 240** inflatable. White/light-gray tubes, gray hard transom, yellow/blue Zodiac square badge on transom. See raw/zodiac.jpg for a current photo.
+A **Zodiac CFR 240** (Cadet Fastroller) inflatable. White/light-gray tubes, gray hard transom, yellow/blue Zodiac square badge on transom. See raw/zodiac.jpg for a current photo.
+
+**HIN:** XDCV2013A999 — manufactured January 1999 (Zodiac International). Boat is ~27 years old as of 2026.  
+**Material:** PVC — Zodiac "Strongan Duotex" thermo-welded PVC (confirmed via HIN; CFR series in 1999 was exclusively welded PVC).
 
 Key characteristics:
 - **Floor: inflatable air deck** — high-pressure inflatable floor, not a soft bare floor and not rigid slatted boards. Provides a firm standing surface when properly inflated. Cannot plane reliably; displacement speeds only (3–5 knots). Inspect for leaks and valve condition seasonally.
@@ -202,13 +205,11 @@ For short harbor moves (e.g., sailing to the boatyard), the Zodiac can be towed 
 
 ### Material Identification
 
-**Do not assume — test first.** PVC and Hypalon (CSM) require completely different adhesives; using the wrong one will fail.
+**This boat is PVC** — confirmed via HIN decode (CFR 240, January 1999; Zodiac's CFR series in 1999 was exclusively thermo-welded PVC). Use PVC-compatible adhesive and patch material only.
 
-- **Older Zodiacs lean Hypalon** — Hypalon was Zodiac's traditional premium material. The shift to PVC in consumer inflatables happened through the 1990s–2000s. An older Cadet 240 may well be Hypalon.
-- **MEK test**: Apply a small amount of MEK (methyl ethyl ketone) solvent to a hidden area. PVC softens and gets tacky; Hypalon is unaffected.
-- **Alternatively**: Contact Zodiac with the hull serial number and they can confirm the material.
-
-Once confirmed, buy adhesive matched to the material.
+To verify independently before buying repair materials:
+- **Sandpaper test**: lightly sand a hidden area — PVC stays the same color; Hypalon turns suede-like or matte
+- **MEK/acetone test**: dab on a hidden area — PVC becomes tacky immediately; Hypalon is unaffected
 
 ### Types of Leaks
 
@@ -233,9 +234,9 @@ Seam failures and floor fabric leaks are more involved than tube punctures. Opti
 
 ### Repairing a Tube or Air Deck Puncture (Air Leak)
 
-**Materials needed (matched to your material — confirm first):**
-- Patch fabric matched to boat material (Zodiac factory kits are the safest choice; West Marine carries PVC options including Tear-Aid Type B)
-- Adhesive matched to material: PVC adhesive for PVC boats; Hypalon/CSM adhesive (e.g. Clifton Hypalon adhesive) for Hypalon boats
+**Materials needed:**
+- PVC patch fabric (Zodiac factory kits are the safest choice; West Marine carries PVC options including Tear-Aid Type B)
+- PVC adhesive
 - MEK or acetone for surface prep
 - Sandpaper (120 grit) to roughen both surfaces
 
@@ -251,10 +252,18 @@ Seam failures and floor fabric leaks are more involved than tube punctures. Opti
 
 > **Note:** Cold temperatures slow or prevent cure. Repair in a warm (60°F+) environment. Maine boatyard season repairs should be done indoors.
 
+### UV Protection
+
+The CFR 240 is ~27 years old (1999). UV degradation is the primary threat to aging PVC — symptoms are stickiness or brittleness in the tubes. Maine UV is lower than the tropics but cumulative exposure over 27 years is significant.
+
+- Apply **303 Aerospace Protectant** to the tubes regularly (at least each season, ideally more often)
+- Store out of direct sun when not in use
+- Inspect tubes each season for tackiness or stiffness — either is a sign of advanced PVC degradation
+
 ### Resources
 
-- **Zodiac** — zodiacmarine.com; factory patch kits matched to Cadet PVC
-- **West Marine, Rockland** — carries repair kits; staff can advise on material ID
+- **Zodiac** — zodiacmarine.com; factory patch kits for PVC
+- **West Marine, Rockland** — carries PVC repair kits and 303 Aerospace Protectant
 - **Cruisers Forum** — cruisersforum.com; search "inflatable floor repair PVC" for real-world threads
 - YouTube: search "inflatable dinghy air deck repair PVC" for step-by-step video guides
 

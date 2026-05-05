@@ -28,12 +28,12 @@ Winterize after the last sail of the season, before hard frost threatens. In Pen
 
 Change engine oil while the engine is warm — immediately after motoring in. Warm oil is less viscous and suspends combustion acids that would otherwise settle and corrode the engine over winter.
 
-- **Oil type:** API CD mineral-based oil ONLY — no synthetics on the 1GM
-- **Viscosity:** SAE 15W-40
-- **Capacity:** ~1.3 liters
+- **Oil type:** API CB or CC grade (per official Yanmar 1GM service manual — see [[engine]])
+- **Viscosity:** SAE 20W or 30 for Maine coastal temperatures (10–25°C typical operating range)
+- **Capacity:** 1.3 L crankcase + 0.25 L KM2A clutch case — **same oil, fill both**
 - Change the oil filter at the same time
 
-> **Note:** This is a firm requirement on the 1GM. Synthetic oil is not recommended by Yanmar for this engine. API CD is the correct service classification.
+> **Note:** Prior wiki content incorrectly listed API CD and 15W-40 — corrected from the official service manual. Both crankcase and clutch case use the same oil.
 
 ### Cooling System Antifreeze — The Most Critical Step
 

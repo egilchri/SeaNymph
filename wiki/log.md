@@ -12,6 +12,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-water leak finding, valve leak (most common), PVC patch procedure (MEK prep, rounded patch, 24hr cure, cold-weather caveat), and resources (Zodiac factory kits, West Marine Rockland, Cruisers Forum, YouTube).
 
+## [2026-05-05] lint | Full wiki scan — fixes applied
+
+Scanned all 40+ wiki pages. Fixed three critical items: (1) winterizing.md had wrong Yanmar 1GM oil spec (API CD / 15W-40) — corrected to API CB or CC / SAE 20W or 30 per official service manual; (2) todo.md closed two completed items (hull number ID, lint pass); (3) cd25d-overview.md fixed broken [[cd25d-engine]] link → [[engine]]. Remaining issues logged in lint report: dinghy winterization missing, singlehanding category empty, maintenance-schedule page needed, to-purchase missing 303 Protectant and PVC kit, safety-gear page needed.
+
 ## [2026-05-04] ingest | Zodiac CFR 240 HIN decode and material ID (raw/zodiac1.md)
 
 AI HIN decode confirmed model (Zodiac CFR 240, not just Cadet 240), year (January 1999), and material (PVC — thermo-welded Strongan Duotex). Created src-zodiac-material.md. Updated dinghy.md: corrected model name, added HIN and year, simplified material ID section to state PVC confirmed, added sandpaper test, added UV protection guidance (303 Aerospace Protectant). Simplified repair materials section — Hypalon options removed now that PVC is confirmed.

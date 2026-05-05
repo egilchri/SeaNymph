@@ -38,7 +38,7 @@ Open tasks, projects, and investigations for SeaNymph and the wiki itself.
 ## Research / Investigate
 
 - [ ] Confirm Harken furler link plate part numbers on actual hardware (7311.21 vs. 7410.20 series) — see [[furler]]
-- [ ] Identify hull number and year of SeaNymph — update [[cd25d-overview]]
+- [x] 2026-05-04 — Identify hull number and year of SeaNymph — hull 0054, year 1982, recorded in [[cd25d-overview]]
 - [ ] Research Rockland mooring options for current season (Knight Marine vs. Ocean Pursuits vs. other) — see [[rockland-harbor]]
 - [ ] Explore Peabody Essex Museum / Phillips Library for Cape Dory 25D blueprints (research@pem.org, 978-542-1553)
 
@@ -47,7 +47,7 @@ Open tasks, projects, and investigations for SeaNymph and the wiki itself.
 ## Wiki Health / Bookkeeping
 
 - [ ] Create singlehanding pages (category currently empty)
-- [ ] Run lint pass when wiki reaches 40+ pages
+- [x] 2026-05-05 — Run lint pass when wiki reaches 40+ pages
 
 ---
 
@@ -66,6 +66,8 @@ Open tasks, projects, and investigations for SeaNymph and the wiki itself.
 *(Move items here when done, with date.)*
 
 - [x] 2026-04-15 — Research compass deviation; created deviation table and compensation plan — see [[compass]]
+- [x] 2026-05-04 — Identified hull number (0054) and year (1982) — recorded in [[cd25d-overview]]
+- [x] 2026-05-05 — Ran lint pass (wiki at 40+ pages)
 
 ---
 

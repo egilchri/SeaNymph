@@ -82,6 +82,8 @@ Gear, parts, and supplies to acquire for SeaNymph. Ordered roughly by priority w
 
 | Budget | Item | Reason | Est. Cost | Priority | Vendor / Notes |
 | ------ | ---- | ------ | --------- | -------- | -------------- |
+| - [ ] | 303 Aerospace Protectant | UV protection for 1999 PVC Zodiac tubes; apply each season | ~$15–20 | High | West Marine Rockland — see [[dinghy]] |
+| - [ ] | Zodiac PVC repair kit | Factory-matched PVC patch + adhesive for water/air leak repair | ~$30–50 | Medium | Zodiac (zodiacmarine.com) or West Marine — see [[dinghy]] |
 | - [ ] | Temo 450 electric outboard | 11 lbs, best electric for 8-ft Zodiac; Rockland service available | $1,699–1,999 | Low | Ocean Pursuits or Midcoast Marine Electronics — see [[dinghy]] |
 
 ---

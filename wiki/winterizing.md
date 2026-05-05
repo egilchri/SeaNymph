@@ -124,7 +124,7 @@ After the cooling system is done, fog the cylinders:
 ## Winterization Checklist
 
 **Engine:**
-- [ ] Oil change (warm engine, API CD 15W-40, new filter)
+- [ ] Oil change (warm engine, API CB/CC, SAE 20W or 30, new filter — change crankcase AND clutch case)
 - [ ] Raw water cooling system flushed with antifreeze (pink appears at exhaust)
 - [ ] Cylinders fogged
 - [ ] Fuel treated (stabilizer + biocide) and engine run 15 min
@@ -147,6 +147,16 @@ After the cooling system is done, fog the cylinders:
 - [ ] Rigging inspected
 - [ ] Winter cover installed (see [[winter-cover]])
 
+**Dinghy and outboard:**
+- [ ] Yamaha F2.5 carb run dry (close fuel shutoff, let engine die)
+- [ ] Outboard flushed with fresh water
+- [ ] Outboard stored on its side (tiller-side down)
+- [ ] Zodiac deflated, rinsed, dried
+- [ ] 303 Protectant applied to Zodiac tubes
+- [ ] Zodiac seams and valves inspected
+
+See [[dinghy]] for full dinghy/outboard winterization procedure.
+
 ---
 
 ## See Also
@@ -157,3 +167,4 @@ After the cooling system is done, fog the cylinders:
 - [[battery-management]]
 - [[solar-system]]
 - [[insurance]]
+- [[dinghy]]

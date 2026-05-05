@@ -278,6 +278,39 @@ The CFR 240 is ~27 years old (1999). UV degradation is the primary threat to agi
 
 ---
 
+## Winterizing the Dinghy and Outboard
+
+Do this at the same time as the main boat winterization — see [[winterizing]].
+
+### Yamaha F2.5SMHB Outboard
+
+1. **Run the carb dry**: with the engine running, close the fuel shutoff valve and let the engine run until it stops on its own — this empties the carburetor. Fuel left in the carb gums up over winter.
+2. **Flush with fresh water**: run the engine briefly in a bucket of fresh water to flush salt from the cooling passages. Confirm cooling water is flowing from the tell-tale.
+3. **Check and top off engine oil**: sight glass should show full. The F2.5 uses 4-stroke oil; check before storage.
+4. **Store on its side (tiller-side down)**: the oil-retention system is designed for this position. Do not store upright long-term.
+5. **Fog the cylinder** (optional but good practice for winter storage): remove the spark plug, spray a small amount of fogging oil into the cylinder, pull the starter cord a few times to distribute, reinstall the plug.
+6. **Wipe down and store**: wipe all exterior surfaces, spray exposed metal with a light corrosion inhibitor (CorrosionX or similar). Store in a dry location.
+
+### Zodiac CFR 240
+
+1. **Deflate fully** — store deflated to reduce stress on seams over winter
+2. **Clean**: rinse with fresh water; dry completely before storing — mildew forms on damp PVC
+3. **Apply 303 Aerospace Protectant** to all tube surfaces before storage
+4. **Inspect seams and valves** while deflated and accessible — note anything needing repair before next season
+5. **Store indoors** if possible, out of direct sun and away from ozone sources (electric motors, fluorescent lights)
+
+### Dinghy Winterization Checklist
+
+- [ ] Carb run dry (fuel shutoff, engine runs to stop)
+- [ ] Outboard flushed with fresh water
+- [ ] Outboard oil level checked
+- [ ] Outboard stored on its side (tiller-side down)
+- [ ] Zodiac deflated and rinsed
+- [ ] 303 Protectant applied to tubes
+- [ ] Seams and valves inspected
+
+---
+
 ## See Also
 
 - [[anchoring]]
@@ -285,3 +318,4 @@ The CFR 240 is ~27 years old (1999). UV degradation is the primary threat to agi
 - [[penobscot-bay]]
 - [[solar-system]]
 - [[electrical-system]]
+- [[winterizing]]

@@ -45,6 +45,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[fiberglass-safety]] | Epoxy sensitization (permanent/irreversible), OV/P100 cartridge, nitrile gloves, D3/D4 goggles |
 | [[insurance]] | 2025 Maine hard market: freezing exclusion, seaworthy condition clause, winterization documentation |
 | [[mast-climbing]] | Bosun's chair, ATN Top Climber, rock climbing ascenders, mast lowering; helper mandatory |
+| [[maintenance-schedule]] | Consolidated schedule: 1GM engine intervals, spring commissioning, fall winterization, annual haul-out |
 
 ---
 
@@ -61,7 +62,10 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ## singlehanding
 
-*No pages yet.*
+| Page | Summary |
+|---|---|
+| [[singlehanding-overview]] | Core practices, MOB prevention, harness/tether, watchkeeping, passage planning, reefing solo |
+| [[safety-gear]] | USCG-required gear, PFD/harness, tether/jacklines, EPIRB/PLB, flares, fire extinguisher |
 
 ---
 
@@ -129,4 +133,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-04 (Zodiac CFR 240 HIN decoded — PVC confirmed, year 1999, UV protection guidance added)*
+*Last updated: 2026-05-05 (lint project items: maintenance-schedule, singlehanding-overview, safety-gear created)*

@@ -67,5 +67,5 @@ Only **UL-Marine rated, flanged, all-bronze seacocks** are acceptable below the 
 
 - [[seacock-backing-plates]]
 - [[seacock-removal-techniques]]
-- [[maintenance-schedule]] (to be created)
+- [[maintenance-schedule]]
 - [[cd25d-overview]]

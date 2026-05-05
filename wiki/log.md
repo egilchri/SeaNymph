@@ -12,6 +12,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-water leak finding, valve leak (most common), PVC patch procedure (MEK prep, rounded patch, 24hr cure, cold-weather caveat), and resources (Zodiac factory kits, West Marine Rockland, Cruisers Forum, YouTube).
 
+## [2026-05-05] update | Lint "project" items — three new pages created
+
+Created maintenance-schedule.md (engine hour intervals from 1GM service manual, spring commissioning checklist, fall winterization summary, annual haul-out tasks, multi-year schedule). Created singlehanding-overview.md (MOB prevention, harness/tether/jackline doctrine, essential gear, watchkeeping, passage planning, reefing solo, docking/anchoring). Created safety-gear.md (USCG required gear, PFD/harness selection, tether/jacklines, EPIRB vs PLB, fire extinguisher, annual checklist). Updated index.md: maintenance added to maintenance category, singlehanding category now has two pages. Fixed stale "to be created" links in cd25d-overview.md and seacocks.md.
+
 ## [2026-05-05] update | Lint "soon" items — dinghy winterization, to-purchase additions
 
 Added dinghy/outboard winterization section to dinghy.md (Yamaha F2.5 carb dry, flush, storage orientation, Zodiac deflate/clean/303/inspect) with checklist. Added matching checklist block to winterizing.md. Fixed winterizing.md checklist which still said "API CD 15W-40" (corrected to API CB/CC, SAE 20W or 30). Added 303 Aerospace Protectant and Zodiac PVC repair kit to to-purchase.md dinghy section.

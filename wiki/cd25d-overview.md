@@ -134,4 +134,4 @@ If you ever need original lines drawings or construction offsets for the CD25D, 
 - [[standing-rigging]] (to be created)
 - [[running-rigging]] (to be created)
 - [[singlehanding-techniques]]  (to be created)
-- [[maintenance-schedule]] (to be created)
+- [[maintenance-schedule]]

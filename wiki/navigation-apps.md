@@ -1,9 +1,9 @@
 ---
 title: Navigation Apps and Digital Tools
 category: navigation
-tags: [navigation, chartplotter, Android, OpenCPN, Navionics, compass, AIS, fog, MBTiles, satellite, Mac, QGIS]
-sources: [src-penobscot-bay, src-opencpn-mac-satellite]
-updated: 2026-04-19
+tags: [navigation, chartplotter, Android, OpenCPN, Navionics, compass, AIS, fog, MBTiles, satellite, Mac, calibration]
+sources: [src-penobscot-bay, src-opencpn-mac-satellite, src-opencpn-portsmouth-setup]
+updated: 2026-05-06
 ---
 
 # Navigation Apps and Digital Tools
@@ -96,37 +96,79 @@ Key current stations for Penobscot Bay passages:
 
 ## OpenCPN on Mac — Satellite Imagery (MBTiles)
 
-There is no Google Earth plugin for OpenCPN on macOS (the plugin uses Windows-only technology). The standard Mac alternative is **MBTiles**: pre-downloaded satellite tiles displayed as a chart layer, working fully offline — ideal for Maine where cell coverage is unreliable offshore.
+There is no Google Earth plugin for OpenCPN on macOS (the plugin uses Windows-only technology). The Mac workflow is **MBTiles**: pre-downloaded satellite tiles displayed as a chart layer, working fully offline — ideal for Maine where cell coverage is unreliable offshore.
 
-### Verified workflow (tested 2026-04-16)
+### Python script (preferred, verified 2026-05)
 
-1. Install **QGIS** (LTR 3.44+)
-2. Install the **QuickMapServices** plugin (Plugins menu)
-3. Load **ESRI** satellite basemap via QuickMapServices → ESRI
-4. Open Processing Toolbox → Raster Tools → **Generate XYZ Tiles (MBTiles)**
-5. Set extent to your sailing area; zoom min 8, zoom max 14
-6. Output to `~/Documents/Charts/MBTiles/<name>.mbtiles`
-7. Run — ~60 seconds for a Penobscot Bay-sized area
-8. In OpenCPN: **Options → Charts → Chart Files → Add Directory** → point at `~/Documents/Charts/MBTiles`
-9. Click "Scan Charts and Update Database" — satellite layer now selectable alongside NOAA charts
+A custom script downloads ESRI World Imagery tiles and packages them as MBTiles directly, reaching zoom 18–19. Located at `~/tools/OpenCPN/download_mbtiles.py`.
 
-**Zoom level note:** Zoom 14 is the reliable maximum. Zoom 16 fails with a "JPG only supports fully opaque colors" error.
+```bash
+# Full Portsmouth harbor, zoom 10–16, ~25 MB
+python3 ~/tools/OpenCPN/download_mbtiles.py --preset harbor
 
-**What didn't work:** Mobile Atlas Creator (MOBAC) — SSL certificate errors blocked tile downloads on Mac.
+# Tight wharf area, zoom 10–18, high detail
+python3 ~/tools/OpenCPN/download_mbtiles.py --preset wharf
 
-**Other Mac options (untested):**
-- **EarthExplorer plugin** — syncs OpenCPN cursor position to a separate Google Earth Pro window (live link, not embedded)
-- **KAP files** — raster charts exported from Google Earth; OpenCPN reads natively; useful for tight harbor entrances
+# Custom bounding box
+python3 ~/tools/OpenCPN/download_mbtiles.py \
+  --west -70.77 --east -70.76 --south 43.07 --north 43.08 \
+  --zmax 18 --name my-wharf
+```
 
-Edgar's chart directories on this Mac:
-- `~/Documents/Charts/ENC/US_REGION02`
-- `~/Documents/Charts/ENC/US_ME`
-- `~/Documents/Charts/RNC/US_ME`
-- `~/Documents/Charts/GSHHG`
-- `~/Documents/Charts/MBTiles` ← satellite tiles here
+MBTiles metadata is set to `type=overlay` so OpenCPN renders satellite as a background layer; NOAA ENC symbols (buoys, depths, hazards) render on top automatically.
+
+**What didn't work:** MOBAC — SSL certificate errors on Mac, caps at zoom 15. The earlier QGIS/QuickMapServices workflow was capped at zoom 14 and is superseded by this script.
+
+### Adding MBTiles to OpenCPN
+
+The `MBTiles` directory is not auto-discovered — add it manually once:
+
+1. **Options > Charts > Chart Files**
+2. Click **Add Directory** → select `~/Documents/Charts/MBTiles`
+3. Click **Apply**
+
+### Downloaded files
+
+| File | Area | Zoom | Size |
+|------|------|------|------|
+| `penobscot-esri-z16.mbtiles` | Penobscot Bay / Rockland ME | 10–16 | 622 MB |
+| `portsmouth-esri-harbor-z16.mbtiles` | Portsmouth NH harbor | 10–16 | 25 MB |
+
+All files in `~/Documents/Charts/MBTiles/`.
+
+### Chart directories configured in OpenCPN
+
+- `ENC/US_ME` — Maine ENCs (downloaded)
+- `RNC/US_ME` — Maine raster charts (downloaded)
+- `ENC/US_REGION02` — Region 2 ENCs (downloaded)
+- `GSHHG` — Coastline data (downloaded)
+- `MBTiles` — Satellite overlays (added May 2026)
+- `ENC/US_NH` — NH ENCs (catalog only; charts not yet downloaded; key chart: 13278 Portsmouth Harbor)
+
+## OpenCPN Tips and Tricks
+
+### Land-based compass calibration
+
+OpenCPN with satellite imagery can be used from a fixed position on shore to check a hand bearing compass — no boat required. The satellite layer lets you identify precise fixed landmarks (pier ends, building corners, water towers) and measure magnetic bearings to them from a known position.
+
+**Workflow:**
+
+1. Enable magnetic bearings: **Options > Ships > Use magnetic bearings** — OpenCPN applies local variation via the built-in WMM automatically
+2. Drop a waypoint at your standing position (right-click chart > New Waypoint)
+3. Right-click a fixed visible landmark on the satellite imagery → Measure bearing
+4. The displayed bearing is the magnetic reading your compass should show
+5. Take a bearing to the same landmark with the hand compass
+6. Difference = compass error at that heading
+
+Good landmarks: building corners, pier ends, water towers, fixed nav aids. Avoid buoys — they swing with current and tide.
+
+**Portsmouth NH variation (2026): ~14.5°W.** Penobscot Bay runs ~15–16°W — if calibrating in Portsmouth before a Maine season, note the 1–1.5° difference and account for it when comparing against your deviation table.
+
+See [[compass]] for full deviation table and TVMDC correction chain.
 
 ## See Also
 
+- [[opencpn]] — dedicated OpenCPN reference page (chart directories, script, plugins, calibration)
 - [[penobscot-bay]]
 - [[tiller-pilot]] (ST2000 NMEA/SeaTalk integration)
 - [[electrical-system]] (12V power at helm)

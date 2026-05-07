@@ -2,8 +2,8 @@
 title: Compass — Deviation Table and Correction
 category: navigation
 tags: [compass, deviation, variation, TVMDC, navigation, fog]
-sources: [src-compass-deviation, src-compass-upgrade, src-deviation-assessment]
-updated: 2026-04-15
+sources: [src-compass-deviation, src-compass-upgrade, src-deviation-assessment, src-opencpn-portsmouth-setup]
+updated: 2026-05-06
 ---
 
 # Compass — Deviation Table and Correction
@@ -201,6 +201,29 @@ Deviation changes over time as the boat's magnetic environment changes — new e
 
 ---
 
+## Land-Based Calibration with OpenCPN
+
+A practical technique for checking a hand bearing compass from a fixed position on shore — no boat or crew required. Works anywhere with OpenCPN loaded with satellite imagery (MBTiles) and a NOAA ENC for the area.
+
+**Workflow:**
+
+1. Enable magnetic bearings in OpenCPN: **Options > Ships > Use magnetic bearings** — variation is applied automatically via the built-in World Magnetic Model
+2. Drop a waypoint at your standing position (right-click chart > New Waypoint)
+3. Right-click a visible fixed landmark on the satellite imagery → Measure bearing
+4. The displayed bearing is the magnetic reading your compass should show from that position
+5. Take a bearing to the same landmark with the hand compass
+6. Difference = compass error at that heading
+
+**Good landmarks:** building corners, pier ends, water towers, fixed nav aids. Avoid buoys — they swing with current and tide and are not in precise chart positions.
+
+**Variation note:** OpenCPN's WMM is current, so the displayed magnetic bearing is correct for the current year. Portsmouth NH variation is ~14.5°W (2026); Penobscot Bay is ~15–16°W. If calibrating in Portsmouth before a Maine season, the 1–1.5° regional difference is small enough to ignore for most purposes, but note it for precise work.
+
+This technique verifies the hand bearing compass at a single heading — the heading from your standing position to each landmark. To characterize deviation across multiple headings, a full compass swing on the boat (see Compass Compensation section) is still required.
+
+See [[navigation-apps]] for setup instructions and the `download_mbtiles.py` script.
+
+---
+
 ## Variation Reference — Penobscot Bay
 
 Magnetic variation in Penobscot Bay is approximately **15–16° West** as of 2025, and decreasing slowly (roughly 0.1° per year). Check the current compass rose on NOAA Chart 13302 for the exact value when planning a cruise.
@@ -211,6 +234,7 @@ For quick mental math underway: **use 16°W variation** for Penobscot Bay.
 
 ## See Also
 
+- [[opencpn]] — chart setup, satellite imagery, land-based calibration workflow
 - [[navigation-apps]]
 - [[penobscot-bay]]
 - [[cd25d-overview]]

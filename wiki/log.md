@@ -16,6 +16,14 @@ Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-
 
 Created maintenance-schedule.md (engine hour intervals from 1GM service manual, spring commissioning checklist, fall winterization summary, annual haul-out tasks, multi-year schedule). Created singlehanding-overview.md (MOB prevention, harness/tether/jackline doctrine, essential gear, watchkeeping, passage planning, reefing solo, docking/anchoring). Created safety-gear.md (USCG required gear, PFD/harness selection, tether/jacklines, EPIRB vs PLB, fire extinguisher, annual checklist). Updated index.md: maintenance added to maintenance category, singlehanding category now has two pages. Fixed stale "to be created" links in cd25d-overview.md and seacocks.md.
 
+## [2026-05-06] update | Created opencpn.md synthesis page
+
+Created wiki/opencpn.md (category: navigation) consolidating all OpenCPN content: chart directories, MBTiles Python script (~/tools/OpenCPN/download_mbtiles.py) with presets, downloaded files inventory, WMM and Deviation plugins, magnetic bearings setting, land-based calibration workflow. Added [[opencpn]] to See Also in navigation-apps.md and compass.md. Added to index.md.
+
+## [2026-05-06] ingest | OpenCPN Portsmouth NH Setup — MBTiles and Compass Calibration
+
+Ingested Edgar's OpenCPN Portsmouth NH setup notes. Replaced QGIS/QuickMapServices MBTiles workflow in navigation-apps.md with the Python script approach (zoom 18–19 vs. zoom 14 max; QGIS workflow is superseded). Updated chart directory inventory: added ENC/US_NH (catalog only, 13278 Portsmouth Harbor not yet downloaded). Added "OpenCPN Tips and Tricks" section to navigation-apps.md with land-based compass calibration workflow. Added matching land-based calibration section to compass.md. Created src-opencpn-portsmouth-setup.md. Edgar lives in Portsmouth NH; SeaNymph is in Rockland. Portsmouth NH variation 14.5°W vs. Penobscot Bay 15–16°W noted in both pages.
+
 ## [2026-05-05] update | Lint "soon" items — dinghy winterization, to-purchase additions
 
 Added dinghy/outboard winterization section to dinghy.md (Yamaha F2.5 carb dry, flush, storage orientation, Zodiac deflate/clean/303/inspect) with checklist. Added matching checklist block to winterizing.md. Fixed winterizing.md checklist which still said "API CD 15W-40" (corrected to API CB/CC, SAE 20W or 30). Added 303 Aerospace Protectant and Zodiac PVC repair kit to to-purchase.md dinghy section.

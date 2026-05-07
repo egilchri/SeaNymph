@@ -76,6 +76,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[penobscot-bay]] | Bay geography, sailing conditions, fog, tides, lobster pots, anchorages, Rockland→MDI itineraries |
 | [[rockland-harbor]] | Home port: mooring options, costs, swell analysis, pump-out, provisioning, local services |
 | [[navigation-apps]] | Android nav apps (OpenCPN vs. Navionics), compass correction (TVMDC), AIS, fog navigation |
+| [[opencpn]] | OpenCPN consolidated reference: chart directories, MBTiles Python script, plugins, land-based compass calibration |
 | [[compass]] | SeaNymph deviation table, TVMDC correction chain, variation 16°W, fog navigation use |
 | [[binoculars]] | Steiner Navigator 7x50c (recommended) and Bushnell Marine 7x50 (budget alt) — specs, tradeoffs, singlehanding notes |
 
@@ -109,6 +110,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-compass-upgrade]] | AI research: CD25D compass options (Ritchie BN-202, Plastimo Contest 101, Iris 50), DIY compensation |
 | [[src-deviation-assessment]] | AI verdict on SeaNymph's deviation table: 9° max exceeds ISO standard, compensation required |
 | [[src-opencpn-mac-satellite]] | QGIS + QuickMapServices MBTiles workflow for OpenCPN satellite overlay on Mac; verified 2026-04-16 |
+| [[src-opencpn-portsmouth-setup]] | Python MBTiles script (zoom 18–19, supersedes QGIS), Portsmouth NH chart setup, land-based compass calibration workflow |
 | [[src-furler-toggle-options]] | Furler drum toggle/link options research — Schaefer parts (not applicable; SeaNymph is Harken) |
 | [[src-steiner-binoculars]] | Steiner Navigator 7x50c market research — specs, model variants, pricing, warranty, retailers |
 | [[src-bushnell-binoculars]] | Bushnell Marine 7x50 features (waterproof, buoyant, illuminated compass) and Ironclad Warranty details |
@@ -133,4 +135,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-05 (lint project items: maintenance-schedule, singlehanding-overview, safety-gear created)*
+*Last updated: 2026-05-06 (opencpn.md synthesis page created; src-opencpn-portsmouth-setup ingested)*

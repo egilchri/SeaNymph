@@ -60,7 +60,7 @@ The CD25D battery should be charged by:
 
 ## Battery Switch / ACR
 
-The Blue Sea 7610 SI-ACR is the planned battery management device — see [[battery-management]] for full detail. It automatically combines and isolates the battery banks based on voltage, ensuring both banks stay charged without risk of draining the start battery.
+The Blue Sea 7610 SI-ACR is installed on SeaNymph — see [[battery-management]] for full detail. It automatically combines and isolates the battery banks based on voltage, ensuring both banks stay charged without risk of draining the start battery.
 
 ## Practical Notes
 

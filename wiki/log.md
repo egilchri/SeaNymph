@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-05-22] ingest | Battery Wiring Photos — SeaNymph As-Installed
+
+Created src-battery-wiring-photos.md from 3 photos of the battery compartment (Sep 2025 + May 2026 label close-up). Confirmed SI-ACR 7610 is physically installed. Updated battery-management.md (planned → installed, added wiring color notes and Victron device observation). Updated batteries.md (planned → installed). Note: PXL_20250924_145114219.jpg is a tar archive, not a real image.
+
 ## [2026-05-04] query | Where to get advice on Zodiac inflatable repair
 
 Added Inflatable Repair section to dinghy.md: PVC vs Hypalon material ID, soapy-water leak finding, valve leak (most common), PVC patch procedure (MEK prep, rounded patch, 24hr cure, cold-weather caveat), and resources (Zodiac factory kits, West Marine Rockland, Cruisers Forum, YouTube).

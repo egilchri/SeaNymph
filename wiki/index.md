@@ -92,6 +92,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-electrical-wiring]] | CD25D wiring practices, panel access, instrument wiring locations |
 | [[src-battery-research]] | Group 24 AGM selection, Lifeline vs. West Marine, Guest ChargePro compatibility |
 | [[src-blue-sea-7610]] | Blue Sea 7610 SI-ACR terminal wiring, operational logic, LED diagnostics |
+| [[src-battery-wiring-photos]] | As-installed photos of SeaNymph battery compartment — SI-ACR confirmed installed Sep 2025, wiring colors, Victron device |
 | [[src-solar-research]] | Victron 75/15 wiring, Renogy cable mod, mounting options, shopping list |
 | [[src-elci-shore-power]] | ELCI breaker installation, shore power setup, nuisance tripping troubleshooting |
 | [[src-tiller-pilot]] | ST2000 installation, wiring, waterproofing, battery draw, singlehanding practice |
@@ -135,4 +136,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-06 (opencpn.md synthesis page created; src-opencpn-portsmouth-setup ingested)*
+*Last updated: 2026-05-22 (src-battery-wiring-photos ingested; battery-management.md and batteries.md updated from "planned" to "installed")*

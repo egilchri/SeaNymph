@@ -2,13 +2,13 @@
 title: Battery Management — Blue Sea 7610 SI-ACR
 category: systems
 tags: [batteries, ACR, Blue-Sea, dual-battery, electrical, wiring]
-sources: [src-blue-sea-7610]
-updated: 2026-04-13
+sources: [src-blue-sea-7610, src-battery-wiring-photos]
+updated: 2026-05-22
 ---
 
 # Battery Management — Blue Sea 7610 SI-ACR
 
-The Blue Sea Systems 7610 SI-ACR (Automatic Charging Relay with Start Isolation) is the planned battery management device for the CD25D. It intelligently manages a dual-battery system — keeping the start battery protected while charging both banks when a charging source is active.
+The Blue Sea Systems 7610 SI-ACR (Automatic Charging Relay with Start Isolation) is installed on SeaNymph. It intelligently manages a dual-battery system — keeping the start battery protected while charging both banks when a charging source is active.
 
 ## What It Does
 
@@ -75,6 +75,20 @@ For the GND terminal connection:
 - Marine-grade heat-shrink tubing over all connectors
 
 Ancor brand wire and connectors are the marine standard; available at Hamilton Marine or Defender.
+
+## As-Installed on SeaNymph
+
+Confirmed installed as of September 2025. The ACR is mounted in the battery compartment alongside the battery bank.
+
+**Observed wiring colors (SeaNymph-specific):**
+- Red/pink heavy cables — positive runs on studs A and B
+- Yellow cables — solar input from Victron MPPT entering the compartment
+- Black cables — ground/negative
+- Black corrugated split loom — cable protection on longer runs
+
+**Also in the compartment:** A Victron SmartShunt — blue rectangular unit with shunt bar wired inline on the negative circuit (confirmed from photos; specific amperage rating not readable). See [[solar-system]] for Victron MPPT context.
+
+**Documentation:** [[src-battery-wiring-photos]] — photos of actual compartment layout.
 
 ## See Also
 

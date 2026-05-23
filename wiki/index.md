@@ -19,6 +19,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[seacocks]] | The five below-waterline seacocks: locations, sizes, access challenges, hardware standards |
 | [[electrical-system]] | DC/AC electrical system overview, wiring standards, drilling fiberglass |
 | [[wiring-diagram]] | As-built DC wiring diagram — SI-ACR, solar, SmartShunt; confirmed vs. assumed connections |
+| [[terminal-reference]] | Per-device terminal reference — what plugs into each terminal; spring commissioning guide |
 | [[batteries]] | Battery selection: Group 24 AGM, Lifeline vs. West Marine, charging sources |
 | [[battery-management]] | Blue Sea 7610 SI-ACR: wiring, terminals, combine/isolate logic, LED diagnostics |
 | [[solar-system]] | Victron SmartSolar MPPT 75/15, Renogy panels, mounting options, wiring |

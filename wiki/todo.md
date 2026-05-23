@@ -3,7 +3,7 @@ title: Todo List
 category: synthesis
 tags: [planning, action-items, maintenance, projects]
 sources: []
-updated: 2026-04-15
+updated: 2026-05-23
 ---
 
 # Todo List
@@ -19,6 +19,13 @@ Open tasks, projects, and investigations for SeaNymph and the wiki itself.
 ## This Season
 
 - [ ] Attempt DIY compass compensation (cardinal heading 180° method; use GPS COG as reference in slack tide) — see [[compass]]
+- [ ] **Wiring verification (spring commissioning)** — see [[wiring-diagram]] for full checklist; open questions below:
+  - [ ] Trace Yanmar alternator output wire — confirm it goes to bus bar, ACR stud, or battery terminal directly
+  - [ ] Trace DC panel feed wire — confirm connection point (assumed: positive bus bar or house battery)
+  - [ ] Check ACR SI spade — is there a wire on it? If so, confirm it's on crank-only circuit, not ignition-run
+  - [ ] Check ACR GND spade inline fuse — should be **1A** per Blue Sea spec
+  - [ ] Confirm Victron MPPT output cable color (yellow? different?)
+  - [ ] Get a photo centered on the positive bus bar — location partially known but not clearly documented
 - [ ] Professional compass adjuster if residual deviation exceeds 5° after DIY attempt
 - [ ] Check for magnetic interference sources near compass (diesel engine primary suspect)
 - [ ] Inspect galley sink drain seacock pad — noted as spongy during research; check on next haul-out

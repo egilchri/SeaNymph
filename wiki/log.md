@@ -8,6 +8,18 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-05-23] update | DC wiring diagram generated
+
+Created wiki/assets/dc-wiring-diagram.png and wiki/wiring-diagram.md. Diagram shows full DC topology: solar→MPPT→house battery, house and start batteries on ACR studs A/B, SmartShunt on house battery negative, negative bus bar. Alternator routing and DC panel connection marked as assumed/dashed. Generator script saved as generate_wiring_diagram.py.
+
+## [2026-05-23] ingest | Blue Sea SI-ACR 7610 Official Installation Manual
+
+Created src-blue-sea-acr-manual.md from raw/blue_sea_acr_install.pdf. Captured full wiring diagram (inboard engine configuration), terminal specs, wire sizing chart, fuse ratings, and LED status table. Corrected GND fuse rating in battery-management.md from 10–15A to 1A (official spec). PDF stored in raw/.
+
+## [2026-05-23] ingest | Bus Bar / Positive Cable Routing Photo
+
+Created src-busbar-wiring-photo.md from PXL_20250919_132001736.jpg. Confirms yellow = primary positive cable color throughout SeaNymph DC system. Corrected prior error in battery-management.md (yellow cables are main positive distribution, not solar-specific). Added SeaNymph-specific cable color code table to electrical-system.md.
+
 ## [2026-05-22] ingest | Battery Wiring Photos — SeaNymph As-Installed
 
 Created src-battery-wiring-photos.md from 3 photos of the battery compartment (Sep 2025 + May 2026 label close-up). Confirmed SI-ACR 7610 is physically installed. Updated battery-management.md (planned → installed, added wiring color notes and Victron device observation). Updated batteries.md (planned → installed). Note: PXL_20250924_145114219.jpg is a tar archive, not a real image.

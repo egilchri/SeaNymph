@@ -18,6 +18,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 |---|---|
 | [[seacocks]] | The five below-waterline seacocks: locations, sizes, access challenges, hardware standards |
 | [[electrical-system]] | DC/AC electrical system overview, wiring standards, drilling fiberglass |
+| [[wiring-diagram]] | As-built DC wiring diagram — SI-ACR, solar, SmartShunt; confirmed vs. assumed connections |
 | [[batteries]] | Battery selection: Group 24 AGM, Lifeline vs. West Marine, charging sources |
 | [[battery-management]] | Blue Sea 7610 SI-ACR: wiring, terminals, combine/isolate logic, LED diagnostics |
 | [[solar-system]] | Victron SmartSolar MPPT 75/15, Renogy panels, mounting options, wiring |
@@ -93,6 +94,8 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-battery-research]] | Group 24 AGM selection, Lifeline vs. West Marine, Guest ChargePro compatibility |
 | [[src-blue-sea-7610]] | Blue Sea 7610 SI-ACR terminal wiring, operational logic, LED diagnostics |
 | [[src-battery-wiring-photos]] | As-installed photos of SeaNymph battery compartment — SI-ACR confirmed installed Sep 2025, wiring colors, Victron device |
+| [[src-busbar-wiring-photo]] | Cable routing photo (Sep 2025) — confirms yellow = positive throughout SeaNymph DC system; bus bar context |
+| [[src-blue-sea-acr-manual]] | Official Blue Sea SI-ACR 7610 install manual — wiring diagram, terminal specs, fuse ratings, LED status |
 | [[src-solar-research]] | Victron 75/15 wiring, Renogy cable mod, mounting options, shopping list |
 | [[src-elci-shore-power]] | ELCI breaker installation, shore power setup, nuisance tripping troubleshooting |
 | [[src-tiller-pilot]] | ST2000 installation, wiring, waterproofing, battery draw, singlehanding practice |
@@ -136,4 +139,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-22 (src-battery-wiring-photos ingested; battery-management.md and batteries.md updated from "planned" to "installed")*
+*Last updated: 2026-05-23 (src-busbar-wiring-photo ingested; cable color code added to electrical-system.md; yellow-cable description corrected in battery-management.md)*

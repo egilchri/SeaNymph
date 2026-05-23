@@ -2,7 +2,7 @@
 title: Battery Management — Blue Sea 7610 SI-ACR
 category: systems
 tags: [batteries, ACR, Blue-Sea, dual-battery, electrical, wiring]
-sources: [src-blue-sea-7610, src-battery-wiring-photos]
+sources: [src-blue-sea-7610, src-blue-sea-acr-manual, src-battery-wiring-photos, src-busbar-wiring-photo]
 updated: 2026-05-22
 ---
 
@@ -24,7 +24,7 @@ This eliminates the need for a manual 1-2-Both battery switch (though some owner
 |---|---|---|---|
 | **Stud A** | 3/8" copper stud | Positive post of Bank 1 (e.g. house battery) | Yes — main cable fuse near battery |
 | **Stud B** | 3/8" copper stud | Positive post of Bank 2 (e.g. start battery) | Yes — main cable fuse near battery |
-| **GND** | Quick-connect spade | DC system ground | **10–15A inline fuse — mandatory** |
+| **GND** | Quick-connect spade | DC system ground / negative bus bar | **1A inline fuse — mandatory** |
 | **SI** | Quick-connect spade | Starter solenoid "crank" terminal (positive only during cranking) | **1–10A inline fuse — mandatory** |
 | **LED** | Quick-connect spade | Optional remote LED indicator | 2A fuse on LED+ supply |
 
@@ -38,7 +38,7 @@ This eliminates the need for a manual 1-2-Both battery switch (though some owner
 
 ## Critical Wiring Notes
 
-**GND fuse is not optional.** If a ground fault occurs elsewhere in the system, fault current can flow through the ACR's small ground wire without the fuse — causing it to melt and potentially start a fire. The 10–15A fuse creates a deliberate weak point.
+**GND fuse is not optional.** The official Blue Sea manual specifies a **1A fuse** on the GND wire — intentionally small so this wire is the deliberate weak point if a ground fault occurs elsewhere. Without it, fault current melts the wire and risks fire.
 
 **SI terminal wiring is commonly botched.** The SI terminal must connect to a circuit that is positive **only when cranking**, not when the ignition is in the "run" position. If wired to an "ignition-on" circuit, the ACR will stay in isolation mode permanently, and the house battery will never charge from the alternator. If the LED blinks continuously while the engine is running (not cranking), the SI wiring is wrong.
 
@@ -81,10 +81,12 @@ Ancor brand wire and connectors are the marine standard; available at Hamilton M
 Confirmed installed as of September 2025. The ACR is mounted in the battery compartment alongside the battery bank.
 
 **Observed wiring colors (SeaNymph-specific):**
-- Red/pink heavy cables — positive runs on studs A and B
-- Yellow cables — solar input from Victron MPPT entering the compartment
-- Black cables — ground/negative
+- Yellow heavy cables — **primary positive cable color** throughout SeaNymph's DC system; yellow cables at the ACR studs are main positive distribution runs originating from the bus bar, not solar-specific wiring
+- Red/pink heavy cables — also used for positive on some runs (secondary or shorter circuits); pink cable observed on ACR stud B
+- Black cables — ground/negative throughout
 - Black corrugated split loom — cable protection on longer runs
+
+> **Note:** Solar output from the Victron MPPT enters the compartment separately; its cable color is not yet confirmed from photos. See [[src-busbar-wiring-photo]] for cable routing context.
 
 **Also in the compartment:** A Victron SmartShunt — blue rectangular unit with shunt bar wired inline on the negative circuit (confirmed from photos; specific amperage rating not readable). See [[solar-system]] for Victron MPPT context.
 

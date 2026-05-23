@@ -28,6 +28,20 @@ Shore power is a separate 120V AC system, active only when plugged into dock pow
 
 **ELCI breaker (see [[shore-power]]):** The ABYC E-11 standard requires an ELCI (Equipment Leakage Circuit Interrupter) within 10 feet of the shore power inlet. This is a safety upgrade for older boats — the ELCI detects leakage current as small as 30mA and trips, preventing electric shock drowning. The Blue Sea A-Series 30A ELCI is the standard recommendation.
 
+## SeaNymph Cable Color Code (As-Installed)
+
+Confirmed from photos (Sep 2025). This is not a standard color scheme — it reflects how SeaNymph's system was actually wired.
+
+| Color | Meaning |
+|---|---|
+| Yellow | **Positive** — primary positive cable color throughout the DC system; main battery runs, ACR studs, bus bar distribution |
+| Black | **Negative / ground** throughout |
+| Red | Positive — used on some shorter or secondary positive runs |
+| Pink | Positive — observed on ACR stud B; likely a secondary positive run |
+| Black corrugated loom | Cable protection sheathing (color carries no electrical meaning) |
+
+> **Note:** Solar MPPT output cable color not yet confirmed. See [[src-busbar-wiring-photo]] and [[src-battery-wiring-photos]].
+
 ## Wiring Standards
 
 Always use **marine-grade tinned copper wire** — never automotive or household wire. Tinned copper resists corrosion; untinned copper fails quickly in the marine environment.

@@ -38,11 +38,11 @@ All charts live in `~/Documents/Charts/`. The `MBTiles` directory must be added 
 
 ## Satellite Imagery (MBTiles)
 
-### Download script
+### Python script (preferred — zoom up to 18–19)
 
 **Script:** `~/tools/OpenCPN/download_mbtiles.py`
 
-Downloads ESRI World Imagery tiles and packages them as MBTiles. Reaches zoom 18–19 — ESRI is the preferred source (USGS National Map caps at zoom 15; MOBAC has SSL errors on Mac and caps at zoom 15; QGIS/QuickMapServices caps at zoom 14).
+Downloads ESRI World Imagery tiles and packages them as MBTiles. Reaches zoom 18–19 — ESRI is the preferred source (USGS National Map caps at zoom 15; MOBAC has SSL errors on Mac and caps at zoom 15).
 
 ```bash
 # Full harbor area, zoom 10–16, ~25 MB
@@ -58,6 +58,20 @@ python3 ~/tools/OpenCPN/download_mbtiles.py \
 ```
 
 MBTiles metadata is set to `type=overlay` — OpenCPN renders satellite as background; NOAA ENC symbols (buoys, depths, hazards) layer on top automatically.
+
+### QGIS workflow (alternative — caps at zoom 14)
+
+Still valid. Use when you prefer a GUI or when the Python script isn't available. Caps at zoom 14 due to a QGIS JPG transparency bug at zoom 16+; adequate for general area reconnaissance but not wharf-level detail.
+
+1. Install QGIS (LTR 3.44 or later)
+2. Install **QuickMapServices** plugin (Plugins menu)
+3. Load **ESRI** satellite basemap via QuickMapServices → ESRI
+4. Open Processing Toolbox → Raster Tools → **Generate XYZ Tiles (MBTiles)**
+5. Set extent to your sailing area, zoom min 8, zoom max 14
+6. Set output file to `~/Documents/Charts/MBTiles/<name>.mbtiles`
+7. Run — expect ~60 seconds for a Penobscot Bay-sized area
+8. In OpenCPN: Options → Charts → Chart Files → Add Directory → `~/Documents/Charts/MBTiles`
+9. Scan Charts and Update Database → Apply
 
 ### Downloaded files
 

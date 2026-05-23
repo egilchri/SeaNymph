@@ -1,40 +1,139 @@
+# OpenCPN Portsmouth NH Setup
+
+## Goal
+Display satellite imagery and NOAA nautical charts for Portsmouth NH in OpenCPN,
+for use in hand bearing compass calibration from land.
+
 ---
-title: "OpenCPN Portsmouth NH Setup — MBTiles and Compass Calibration"
-category: sources
-source-type: personal-notes
-source-date: 2026-05
-ingested: 2026-05-06
-tags: [OpenCPN, MBTiles, satellite, compass, calibration, Portsmouth]
+
+## Satellite Imagery (MBTiles)
+
+### Download script
+A Python script was written to download ESRI World Imagery tiles and package them
+as MBTiles, bypassing MOBAC (whose UI is unreliable and caps at zoom 15).
+
+Location: `~/tools/OpenCPN/download_mbtiles.py`
+
+### Usage
+
+```bash
+# Full Portsmouth harbor, zoom 10-16, ~25 MB, good general overview
+python3 ~/tools/OpenCPN/download_mbtiles.py --preset harbor
+
+# Tight wharf area, zoom 10-18, high detail (identify specific structures)
+python3 ~/tools/OpenCPN/download_mbtiles.py --preset wharf
+
+# Custom bounding box
+python3 ~/tools/OpenCPN/download_mbtiles.py \
+  --west -70.77 --east -70.76 --south 43.07 --north 43.08 \
+  --zmax 18 --name my-wharf
+```
+
+### Downloaded files
+| File | Area | Zoom | Size |
+|------|------|------|------|
+| `penobscot-esri-z16.mbtiles` | Penobscot Bay / Rockland ME | 10–16 | 622 MB |
+| `portsmouth-esri-harbor-z16.mbtiles` | Portsmouth NH harbor | 10–16 | 25 MB |
+
+All files saved to: `~/Documents/Charts/MBTiles/`
+
+### Notes
+- USGS National Map Satellite (available in MOBAC) caps at zoom 15 — not enough for wharf detail
+- ESRI World Imagery goes to zoom 18–19 and is the preferred source
+- MBTiles `type` is set to `baselayer` in metadata
+
 ---
 
-# OpenCPN Portsmouth NH Setup — MBTiles and Compass Calibration
+## Adding MBTiles to OpenCPN
 
-**Type:** personal-notes
-**Author/Origin:** Edgar Gilchrist
-**URL or file:** ~/Documents/Charts/opencpn-portsmouth-setup.md
+The `MBTiles` directory is **not** auto-discovered by OpenCPN — it must be added manually:
 
-## Summary
+1. **Options > Charts > Chart Files**
+2. Click **Add Directory**
+3. Select `~/Documents/Charts/MBTiles`
+4. Click **Apply**
 
-Documents the OpenCPN configuration Edgar assembled in Portsmouth NH for displaying satellite imagery and NOAA charts — primarily as a platform for hand bearing compass calibration from a fixed land position. The workflow centers on a custom Python script that downloads ESRI World Imagery tiles and packages them as MBTiles, reaching zoom 18–19 and superseding the earlier QGIS/QuickMapServices approach (which was capped at zoom 14).
+---
 
-The calibration technique uses OpenCPN's satellite layer to identify fixed landmarks, measure magnetic bearings to them, and compare to a hand compass reading — no boat required.
+## NOAA ENC Charts (buoys, depths, hazards)
 
-## Key Takeaways
+Downloaded directly from NOAA via curl (May 2026) — bypasses the Chart Downloader UI.
 
-- Python script at `~/tools/OpenCPN/download_mbtiles.py` downloads ESRI World Imagery as MBTiles with `--preset harbor` (zoom 16) or `--preset wharf` (zoom 18)
-- Downloaded files: `penobscot-esri-z16.mbtiles` (622 MB, Penobscot Bay) and `portsmouth-esri-harbor-z16.mbtiles` (25 MB) in `~/Documents/Charts/MBTiles/`
-- MBTiles must be manually added to OpenCPN via Options > Charts > Chart Files > Add Directory
-- NOAA ENC/US_NH catalog is configured but charts not yet downloaded; key chart is 13278 (Portsmouth Harbor)
-- Compass calibration from land: drop waypoint at standing position, measure bearing to fixed landmark in OpenCPN, compare to hand compass — difference is compass error
-- Portsmouth NH magnetic variation: ~14.5°W in 2026 (vs. Penobscot Bay ~15–16°W)
-- OpenCPN must be set to magnetic bearings (Options > Ships > Use magnetic bearings) for the calibration workflow; WMM variation is applied automatically
+```bash
+cd ~/Documents/Charts/ENC/US_NH
+for url in \
+  https://www.charts.noaa.gov/ENCs/US4NH1BC.zip \
+  https://www.charts.noaa.gov/ENCs/US4NH1BD.zip \
+  https://www.charts.noaa.gov/ENCs/US4NH1BE.zip \
+  https://www.charts.noaa.gov/ENCs/US4NH1BF.zip \
+  https://www.charts.noaa.gov/ENCs/US4NH1BG.zip \
+  https://www.charts.noaa.gov/ENCs/US5NH1AF.zip \
+  https://www.charts.noaa.gov/ENCs/US5NH1AG.zip \
+  https://www.charts.noaa.gov/ENCs/US5NH1CD.zip \
+  https://www.charts.noaa.gov/ENCs/US5NH1DD.zip \
+  https://www.charts.noaa.gov/ENCs/US5PSMBC.zip; do
+  name=$(basename $url .zip)
+  curl -s -o ${name}.zip $url && unzip -q -o ${name}.zip && rm ${name}.zip
+done
+```
 
-## Contradictions / Surprises
+After downloading: **Options > Charts > Scan Charts and Update Database > Apply**
 
-- The previous wiki note in `navigation-apps.md` stated "Zoom 16 fails with a JPG only supports fully opaque colors error" — that was specific to the QGIS workflow. The Python script reaches zoom 16 and above without that problem.
-- MOBAC was also rejected earlier (SSL cert errors, zoom 15 cap) — the Python script fully bypasses MOBAC.
+### Chart coverage
+| Chart | Description | Scale |
+|-------|-------------|-------|
+| US4NH1BC–BG | New Hampshire overview | 1:45,000–90,000 |
+| US5NH1AF | Bigelow Bight (offshore Portsmouth) | 1:22,000 |
+| US5NH1AG | Bigelow Bight – White Island (Isles of Shoals) | 1:22,000 |
+| US5NH1CD | Piscataqua River to Great Bay | 1:22,000 |
+| US5NH1DD | Piscataqua River and Bellamy River | 1:22,000 |
+| US5PSMBC | Rye Harbor and Foss Ledges | 1:22,000 |
 
-## Pages Updated
+### Configured chart directories
+- `ENC/US_ME` — Maine ENCs
+- `RNC/US_ME` — Maine raster charts
+- `ENC/US_REGION02` — Region 2 ENCs
+- `GSHHG` — Coastline data
+- `MBTiles` — Satellite overlays (added May 2026)
+- `ENC/US_NH` — NH ENCs (downloaded May 2026)
 
-- [[navigation-apps]] — replaced QGIS MBTiles workflow with Python script; updated chart directory list; added OpenCPN land-based calibration tip
-- [[compass]] — added land-based calibration with OpenCPN as a standalone section
+---
+
+## Chart Blending Limitation
+
+**OpenCPN 5.12.4 does not support true satellite + ENC blending.**
+
+JPG MBTiles tiles are opaque — they cover any chart rendered beneath them. OpenCPN has
+no transparency slider for chart layers (checked Options > Display > General and Advanced).
+
+Workaround: use satellite view for visual landmark identification and bearing measurement;
+switch to ENC view when you need to identify nav aids (buoys, lights, hazards).
+
+---
+
+## Magnetic Bearings for Compass Calibration
+
+### Setting
+**Options > Ships > Use magnetic bearings** — set to Magnetic.
+
+OpenCPN uses the built-in World Magnetic Model (WMM) to apply local variation automatically.
+
+### Portsmouth NH magnetic variation (2026)
+**~14.5° West** — magnetic north is 14.5° west of true north.
+
+If using true bearings manually: subtract 14.5° from true bearing to get magnetic.
+
+### Calibration workflow
+1. Drop a waypoint at your standing position (right-click on chart > New Waypoint)
+2. Switch to satellite view — zoom in to identify a fixed visible landmark
+   (building corner, pier end, water tower)
+3. Right-click the landmark > Measure bearing to your waypoint
+4. With magnetic bearings enabled, the displayed bearing is what your compass should read
+5. Take a bearing to the same landmark with the hand compass
+6. Difference = compass error/deviation
+7. Repeat with 2–3 landmarks at different bearings to build a deviation table
+
+### Good landmarks for Portsmouth
+- Pier ends and wharf corners visible on satellite
+- Water tower (visible from many positions)
+- Fixed nav aids (cross-reference with ENC view to identify)

@@ -8,216 +8,231 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-fig, ax = plt.subplots(figsize=(16, 11))
-ax.set_xlim(0, 16)
-ax.set_ylim(0, 11)
+W, H = 26, 18
+fig, ax = plt.subplots(figsize=(W, H))
+ax.set_xlim(0, W)
+ax.set_ylim(0, H)
 ax.axis('off')
-fig.patch.set_facecolor('#f5f5f0')
-ax.set_facecolor('#f5f5f0')
+BG = '#f4f4ee'
+fig.patch.set_facecolor(BG)
+ax.set_facecolor(BG)
 
 # Wire colors matching SeaNymph as-installed
-YELLOW = '#c8a000'   # positive (yellow cable)
-PINK   = '#cc3333'   # positive (pink/red cable, start battery side)
-BLACK  = '#222222'   # negative
-GRAY   = '#888888'   # assumed/optional
-CTRL   = '#555599'   # small control wires
+YELLOW = '#b08800'
+PINK   = '#cc2222'
+BLACK  = '#111111'
+GRAY   = '#999999'
+CTRL   = '#4455aa'
 
-BOX_BG    = '#ffffff'
-BOX_EDGE  = '#334466'
-ASSUME_BG = '#fffbe8'  # assumed connections get a note
+BOX_EDGE  = '#223355'
 
 
-def draw_box(cx, cy, w, h, line1, line2='', color=BOX_BG, fontsize=8):
+def draw_box(cx, cy, w, h, line1, line2='', color='#ffffff', fs=11):
     rect = mpatches.FancyBboxPatch(
         (cx - w/2, cy - h/2), w, h,
-        boxstyle="round,pad=0.08",
-        linewidth=1.5, edgecolor=BOX_EDGE, facecolor=color, zorder=3
+        boxstyle="round,pad=0.15",
+        linewidth=2, edgecolor=BOX_EDGE, facecolor=color, zorder=3
     )
     ax.add_patch(rect)
     if line2:
-        ax.text(cx, cy + 0.17, line1, ha='center', va='center',
-                fontsize=fontsize, fontweight='bold', zorder=4)
-        ax.text(cx, cy - 0.22, line2, ha='center', va='center',
-                fontsize=fontsize - 1, color='#444', zorder=4)
+        ax.text(cx, cy + 0.28, line1, ha='center', va='center',
+                fontsize=fs, fontweight='bold', zorder=4)
+        ax.text(cx, cy - 0.28, line2, ha='center', va='center',
+                fontsize=fs - 1.5, color='#444', zorder=4)
     else:
         ax.text(cx, cy, line1, ha='center', va='center',
-                fontsize=fontsize, fontweight='bold', zorder=4)
+                fontsize=fs, fontweight='bold', zorder=4)
 
 
-def wire(x1, y1, x2, y2, color, lw=2.5, dashed=False, label='', label_offset=(0, 0.18)):
-    ls = (0, (4, 3)) if dashed else 'solid'
-    ax.plot([x1, x2], [y1, y2], color=color, lw=lw, linestyle=ls, zorder=2, solid_capstyle='round')
+def wire(x1, y1, x2, y2, color, lw=4, dashed=False, label='', loff=(0, 0.28)):
+    ls = (0, (5, 3)) if dashed else 'solid'
+    ax.plot([x1, x2], [y1, y2], color=color, lw=lw, linestyle=ls,
+            zorder=2, solid_capstyle='round')
     if label:
-        mx, my = (x1 + x2) / 2 + label_offset[0], (y1 + y2) / 2 + label_offset[1]
-        ax.text(mx, my, label, ha='center', va='bottom', fontsize=6.5, color=color)
+        mx = (x1 + x2) / 2 + loff[0]
+        my = (y1 + y2) / 2 + loff[1]
+        ax.text(mx, my, label, ha='center', va='bottom', fontsize=9,
+                color=color, fontweight='bold')
 
 
-def elbow(x1, y1, xm, y2, color, lw=2.5, dashed=False):
-    """L-shaped wire: horizontal to xm, then vertical to y2."""
-    ls = (0, (4, 3)) if dashed else 'solid'
-    ax.plot([x1, xm], [y1, y1], color=color, lw=lw, linestyle=ls, zorder=2)
-    ax.plot([xm, xm], [y1, y2], color=color, lw=lw, linestyle=ls, zorder=2)
+def hv(x1, y1, x2, y2, color, lw=4, dashed=False):
+    """Horizontal then vertical L-wire."""
+    ls = (0, (5, 3)) if dashed else 'solid'
+    ax.plot([x1, x2], [y1, y1], color=color, lw=lw, linestyle=ls, zorder=2)
+    ax.plot([x2, x2], [y1, y2], color=color, lw=lw, linestyle=ls, zorder=2)
 
 
-def fuse(cx, cy, color, label=''):
-    """Draw a small fuse symbol (rectangle with label)."""
+def vh(x1, y1, x2, y2, color, lw=4, dashed=False):
+    """Vertical then horizontal L-wire."""
+    ls = (0, (5, 3)) if dashed else 'solid'
+    ax.plot([x1, x1], [y1, y2], color=color, lw=lw, linestyle=ls, zorder=2)
+    ax.plot([x1, x2], [y2, y2], color=color, lw=lw, linestyle=ls, zorder=2)
+
+
+def fuse_sym(cx, cy, color, label=''):
     rect = mpatches.FancyBboxPatch(
-        (cx - 0.18, cy - 0.12), 0.36, 0.24,
-        boxstyle="round,pad=0.02",
-        linewidth=1, edgecolor=color, facecolor='white', zorder=5
+        (cx - 0.35, cy - 0.22), 0.7, 0.44,
+        boxstyle="round,pad=0.05",
+        linewidth=1.5, edgecolor=color, facecolor='white', zorder=5
     )
     ax.add_patch(rect)
-    ax.text(cx, cy, 'F', ha='center', va='center', fontsize=6, color=color,
-            fontweight='bold', zorder=6)
+    ax.text(cx, cy, 'F', ha='center', va='center', fontsize=9,
+            color=color, fontweight='bold', zorder=6)
     if label:
-        ax.text(cx + 0.25, cy, label, ha='left', va='center', fontsize=6, color=color)
+        ax.text(cx + 0.45, cy, label, ha='left', va='center',
+                fontsize=9, color=color, fontweight='bold')
 
 
-def ground_symbol(cx, cy):
-    for i, hw in enumerate([0.3, 0.2, 0.1]):
-        ax.plot([cx - hw, cx + hw], [cy - i*0.12, cy - i*0.12], color=BLACK, lw=1.5, zorder=4)
-    ax.plot([cx, cx], [cy, cy + 0.2], color=BLACK, lw=1.5, zorder=4)
+def ground_sym(cx, cy):
+    ax.plot([cx, cx], [cy, cy + 0.35], color=BLACK, lw=2, zorder=4)
+    for i, hw in enumerate([0.45, 0.3, 0.15]):
+        ax.plot([cx - hw, cx + hw], [cy - i*0.18, cy - i*0.18],
+                color=BLACK, lw=2, zorder=4)
 
 
-# ── Component positions ────────────────────────────────────────────
-SOLAR_X,  SOLAR_Y  = 2.0, 10.0
-MPPT_X,   MPPT_Y   = 2.0,  8.3
-SW_X,     SW_Y     = 2.0,  6.9   # solar disconnect switch
-HBAT_X,   HBAT_Y  = 4.8,  6.5   # house battery
-ACR_X,    ACR_Y   = 8.0,  6.5   # SI-ACR
-SBAT_X,   SBAT_Y  = 11.2, 6.5   # start battery
-ALT_X,    ALT_Y   = 13.5, 6.5   # alternator
-POSBUS_X, POSBUS_Y = 8.0,  9.2   # positive bus bar
-PANEL_X,  PANEL_Y  = 13.5, 9.2   # DC panel
-SHUNT_X,  SHUNT_Y  = 4.8,  4.5   # SmartShunt
-NEGBUS_X, NEGBUS_Y = 8.0,  2.8   # negative bus bar
+# ── Component positions ───────────────────────────────────────────
+SOLAR_X,  SOLAR_Y  =  3.5, 16.8
+MPPT_X,   MPPT_Y   =  3.5, 14.0
+SW_X,     SW_Y     =  3.5, 11.5
+HBAT_X,   HBAT_Y  =  7.5, 10.5
+ACR_X,    ACR_Y   = 13.0, 10.5
+SBAT_X,   SBAT_Y  = 18.5, 10.5
+ALT_X,    ALT_Y   = 22.5, 10.5
+POSBUS_X, POSBUS_Y = 13.0, 15.0
+PANEL_X,  PANEL_Y  = 22.5, 15.0
+SHUNT_X,  SHUNT_Y  =  7.5,  7.0
+NEGBUS_X, NEGBUS_Y = 13.0,  3.8
 
-# ── Draw boxes ────────────────────────────────────────────────────
-draw_box(SOLAR_X,  SOLAR_Y,  2.2, 0.7,  'Solar Panels', '(Renogy)')
-draw_box(MPPT_X,   MPPT_Y,   2.4, 0.7,  'Victron MPPT 75/15', 'SmartSolar')
-draw_box(SW_X,     SW_Y,     2.0, 0.55, 'Solar Disconnect', 'Red ON/OFF switch')
-draw_box(HBAT_X,   HBAT_Y,   2.2, 1.0,  'House Battery', 'Group 24 AGM', color='#e8f4e8')
-draw_box(ACR_X,    ACR_Y,    2.0, 0.85, 'Blue Sea SI-ACR', '7610', color='#dce4f4')
-draw_box(SBAT_X,   SBAT_Y,   2.2, 1.0,  'Start Battery', 'Group 24 AGM', color='#e8f4e8')
-draw_box(ALT_X,    ALT_Y,    1.9, 0.7,  'Yanmar 1GM', 'Alternator', color='#f4ede0')
-draw_box(POSBUS_X, POSBUS_Y, 2.6, 0.55, 'Positive Bus Bar', color='#fffbe0')
-draw_box(PANEL_X,  PANEL_Y,  1.9, 0.7,  'DC Panel', '(Loads)', color='#ede8f5')
-draw_box(SHUNT_X,  SHUNT_Y,  2.2, 0.65, 'Victron SmartShunt', 'inline on negative', color='#dce4f4')
-draw_box(NEGBUS_X, NEGBUS_Y, 3.0, 0.55, 'Negative Bus Bar', color='#e8e8e8')
+# ── Boxes ─────────────────────────────────────────────────────────
+draw_box(SOLAR_X,  SOLAR_Y,  4.0, 1.1, 'Solar Panels', '(Renogy)', '#fafaf0')
+draw_box(MPPT_X,   MPPT_Y,   4.2, 1.1, 'Victron MPPT 75/15', 'SmartSolar', '#eef4ff')
+draw_box(SW_X,     SW_Y,     3.8, 1.0, 'Solar Disconnect', 'Red ON/OFF switch', '#fff8f0')
+draw_box(HBAT_X,   HBAT_Y,   3.8, 1.6, 'House Battery', 'Group 24 AGM', '#e4f4e4')
+draw_box(ACR_X,    ACR_Y,    3.6, 1.4, 'Blue Sea SI-ACR', '7610', '#dce8f8')
+draw_box(SBAT_X,   SBAT_Y,   3.8, 1.6, 'Start Battery', 'Group 24 AGM', '#e4f4e4')
+draw_box(ALT_X,    ALT_Y,    3.4, 1.2, 'Yanmar 1GM', 'Alternator', '#f8ede0')
+draw_box(POSBUS_X, POSBUS_Y, 4.4, 1.0, 'Positive Bus Bar', color='#fffbe0')
+draw_box(PANEL_X,  PANEL_Y,  3.4, 1.2, 'DC Panel', '(Loads)', '#f0eaff')
+draw_box(SHUNT_X,  SHUNT_Y,  3.8, 1.0, 'Victron SmartShunt', 'inline · negative', '#dce8f8')
+draw_box(NEGBUS_X, NEGBUS_Y, 4.8, 1.0, 'Negative Bus Bar', color='#e0e0e0')
 
-# Ground symbol below neg bus bar
-ax.plot([NEGBUS_X, NEGBUS_X], [NEGBUS_Y - 0.28, NEGBUS_Y - 0.6], color=BLACK, lw=1.5, zorder=3)
-ground_symbol(NEGBUS_X, NEGBUS_Y - 0.6)
+# Ground
+ax.plot([NEGBUS_X, NEGBUS_X], [NEGBUS_Y - 0.5, NEGBUS_Y - 0.9],
+        color=BLACK, lw=2.5, zorder=3)
+ground_sym(NEGBUS_X, NEGBUS_Y - 0.9)
 
-# ── POSITIVE WIRES ─────────────────────────────────────────────────
+# ── POSITIVE WIRES ────────────────────────────────────────────────
 
 # Solar → MPPT
-wire(SOLAR_X, SOLAR_Y - 0.35, MPPT_X, MPPT_Y + 0.35, YELLOW, lw=2)
+wire(SOLAR_X, SOLAR_Y - 0.55, MPPT_X, MPPT_Y + 0.55, YELLOW, lw=3)
 
-# MPPT → solar disconnect switch
-wire(MPPT_X, MPPT_Y - 0.35, SW_X, SW_Y + 0.28, YELLOW, lw=2)
+# MPPT → switch
+wire(MPPT_X, MPPT_Y - 0.55, SW_X, SW_Y + 0.5, YELLOW, lw=3)
 
-# Switch → house battery positive (horizontal run to battery top-left)
-ax.plot([SW_X + 1.0, HBAT_X - 1.1], [SW_Y, SW_Y], color=YELLOW, lw=2.5, zorder=2)
-ax.plot([HBAT_X - 1.1, HBAT_X - 1.1], [SW_Y, HBAT_Y + 0.2], color=YELLOW, lw=2.5, zorder=2)
-ax.plot([HBAT_X - 1.1, HBAT_X - 0.5], [HBAT_Y + 0.2, HBAT_Y + 0.2], color=YELLOW, lw=2.5, zorder=2)
-ax.text(3.55, SW_Y + 0.15, 'MPPT out (+)', ha='center', fontsize=6.5, color=YELLOW)
+# Switch → house battery + (elbow right then down)
+hv(SW_X + 1.9, SW_Y, HBAT_X - 1.9, HBAT_Y + 0.45, YELLOW, lw=4)
+ax.text((SW_X + 1.9 + HBAT_X - 1.9)/2, SW_Y + 0.3,
+        'MPPT out (+)', ha='center', fontsize=9, color=YELLOW, fontweight='bold')
 
 # House battery + → ACR Stud A
-wire(HBAT_X + 1.1, HBAT_Y, ACR_X - 1.0, ACR_Y, YELLOW, lw=3,
-     label='Stud A', label_offset=(0, 0.2))
+wire(HBAT_X + 1.9, HBAT_Y, ACR_X - 1.8, ACR_Y, YELLOW, lw=5,
+     label='Stud A', loff=(0, 0.3))
 
 # Start battery + → ACR Stud B
-wire(SBAT_X - 1.1, SBAT_Y, ACR_X + 1.0, ACR_Y, PINK, lw=3,
-     label='Stud B (pink)', label_offset=(0, 0.2))
+wire(SBAT_X - 1.9, SBAT_Y, ACR_X + 1.8, ACR_Y, PINK, lw=5,
+     label='Stud B', loff=(0, 0.3))
 
-# Alternator + → positive bus bar (ASSUMED)
-elbow(ALT_X - 0.2, ALT_Y + 0.35, POSBUS_X + 1.3, POSBUS_Y, YELLOW, lw=2, dashed=True)
-ax.text(12.2, 8.3, '(assumed)', fontsize=6.5, color=GRAY, style='italic', ha='center')
+# Alternator + → pos bus bar (ASSUMED — elbow up then left)
+hv(ALT_X - 0.3, ALT_Y + 0.6, POSBUS_X + 2.2, POSBUS_Y, YELLOW, lw=3, dashed=True)
+ax.text(19.5, ALT_Y + 1.4, '(assumed)', ha='center', fontsize=9,
+        color=GRAY, style='italic')
 
-# Positive bus bar → ACR (top of ACR) (ASSUMED)
-wire(POSBUS_X, POSBUS_Y - 0.28, ACR_X, ACR_Y + 0.43, YELLOW, lw=2, dashed=True)
+# Pos bus bar → ACR top (ASSUMED)
+wire(POSBUS_X, POSBUS_Y - 0.5, ACR_X, ACR_Y + 0.7, YELLOW, lw=3, dashed=True)
 
-# DC Panel → positive bus bar (ASSUMED)
-wire(PANEL_X - 0.5, PANEL_Y, POSBUS_X + 1.3, POSBUS_Y, YELLOW, lw=2, dashed=True,
-     label='(assumed)', label_offset=(0, 0.18))
+# DC Panel → pos bus bar (ASSUMED)
+wire(PANEL_X - 1.7, PANEL_Y, POSBUS_X + 2.2, POSBUS_Y, YELLOW, lw=3, dashed=True)
+ax.text((PANEL_X - 1.7 + POSBUS_X + 2.2)/2, PANEL_Y + 0.3,
+        '(assumed)', ha='center', fontsize=9, color=GRAY, style='italic')
 
-# ── NEGATIVE WIRES ─────────────────────────────────────────────────
+# ── NEGATIVE WIRES ────────────────────────────────────────────────
 
-# House battery − → SmartShunt (top)
-wire(HBAT_X, HBAT_Y - 0.5, SHUNT_X, SHUNT_Y + 0.33, BLACK, lw=3)
+# House battery − → SmartShunt
+wire(HBAT_X, HBAT_Y - 0.8, SHUNT_X, SHUNT_Y + 0.5, BLACK, lw=5)
 
-# SmartShunt (bottom) → negative bus bar
-wire(SHUNT_X, SHUNT_Y - 0.33, NEGBUS_X - 0.8, NEGBUS_Y + 0.28, BLACK, lw=3)
+# SmartShunt → neg bus bar
+vh(SHUNT_X, SHUNT_Y - 0.5, NEGBUS_X - 1.5, NEGBUS_Y + 0.5, BLACK, lw=5)
 
-# Start battery − → negative bus bar
-elbow(SBAT_X, SBAT_Y - 0.5, SBAT_X, NEGBUS_Y + 0.28, BLACK, lw=2.5)
-ax.plot([SBAT_X, NEGBUS_X + 0.8], [NEGBUS_Y + 0.28, NEGBUS_Y + 0.28], color=BLACK, lw=2.5, zorder=2)
+# Start battery − → neg bus bar
+vh(SBAT_X, SBAT_Y - 0.8, NEGBUS_X + 1.5, NEGBUS_Y + 0.5, BLACK, lw=4)
 
-# Alternator − → negative bus bar / engine ground (ASSUMED)
-elbow(ALT_X, ALT_Y - 0.35, ALT_X, NEGBUS_Y + 0.1, BLACK, lw=1.8, dashed=True)
-ax.plot([ALT_X, NEGBUS_X + 1.4], [NEGBUS_Y + 0.1, NEGBUS_Y + 0.1], color=BLACK, lw=1.8,
-        linestyle=(0, (4, 3)), zorder=2)
+# Alternator − → neg bus bar (ASSUMED)
+vh(ALT_X, ALT_Y - 0.6, NEGBUS_X + 2.3, NEGBUS_Y + 0.2, BLACK, lw=3, dashed=True)
 
-# ── ACR CONTROL WIRES ──────────────────────────────────────────────
+# ── ACR CONTROL WIRES ─────────────────────────────────────────────
 
-# GND spade → negative bus bar (1A fuse, thin gray wire)
-ax.plot([ACR_X - 0.3, ACR_X - 0.3], [ACR_Y - 0.43, NEGBUS_Y + 0.28], color=CTRL, lw=1.2, zorder=2)
-ax.plot([ACR_X - 0.3, NEGBUS_X - 0.2], [NEGBUS_Y + 0.28, NEGBUS_Y + 0.28], color=CTRL, lw=1.2, zorder=2)
-fuse(ACR_X - 0.3, (ACR_Y - 0.43 + NEGBUS_Y + 0.28) / 2, CTRL, '1A')
+# GND spade → neg bus bar (1A fuse, thin control wire)
+gnd_wx = ACR_X - 1.0
+ax.plot([gnd_wx, gnd_wx], [ACR_Y - 0.7, NEGBUS_Y + 0.5],
+        color=CTRL, lw=1.8, zorder=2)
+ax.plot([gnd_wx, NEGBUS_X - 0.5], [NEGBUS_Y + 0.5, NEGBUS_Y + 0.5],
+        color=CTRL, lw=1.8, zorder=2)
+fuse_sym(gnd_wx, (ACR_Y - 0.7 + NEGBUS_Y + 0.5) / 2, CTRL, '1A')
 
-# SI wire (optional, very thin dashed)
-ax.annotate('', xy=(ACR_X + 0.3, ACR_Y - 0.43),
-            xytext=(12.5, 4.5),
-            arrowprops=dict(arrowstyle='->', color=GRAY, lw=0.9,
-                            linestyle='dashed', connectionstyle='arc3,rad=0.1'))
-ax.text(12.2, 4.3, 'SI wire → starter\n(unknown if wired)', ha='center',
-        fontsize=6.5, color=GRAY, style='italic')
+# SI wire — optional, dashed arc to alternator area
+ax.annotate(
+    '', xy=(ACR_X + 0.8, ACR_Y - 0.7), xytext=(ALT_X - 0.3, ALT_Y - 0.6),
+    arrowprops=dict(arrowstyle='->', color=GRAY, lw=1.5,
+                    linestyle='dashed', connectionstyle='arc3,rad=-0.3')
+)
+ax.text(18.5, 7.8, 'SI wire → starter\n(unknown if wired)', ha='center',
+        fontsize=9.5, color=GRAY, style='italic')
 
-# ── TERMINAL LABELS on ACR ─────────────────────────────────────────
-ax.text(ACR_X - 0.6, ACR_Y + 0.12, 'A', fontsize=7, color=YELLOW,
-        fontweight='bold', ha='center', bbox=dict(fc='white', ec=YELLOW, pad=1.5, lw=0.8))
-ax.text(ACR_X + 0.6, ACR_Y + 0.12, 'B', fontsize=7, color=PINK,
-        fontweight='bold', ha='center', bbox=dict(fc='white', ec=PINK, pad=1.5, lw=0.8))
+# ── TERMINAL LABELS on ACR ────────────────────────────────────────
+for x, label, color in [(ACR_X - 1.1, 'A', YELLOW), (ACR_X + 1.1, 'B', PINK)]:
+    ax.text(x, ACR_Y + 0.25, label, fontsize=12, color=color, fontweight='bold',
+            ha='center', va='center',
+            bbox=dict(fc='white', ec=color, pad=3, lw=1.5, boxstyle='round'))
 
-# ── LEGEND ─────────────────────────────────────────────────────────
-lx, ly = 0.3, 4.8
-ax.text(lx, ly, 'Legend', fontsize=8, fontweight='bold')
-items = [
-    (YELLOW, 2.5, False, 'DC positive — yellow cable (main positive runs)'),
-    (PINK,   2.5, False, 'DC positive — pink/red cable (start battery side)'),
-    (BLACK,  2.5, False, 'DC negative — black cable'),
-    (CTRL,   1.2, False, 'Control wire (GND/SI, small gauge)'),
-    (GRAY,   1.8, True,  'Assumed / not confirmed from photos'),
+# ── LEGEND ────────────────────────────────────────────────────────
+lx, ly = 0.4, 7.5
+ax.text(lx, ly, 'Legend', fontsize=12, fontweight='bold', color='#222')
+legend_items = [
+    (YELLOW, 4,   False, 'DC Positive — yellow cable (main positive runs)'),
+    (PINK,   4,   False, 'DC Positive — pink/red cable (start battery side)'),
+    (BLACK,  4,   False, 'DC Negative — black cable'),
+    (CTRL,   1.8, False, 'Control wire — GND/SI (small gauge)'),
+    (GRAY,   2.5, True,  'Assumed / not confirmed from photos'),
 ]
-for i, (color, lw, dashed, label) in enumerate(items):
-    y = ly - 0.45 * (i + 1)
-    ls = (0, (4, 3)) if dashed else 'solid'
-    ax.plot([lx, lx + 0.5], [y, y], color=color, lw=lw, linestyle=ls)
-    ax.text(lx + 0.65, y, label, fontsize=7, va='center', color='#333')
+for i, (color, lw, dashed, label) in enumerate(legend_items):
+    y = ly - 0.7 * (i + 1)
+    ls = (0, (5, 3)) if dashed else 'solid'
+    ax.plot([lx, lx + 0.8], [y, y], color=color, lw=lw, linestyle=ls)
+    ax.text(lx + 1.05, y, label, fontsize=10, va='center', color='#222')
 
-# ── NOTES ──────────────────────────────────────────────────────────
+# ── NOTES ─────────────────────────────────────────────────────────
 notes = (
     "Notes\n"
-    "• ACR Studs A & B are interchangeable (dual sensing) — bank assignment doesn't matter\n"
-    "• SmartShunt wired inline on house battery negative — measures all house loads\n"
-    "• Alternator → bus bar → ACR routing is Edgar's best guess; not confirmed from photos\n"
-    "• DC panel connection to positive bus bar: assumed, not yet confirmed\n"
-    "• SI terminal: unknown if wired on SeaNymph — check cable on ACR SI spade\n"
-    "• GND wire fuse: 1A per Blue Sea manual (intentionally small — protects control wire)\n"
-    "• Yanmar 1GM alternator output ≈30–40A; use #6 AWG with 75–90A fuse on stud cables"
+    "  • ACR Studs A & B are interchangeable (dual sensing)\n"
+    "  • SmartShunt is inline on house battery negative — measures all house loads\n"
+    "  • Alternator → bus bar → ACR routing is a best guess — trace wire to confirm\n"
+    "  • DC panel feed point: assumed off bus bar — not confirmed\n"
+    "  • SI terminal: check for wire on ACR SI spade — must be crank-only, not ignition-run\n"
+    "  • GND wire fuse must be 1A (Blue Sea spec) — intentionally small\n"
+    "  • Yanmar 1GM alternator ≈30–40A; #6 AWG / 75–90A fuse on stud A & B cables"
 )
-ax.text(0.3, 3.2, notes, fontsize=6.8, va='top', color='#333',
-        bbox=dict(boxstyle='round,pad=0.5', facecolor=ASSUME_BG, edgecolor='#bbb', alpha=0.95))
+ax.text(0.4, 3.8, notes, fontsize=10, va='top', color='#222', linespacing=1.6,
+        bbox=dict(boxstyle='round,pad=0.6', facecolor='#fffbe8',
+                  edgecolor='#bbaa55', alpha=0.97))
 
-# ── TITLE ──────────────────────────────────────────────────────────
+# ── TITLE ─────────────────────────────────────────────────────────
 ax.set_title(
     "SeaNymph (Cape Dory 25D)  —  DC Electrical Wiring Diagram\n"
     "Blue Sea SI-ACR 7610 System  ·  As of Sep 2025  ·  Dashed lines = assumed, not confirmed",
-    fontsize=10, fontweight='bold', pad=10
+    fontsize=14, fontweight='bold', pad=14
 )
 
 out = 'wiki/assets/dc-wiring-diagram.png'
-plt.tight_layout(pad=0.5)
-plt.savefig(out, dpi=150, bbox_inches='tight', facecolor=fig.get_facecolor())
+plt.tight_layout(pad=0.8)
+plt.savefig(out, dpi=180, bbox_inches='tight', facecolor=fig.get_facecolor())
 print(f"Saved → {out}")

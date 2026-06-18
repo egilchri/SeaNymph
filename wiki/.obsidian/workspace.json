@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cd25d-overview.md",
+                "file": "insurance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cd25d-overview"
+              "title": "insurance"
             }
           },
           {
@@ -67,8 +67,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opencpn",
-                "matchingCase": false,
+                "query": "vin",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -142,7 +142,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -169,12 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "insurance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of insurance"
             }
           },
           {
@@ -188,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,37 +209,41 @@
   },
   "active": "4f5c0642c2edd5b5",
   "lastOpenFiles": [
-    "index.md",
+    "src-seanymph-vin-insurance.md",
     "cd25d-overview.md",
-    "src-yanmar-1gm-service-manual.md",
-    "src-yanmar-1gm10-manual.md",
-    "src-cd25d-gemini-specs.md",
+    "dinghy.md",
+    "terminal-reference.md",
+    "assets/terminal-reference.png",
+    "wiring-diagram.md",
+    "battery-management.md",
+    "batteries.md",
+    "assets/dc-wiring-diagram.png",
+    "src-blue-sea-acr-manual.md",
+    "battery-management.md.tmp.54168.c2bdd003fcf1",
+    "src-busbar-wiring-photo.md",
+    "src-battery-wiring-photos.md",
+    "maintenance-schedule.md",
+    "penobscot-bay.md",
+    "index.md",
+    "compass.md",
+    "opencpn.md",
+    "assets/link-tang.jpg",
+    "src-opencpn-portsmouth-setup.md",
+    "to-purchase.md",
+    "to_purchase.md",
+    "assets/link-tang.jpg.md",
+    "binoculars.md",
+    "solar-system.md",
+    "electrical-system.md",
+    "navigation-apps.md",
+    "src-penobscot-charts.md",
+    "safety-gear.md",
+    "singlehanding-overview.md",
     "Untitled.base",
-    "src-cd25d-brochure.md",
     "Untitled 1.canvas",
     "assets/cd25d-brochure.jpeg",
-    "to-purchase.md",
-    "src-radar-reflector-comparison.md",
-    "binoculars.md",
-    "src-bushnell-binoculars.md",
-    "src-furler-toggle-options.md",
-    "assets/link-tang.jpg.md",
     "assets",
-    "src-opencpn-mac-satellite.md",
-    "penobscot-bay.md",
-    "todo.md",
     "#src-penobscot-charts.md#",
-    "src-deviation-assessment.md",
-    "src-compass-upgrade.md",
-    "src-penobscot-charts.md",
-    "rockland-harbor.md",
-    "src-vhf.md",
-    "vhf.md",
-    "src-lobster-pots.md",
-    "lobster-pots.md",
-    "src-maine-anchoring-advice.md",
-    "src-mooring-advice.md",
-    "moorings.md",
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference 1.pdf",
     "Compass Deviation Table and Reference - Compass Deviation Table and Reference.pdf",
     "Untitled.canvas"

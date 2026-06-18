@@ -8,6 +8,10 @@ Operations: `ingest`, `query`, `lint`, `init`, `update`
 
 ---
 
+## [2026-06-18] ingest | SeaNymph HIN and Insurance Policy Record
+
+Created src-seanymph-vin-insurance.md from raw/SeaNymphVinAndInsurance.md. Captured HIN (CPDY0054M82J), Foremost Insurance Classic Elite Package policy number and renewal date (2026-08-29). Added HIN to cd25d-overview.md "This Boat" section; added current policy table to insurance.md.
+
 ## [2026-05-23] update | DC wiring diagram generated
 
 Created wiki/assets/dc-wiring-diagram.png and wiki/wiring-diagram.md. Diagram shows full DC topology: solar→MPPT→house battery, house and start batteries on ACR studs A/B, SmartShunt on house battery negative, negative bus bar. Alternator routing and DC panel connection marked as assumed/dashed. Generator script saved as generate_wiring_diagram.py.

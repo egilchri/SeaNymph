@@ -128,6 +128,7 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 | [[src-zodiac-specs]] | Zodiac Cadet 240 model ID and transom plate specs — 4 HP max, 270 kg max load, 3 persons |
 | [[src-yamaha-f25]] | Yamaha F2.5SMHB (short shaft) dinghy outboard — 72cc 4-stroke, specs, storage and maintenance notes |
 | [[src-zodiac-material]] | Zodiac CFR 240 HIN decode — PVC confirmed, year 1999, sandpaper/MEK tests, UV degradation guidance |
+| [[src-seanymph-vin-insurance]] | SeaNymph HIN (CPDY0054M82J) and Foremost Insurance policy record (policy #6020082483207, paid through 2026-08-29) |
 
 ---
 
@@ -140,4 +141,4 @@ Master catalog of all wiki pages. Updated on every ingest and whenever new pages
 
 ---
 
-*Last updated: 2026-05-23 (src-busbar-wiring-photo ingested; cable color code added to electrical-system.md; yellow-cable description corrected in battery-management.md)*
+*Last updated: 2026-06-18 (src-seanymph-vin-insurance ingested; HIN added to cd25d-overview.md; policy details added to insurance.md)*

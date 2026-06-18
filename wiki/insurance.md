@@ -2,11 +2,26 @@
 title: Marine Insurance — 2025 Hard Market in Coastal Maine
 category: maintenance
 tags: [insurance, winterizing, legal, Maine, documentation]
-sources: [src-misc]
-updated: 2026-04-13
+sources: [src-misc, src-seanymph-vin-insurance]
+updated: 2026-06-18
 ---
 
 # Marine Insurance — 2025 Hard Market in Coastal Maine
+
+## SeaNymph Current Policy
+
+| Field | Value |
+|---|---|
+| **Insurer** | Foremost Insurance Group |
+| **Product** | Classic Elite Package |
+| **Policy number** | 6020082483207 |
+| **Paid through** | 2026-08-29 |
+
+Foremost's Classic Elite Package is their specialty marine/RV product. **Renewal is due late August 2026** — add a calendar reminder at least two weeks prior to compare quotes.
+
+---
+
+## The Hard Market — What Changed
 
 The marine insurance landscape in coastal New England has hardened significantly in 2024–2025. Policies that were routine renewals a few years ago now contain exclusions that create real coverage gaps. Every CD25D owner in Maine should read their policy against this checklist before assuming they're covered.
 

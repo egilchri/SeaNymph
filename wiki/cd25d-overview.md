@@ -65,9 +65,8 @@ Ted rules the waves again.
 
 ## This Boat (Edgar's)
 
-> **Note:** The fields below should be filled in as Edgar provides details about his specific hull.
-
 - **Hull number:** 0054
+- **HIN:** `CPDY0054M82J` — confirmed; manufacturer code CPD (Cape Dory), serial Y0054, 1982 build
 - **Year:** 1982
 - **Engine:** Yanmar 1GM (confirmed from winterizing research)
 - **Home port:** Rockland, Maine
